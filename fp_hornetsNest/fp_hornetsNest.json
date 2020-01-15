@@ -1,0 +1,61 @@
+{
+    "Description" : {
+        "Id" : "fp_hornetsNest",
+        "Name" : "Hornet's Nest",
+        "Details" : "Short Split Template",
+        "Icon" : ""
+    },
+    "Weight" : 50,
+    "InternalName" : "hornetsNest",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 8,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : [],
+                "tagSetSourceFile" : ""
+            },
+            "ExclusionTags" : {
+                "items" : [
+                    "flashpoint_HornetsNest_complete"
+                ],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "Company",
+        "RequirementTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "GrayDeathLegion"
+    ],
+    "TargetFaction" : "Kurita",
+    "AllowRefitTime" : false,
+    "FlashpointLength" : "SHORT",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_hornetsNest",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 0,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 0,
+    "RewardCollectionID" : "itemCollection_Weapons_SLDF_rare",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "We are participating in Steiner invasion of Altais and our objective is to take spaceports at Willas and at New Ross. We want to recruit your help.",
+    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

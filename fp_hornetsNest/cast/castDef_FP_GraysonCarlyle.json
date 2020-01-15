@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_FP_GraysonCarlyle",
+    "internalName" : "FP_GraysonCarlyle",
+    "firstName" : "Grayson",
+    "lastName" : "Carlyle",
+    "callsign" : "Death",
+    "rank" : "Colonel",
+    "gender" : "Male",
+    "faction" : "ComStar",
+    "sgCharType" : "UNSET",
+    "showRank" : true,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : false,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "../../Mods/FP_Hornets_Nest/portraits/GCarlyle.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}
