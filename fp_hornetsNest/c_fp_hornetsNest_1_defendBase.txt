@@ -12,7 +12,7 @@
 [Requirement]
 [Requirement]
 [ContractDisplayStyle]BaseFlashpoint
-[ContractSvope]MidCampaign
+[ContractScope]MID_CAMPAIGN
 
 // Contract Objectives
 [ContractObjective]Defend Spaceport from Kurita Forces
@@ -206,29 +206,21 @@
 		[SpawnEffects]
 		[DifficultyAdjustment]0
 		[Unit]Mech
-            [customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
 			[UnitDef]mechdef_assassin_ASN-21
 			[Tags]
 			[SpawnEffects]
 			[PilotDef]pilotDef_InheritLance
 		[Unit]Mech
-            [customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
 			[UnitDef]mechdef_panther_PNT-9R
 			[Tags]
 			[SpawnEffects]
 			[PilotDef]pilotDef_InheritLance
 		[Unit]Mech
-            [customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
 			[UnitDef]mechdef_stinger_STG-3G
 			[Tags]
 			[SpawnEffects]
 			[PilotDef]pilotDef_InheritLance
 		[Unit]Mech
-            [customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
 			[UnitDef]mechdef_stinger_STG-3G
 			[Tags]
 			[SpawnEffects]
@@ -240,29 +232,21 @@
 		[SpawnEffects]
 		[DifficultyAdjustment]1
 		[Unit]Mech
-            [customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
 			[UnitDef]mechdef_thunderbolt_TDR-5S
 			[Tags]
 			[SpawnEffects]
 			[PilotDef]pilotDef_InheritLance
 		[Unit]Mech
-            [customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
 			[UnitDef]mechdef_crusader_CRD-3K
 			[Tags]
 			[SpawnEffects]
 			[PilotDef]pilotDef_InheritLance
 		[Unit]Mech
-			[customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
             [UnitDef]mechdef_rifleman_RFL-3N
 			[Tags]
 			[SpawnEffects]
 			[PilotDef]pilotDef_InheritLance
 		[Unit]Mech
-            [customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
 			[UnitDef]mechdef_ostroc_OSR-2C
 			[Tags]
 			[SpawnEffects]
@@ -274,29 +258,21 @@
 		[SpawnEffects]
 		[DifficultyAdjustment]0
 		[Unit]Mech
-			[customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
             [UnitDef]mechdef_griffin_GRF-1N
 			[Tags]
 			[SpawnEffects]
 			[PilotDef]pilotDef_InheritLance
 		[Unit]Mech
-			[customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
 			[UnitDef]mechdef_dervish_DV-6M
 			[Tags]
 			[SpawnEffects]
 			[PilotDef]pilotDef_InheritLance
 		[Unit]Mech
-			[customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
 			[UnitDef]mechdef_centurion_CN9-A
 			[Tags]
 			[SpawnEffects]
 			[PilotDef]pilotDef_InheritLance
 		[Unit]Mech
-			[customUnitName]"First Ghost Regiment"
-            [customHeraldryDefId]heraldrydef_kurita
 			[UnitDef]mechdef_shadowhawk_SHD-2K
 			[Tags]
 			[SpawnEffects]
