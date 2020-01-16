@@ -1,18 +1,13 @@
 {
     "Name": "Flashpoint_Hornets_Nest",
     "Enabled": true,
- 
+
     "Version": "0.1.0",
     "Description": "Start the journey with the Gray Death Legion",
     "Author": "Ablomis",
 
-    "DependsOn": [ "Flashpoint_Stock_Photos" ],
-    "OptionallyDependsOn": [ "cFixes" ],
-
     "Manifest": [
- 
-        { "Type": "BaseDescriptionDef", "Path": "descriptions" },
+
         { "Type": "CastDef", "Path": "cast" },
-        { "Type": "ContractOverride", "Path": "contracts" }
     ]
 }
