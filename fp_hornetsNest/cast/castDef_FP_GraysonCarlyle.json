@@ -6,7 +6,7 @@
     "callsign" : "Death",
     "rank" : "Colonel",
     "gender" : "Male",
-    "faction" : "ComStar",
+    "faction" : "GreyDeathLegion",
     "sgCharType" : "UNSET",
     "showRank" : true,
     "showFirstName" : true,
@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../Mods/FP_Hornets_Nest/portraits/GCarlyle.png"
+        "portraitAssetPath" : "../../Mods/fp_hornetsNest/portraits/GCarlyle.png"
     },
     "emotePotraitList" : [
         
