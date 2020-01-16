@@ -18,7 +18,6 @@
             },
             "ExclusionTags" : {
                 "items" : [
-                    "flashpoint_HornetsNest_complete"
                 ],
                 "tagSetSourceFile" : ""
             },
@@ -26,7 +25,7 @@
         }
     ],
     "LocationRequirements" : {
-        "Scope" : "Company",
+        "Scope" : "StarSystem",
         "RequirementTags" : {
             "items" : [],
             "tagSetSourceFile" : ""
