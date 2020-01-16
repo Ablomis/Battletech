@@ -53,7 +53,7 @@
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
     "FlashpointShortDescription" : "We are participating in Steiner invasion of Altais and our objective is to take spaceports at Willas and at New Ross. We want to recruit your help.",
-    "FlashpointDescriberCastDefId" : "castDef_GraysonCarlyle",
+    "FlashpointDescriberCastDefId" : "castDef_fp_graysonCarlyle",
     "Tags" : {
         "items" : [],
         "tagSetSourceFile" : "tags/FlashpointTags"

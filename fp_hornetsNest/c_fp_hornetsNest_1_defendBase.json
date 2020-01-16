@@ -356,7 +356,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_GraysonCarlyle",
+                    "selectedCastDefId" : "castDef_fp_graysonCarlyle",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "dafd0d98-c88a-4f90-b137-4fe5ed94ebbb",
