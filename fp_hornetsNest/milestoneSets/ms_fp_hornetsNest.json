@@ -96,7 +96,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "(required)",
+                            "value" : "9cc52ed03b2514c7432b5978",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name}",
@@ -162,7 +162,7 @@
                             "additionalValues" : [
                                 "",
                                 "2d58c972-0031-4f88-bc59-d18a2dc4773d",
-                                "c_fp_hornetsNest",
+                                "c_fp_hornetsNest_1_defendBase",
                                 "GreyDeathLegion",
                                 "Kurita",
                                 "8",
