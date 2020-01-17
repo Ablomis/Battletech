@@ -7,8 +7,12 @@
     "weight" : 1,
     "scope" : "MID_CAMPAIGN",
     "finalDifficulty" : 0,
-    "shortDescription" : "The objective of the operation is to capture two strategic spaceports on the northern continent of Altais – one at Willis and one at New Ross. There will be two simultaneous attacks: Grayson Carlyle will take the spaceport at New Ross, while your objective is to take the one at Willis. After the spaceport is captured we expect you to hold it until Steiner forces will land there to reinforce you and establish a permanent position.",
-    "longDescription" : "The report from Lyran Intelligence Corps tells us that Kurita has very limited military presence on the planet. I’m not sure how much we can rely on the info but this is all we have. Good luck, Commander.",
+    "representativeCastDefIDOverride" : null,
+    "missionSuccessStatementOverride" : null,
+    "badFaithStatementOverride" : null,
+    "goodFaithStatementOverride" : null,
+    "shortDescription" : "The objective of the operation is to capture to strategic spaceports on the northern continent of Altais – one at Willis and one at New Ross. There will be two simultaneous attacks: Grayson Carlyle will take the spaceport at New Ross, while your objective is to take the one at Willis. After the spaceport is captured we expect you to hold it until Steiner forces will land there to reinforce you and establish a permanent position.",
+    "longDescription" : "The report from Lyran Intelligence Corps tells us that Kurita has limited military presence on the planet consisting mostly from training regiments. I’m not sure how much we can rely on the info but this is all we have. Good luck, Commander.",
     "salvagePotential" : 16,
     "requirementList" : [],
     "OnContractSuccessResults" : [],
@@ -67,7 +71,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "0e4ac925-d95a-4019-aeb0-0aa553830f46"
             },
-            "title" : "Destroy the First Ghost Regiment Light Lance",
+            "title" : "Destroy the 1st Ghost Regiment Light Lance",
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -313,7 +317,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Commander, we have Kurita forces incoming, it's the First Ghost Regiment!",
+                    "words" : "Commander, we have Kurita forces incoming, it's the 1st Ghost Regiment!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -370,14 +374,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Excellent work, Commander - the hostiles are clear and our facility is secure.",
+                    "words" : "Excellent work, kid. That's the way mercenaries do it.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_DariusDefault",
+                    "selectedCastDefId" : "castDef_fp_graysonCarlyle",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -395,7 +399,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "No good, Commander. Stand by for extraction and we'll get you out of there.",
+                    "words" : "Spaceport is destroyed, you won't be to get out, we will do an emergency evac. Hold on",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -445,7 +449,7 @@
             "overrideDialogueBucketId" : "DialogBucketDef_Universal_HostilesInbound",
             "dialogueContent" : [
                 {
-                    "words" : "Warning commander, sensors are reading multiple contacts approaching from multiple vectors. Looks like the attacking force has brought reinforcements. ",
+                    "words" : "Warning commander, 1st Ghost Regiment Medium and Command lances are inbound. This will be a tough figt.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -470,7 +474,7 @@
             "overrideDialogueBucketId" : "DialogBucketDef_DefendBase_AllyStruct-Damaged",
             "dialogueContent" : [
                 {
-                    "words" : "Be advised, some of the target buildings are sustaining damage. Your mission is to keep them standing. ",
+                    "words" : "Be advised, some of the spacepor buildings are sustaining damage. Your mission is to keep them standing. ",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
