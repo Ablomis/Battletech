@@ -100,7 +100,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name}",
-                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "High Orbit \u2014 Altais",
                                 "Conference",
                                 null
                             ]
@@ -163,7 +163,7 @@
                                 "",
                                 "2d58c972-0031-4f88-bc59-d18a2dc4773d",
                                 "c_fp_hornetsNest_1_defendBase",
-                                "GreyDeathLegion",
+                                "GrayDeathLegion",
                                 "Kurita",
                                 "8",
                                 "ms_fp_TEMPLATE_oneContract_004_Talk",
