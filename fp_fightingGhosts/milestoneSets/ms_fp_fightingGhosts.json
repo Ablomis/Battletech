@@ -1,9 +1,9 @@
 {
-    "StartingMilestoneID" : "ms_fp_TEMPLATE_oneContract_001_Start",
+    "StartingMilestoneID" : "ms_fp_TEMPLATE_initialChoice_001_Start",
     "Milestones" : [
         {
             "Description" : {
-                "Id" : "ms_fp_TEMPLATE_oneContract_001_Start",
+                "Id" : "ms_fp_TEMPLATE_initialChoice_001_Start",
                 "Name" : "Start",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -46,7 +46,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_TEMPLATE_oneContract_002_Talk",
+                            "value" : "ms_fp_TEMPLATE_initialChoice_002_TalkChoice",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -62,8 +62,58 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_TEMPLATE_oneContract_002_Talk",
-                "Name" : "Talk",
+                "Id" : "ms_fp_TEMPLATE_initialChoice_002_TalkChoice",
+                "Name" : "Talk Choice",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : null,
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [],
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "9caaf9ff484fe7d2823c5d7e",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 Altais",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_TEMPLATE_initialChoice_003_Branch",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_TEMPLATE_initialChoice_003_Branch",
+                "Name" : "Branch",
                 "Details" : "flashpoint",
                 "Icon" : null
             },
@@ -73,9 +123,11 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Company",
+                        "Scope" : "Flashpoint",
                         "RequirementTags" : {
-                            "items" : [],
+                            "items" : [
+                                "fp_choice_1_agree"
+                            ],
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
@@ -92,22 +144,48 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [],
+                    "Stats" : null,
                     "Actions" : [
                         {
-                            "Type" : "System_StartConversation",
-                            "value" : "9cc52ed03b2514c7432b5978",
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_TEMPLATE_initialChoice_100_A-Mission",
                             "valueConstant" : null,
-                            "additionalValues" : [
-                                "{TGT_FLASHPOINT.Def.Description.Name}",
-                                "High Orbit \u2014 Altais",
-                                "Conference",
-                                null
-                            ]
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Flashpoint",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_choice_1_cancel"
+                            ],
+                            "tagSetSourceFile" : ""
                         },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_TEMPLATE_oneContract_003_MissionSim",
+                            "value" : "ms_fp_TEMPLATE_initialChoice_300_Cancel-Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -123,8 +201,8 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_TEMPLATE_oneContract_003_MissionSim",
-                "Name" : "Mission Sim",
+                "Id" : "ms_fp_TEMPLATE_initialChoice_100_A-Mission",
+                "Name" : "A-Mission",
                 "Details" : "flashpoint",
                 "Icon" : null
             },
@@ -157,16 +235,16 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_CentralMound_iTnd",
+                            "value" : "mapGeneral_paupersCanyon_aWst",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
-                                "2d58c972-0031-4f88-bc59-d18a2dc4773d",
-                                "c_fp_hornetsNest_1_defendBase",
+                                "1e98726a-1b02-4bad-9d88-866d916aacb6",
+                                "c_fp_fightingGhosts_1_defendBase",
                                 "GrayDeathLegion",
                                 "Kurita",
-                                "8",
-                                "ms_fp_TEMPLATE_oneContract_004_Talk",
+                                "10",
+                                "ms_fp_TEMPLATE_initialChoice_101_A-Mission",
                                 null,
                                 null,
                                 null,
@@ -194,8 +272,8 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_TEMPLATE_oneContract_004_Talk",
-                "Name" : "Talk",
+                "Id" : "ms_fp_TEMPLATE_initialChoice_102_A-Talk",
+                "Name" : "A-Talk",
                 "Details" : "flashpoint",
                 "Icon" : null
             },
@@ -204,18 +282,7 @@
             "Results" : [
                 {
                     "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "ExclusionTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "RequirementComparisons" : []
-                    },
+                    "Requirements" : null,
                     "AddedTags" : {
                         "items" : [],
                         "tagSetSourceFile" : ""
@@ -224,7 +291,7 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : null,
+                    "Stats" : [],
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
@@ -232,19 +299,17 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",
-                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
-                                null,
-                                null
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}"
                             ]
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_TEMPLATE_oneContract_005-Complete",
+                            "value" : "ms_fp_TEMPLATE_initialChoice_103_A-Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : null,
+                    "ForceEvents" : [],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -255,8 +320,8 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_TEMPLATE_oneContract_005-Complete",
-                "Name" : "Complete",
+                "Id" : "ms_fp_TEMPLATE_initialChoice_103_A-Complete",
+                "Name" : "A-Complete",
                 "Details" : "flashpoint",
                 "Icon" : null
             },
@@ -265,21 +330,11 @@
             "Results" : [
                 {
                     "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "ExclusionTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "RequirementComparisons" : []
-                    },
+                    "Requirements" : null,
                     "AddedTags" : {
                         "items" : [
-                            "flashpoint_TEMPLATE_oneContract_complete"
+                            "flashpoint_TEMPLATE_initialChoice_complete",
+                            "flashpoint_TEMPLATE_initialChoice_a"
                         ],
                         "tagSetSourceFile" : ""
                     },
@@ -287,16 +342,16 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : null,
+                    "Stats" : [],
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_TEMPLATE_oneContract_006_Reward",
+                            "value" : "ms_fp_TEMPLATE_initialChoice_104_A-Reward",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : null,
+                    "ForceEvents" : [],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -307,8 +362,88 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_TEMPLATE_oneContract_006_Reward",
-                "Name" : "Reward",
+                "Id" : "ms_fp_TEMPLATE_initialChoice_104_A-Reward",
+                "Name" : "A-Reward",
+                "Details" : "Extra rewards, including Reputation and bonus C-Bills go here",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : null,
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [],
+                    "Actions" : [],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_TEMPLATE_initialChoice_300_Cancel-Complete",
+                "Name" : "Cancel-Complete",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : null,
+                    "AddedTags" : {
+                        "items" : [
+                            "flashpoint_TEMPLATE_initialChoice_complete",
+                            "flashpoint_TEMPLATE_initialChoice_cancel"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [],
+                    "Actions" : [
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Ship",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        },
+                        {
+                            "Type" : "Flashpoint_CompleteFlashpoint",
+                            "value" : "ms_fp_TEMPLATE_initialChoice_301_Cancel-Reward",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_TEMPLATE_initialChoice_301_Cancel-Reward",
+                "Name" : "Cancel-Reward",
                 "Details" : "Extra rewards, including Reputation and bonus C-Bills go here",
                 "Icon" : null
             },

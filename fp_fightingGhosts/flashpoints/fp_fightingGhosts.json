@@ -1,12 +1,12 @@
 {
     "Description" : {
-        "Id" : "fp_hornetsNest",
-        "Name" : "Hornet's Nest",
+        "Id" : "fp_fightingGhosts",
+        "Name" : "Fighting Ghosts",
         "Details" : "Journey with the Grey Death Legion",
         "Icon" : ""
     },
     "Weight" : 5000,
-    "InternalName" : "hornetsNest",
+    "InternalName" : "fightingGhosts",
     "PublishState" : "PUBLISHED",
     "Difficulty" : 8,
     "Requirements" : [
@@ -44,7 +44,7 @@
     "AllowRefitTime" : false,
     "FlashpointLength" : "SHORT",
     "Repeatable" : false,
-    "MilestoneSetID" : "ms_fp_hornetsNest",
+    "MilestoneSetID" : "ms_fp_fightingGhosts",
     "UseAvailableTimeoutOverride" : false,
     "AvailableTimeout" : 0,
     "UseInProgressTimeoutOverride" : false,

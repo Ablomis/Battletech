@@ -1,12 +1,12 @@
 {
-    "id" : "castDef_fp_graysonCarlyle",
-    "internalName" : "fp_graysonCarlyle",
+    "id" : "castDef_fp_graysonCarlyle55",
+    "internalName" : "fp_graysonCarlyle55",
     "firstName" : "Grayson",
     "lastName" : "Carlyle",
-    "callsign" : "Death",
+    "callsign" : "Col. Carlyle",
     "rank" : "Colonel",
     "gender" : "Male",
-    "faction" : "GreyDeathLegion",
+    "faction" : "GrayDeathLegion",
     "sgCharType" : "UNSET",
     "showRank" : true,
     "showFirstName" : true,
@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../Mods/fp_hornetsNest/portraits/GCarlyle.png"
+        "portraitAssetPath" : "../../Mods/fp_fightingGhosts/portraits/GCarlyle.png"
     },
     "emotePotraitList" : [
         
