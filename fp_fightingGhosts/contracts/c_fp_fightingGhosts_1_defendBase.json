@@ -2,7 +2,7 @@
     "ID" : "c_fp_hornetsNest_1_defendBase",
     "contractName" : "Hornet's Nest",
     "contractDisplayStyle" : "BaseFlashpoint",
-    "difficulty" : 8,
+    "difficulty" : 10,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "STANDARD",
@@ -66,7 +66,7 @@
             "contractObjective" : {
                 "EncounterObjectGuid" : "6f5f8d17-70ed-44a8-acc0-ccf9258925aa"
             },
-            "title" : "Protect the {TEAM_EMP.FactionDef.Demonym} VIP",
+            "title" : "Protect the Spaceport",
             "description" : "",
             "isPrimary" : true,
             "forPlayer" : "Player1",
@@ -261,7 +261,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "00d98f37-5576-43c3-ba74-953fb54bd497"
             },
-            "title" : "Hidden Objective: Destroy theCommand Lance",
+            "title" : "Hidden Objective: Destroy the Command Lance",
             "description" : "Hidden Objective: Destroy the Command Lance",
             "isPrimary" : false,
             "OnSuccessResults" : [],
@@ -408,7 +408,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "fp_graysonCarlyle55",
+                    "selectedCastDefId" : "castDef_fp_graysonCarlyle55",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "dafd0d98-c88a-4f90-b137-4fe5ed94ebbb",
@@ -426,14 +426,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Excellent work, kid. That's the way mercenaries do it.",
+                    "words" : "Excellent work, kid. That's the way mercenaries do it. Now let me help you drive those Kurita bastards out of here.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "fp_graysonCarlyle55",
+                    "selectedCastDefId" : "castDef_fp_graysonCarlyle55",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -576,7 +576,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Commander, we're getting signals from the base. That last structure is where they have the VIP secured. If it goes down, so does the VIP.",
+                    "words" : "Commander, the starport has sustained serious damage. If it becomes inoperable Steiner forces will not be able to land.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -704,8 +704,8 @@
     "useTravelCostPenalty" : false,
     "usesExpiration" : false,
     "expirationTimeOverride" : -1,
-    "negotiatedSalary" : 1,
-    "negotiatedSalvage" : 0,
+    "negotiatedSalary" : 0,
+    "negotiatedSalvage" : 1,
     "excludedFromProceduralGeneration" : false,
     "player1Team" : {
         "encounterLayerData" : {
@@ -1065,7 +1065,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1098,7 +1098,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1131,7 +1131,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d7_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1164,7 +1164,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1225,7 +1225,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1258,7 +1258,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d7_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1291,7 +1291,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1324,7 +1324,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1385,7 +1385,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d7_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1418,7 +1418,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1451,7 +1451,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1484,7 +1484,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

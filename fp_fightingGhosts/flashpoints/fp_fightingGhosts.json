@@ -5,10 +5,10 @@
         "Details" : "Journey with the Grey Death Legion",
         "Icon" : ""
     },
-    "Weight" : 5000,
+    "Weight" : 30,
     "InternalName" : "fightingGhosts",
     "PublishState" : "PUBLISHED",
-    "Difficulty" : 8,
+    "Difficulty" : 10,
     "Requirements" : [
         {
             "Scope" : "Company",
@@ -42,7 +42,7 @@
     ],
     "TargetFaction" : "Kurita",
     "AllowRefitTime" : false,
-    "FlashpointLength" : "SHORT",
+    "FlashpointLength" : "MEDIUM",
     "Repeatable" : false,
     "MilestoneSetID" : "ms_fp_fightingGhosts",
     "UseAvailableTimeoutOverride" : false,
