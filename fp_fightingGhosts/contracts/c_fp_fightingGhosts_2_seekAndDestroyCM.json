@@ -1,5 +1,5 @@
 {
-    "ID" : "c_fp_fightingGhosts_2_seekAndDestroyA",
+    "ID" : "c_fp_fightingGhosts_2_seekAndDestroyCM",
     "contractName" : "Ghostbusters",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 10,
@@ -10,7 +10,7 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Steiner command wants us to find and destroy remaining 1st Ghost Regiment  forces. Primary objective is to destroy the Command Lance,  eliminating Light Lance is an optional objective.",
+    "shortDescription" : "Steiner command wants us to find and destroy remaining 1st Ghost Regiment  forces. Primary objective is to destroy the Command Lance,  eliminating Medium Lance is an optional objective.",
     "longDescription" : "This is a straightforward battle, Commander. 1st Ghost Regiment has nowhere to run so you can expect a fierce fight.",
     "salvagePotential" : 16,
     "requirementList" : [],
@@ -83,7 +83,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "181d617b-02bc-4fd3-be25-d6d5cffb78de"
             },
-            "enableChunkFromContract" : false,
+            "enableChunkFromContract" : true,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         }
@@ -642,43 +642,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "d7109e5f-7e09-4a9d-98a7-a0bf651532e6"
                         },
-                        "customUnitName" : "Sgt. Lee Cleve",
+                        "customUnitName" : "Chu-i Louis Buntaro",
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_assassin_ASN-21",
-                        "unitTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/UnitTags"
-                        },
-                        "unitExcludedTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/UnitTags"
-                        },
-                        "spawnEffectTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/SpawnEffectTags"
-                        },
-                        "pilotDefId" : "pilot_d5_gunner",
-                        "pilotTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/PilotTags"
-                        },
-                        "pilotExcludedTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/PilotTags"
-                        },
-                        "selectedUnitType" : "UNDEFINED",
-                        "selectedUnitDefId" : null,
-                        "selectedPilotDefId" : null
-                    },
-                    {
-                        "unitSpawnPoint" : {
-                            "EncounterObjectGuid" : "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
-                        },
-                        "customUnitName" : "Cpl. Charles Wingate",
-                        "customHeraldryDefId" : null,
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_panther_PNT-9R",
+                        "unitDefId" : "mechdef_griffin_GRF-1N",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -706,12 +673,12 @@
                     },
                     {
                         "unitSpawnPoint" : {
-                            "EncounterObjectGuid" : "5a7f08f5-3ceb-467e-b857-b3fc1874d016"
+                            "EncounterObjectGuid" : "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
                         },
-                        "customUnitName" : "Dante Capetti",
+                        "customUnitName" : "Sgt. Richard Favor",
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_stinger_STG-3G",
+                        "unitDefId" : "mechdef_dervish_DV-6M",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -739,12 +706,45 @@
                     },
                     {
                         "unitSpawnPoint" : {
-                            "EncounterObjectGuid" : "938ab06b-304b-4f45-ba86-abcaa0fe01c5"
+                            "EncounterObjectGuid" : "5a7f08f5-3ceb-467e-b857-b3fc1874d016"
                         },
-                        "customUnitName" : "Gloria Danlish",
+                        "customUnitName" : "Lis Ansai",
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_stinger_STG-3G",
+                        "unitDefId" : "mechdef_centurion_CN9-A",
+                        "unitTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_d6_gunner",
+                        "pilotTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : null,
+                        "selectedPilotDefId" : null
+                    },
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "938ab06b-304b-4f45-ba86-abcaa0fe01c5"
+                        },
+                        "customUnitName" : "Brian Stillwell",
+                        "customHeraldryDefId" : null,
+                        "unitType" : "Mech",
+                        "unitDefId" : "mechdef_shadowhawk_SHD-2K",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
