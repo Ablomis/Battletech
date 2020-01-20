@@ -1,8 +1,8 @@
 {
-    "ID" : "c_fp_hornetsNest_1_defendBase",
+    "ID" : "c_fp_fightingGhosts_1_defendBase",
     "contractName" : "Hornet's Nest",
     "contractDisplayStyle" : "BaseFlashpoint",
-    "difficulty" : 10,
+    "difficulty" : 7,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "STANDARD",
@@ -261,8 +261,8 @@
             "objective" : {
                 "EncounterObjectGuid" : "00d98f37-5576-43c3-ba74-953fb54bd497"
             },
-            "title" : "Hidden Objective: Destroy the Command Lance",
-            "description" : "Hidden Objective: Destroy the Command Lance",
+            "title" : "Hidden Objective: Destroy the Medium Lance",
+            "description" : "Hidden Objective: Destroy the Medium Lance",
             "isPrimary" : false,
             "OnSuccessResults" : [],
             "OnFailureResults" : [],
@@ -1209,43 +1209,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "7c30108d-c203-4240-a74f-76cc057ccae0"
                         },
-                        "customUnitName" : "Chu-i Louis Buntaro",
+                        "customUnitName" : "Sho-sa Burke Thayer",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_griffin_GRF-1N",
-                        "unitTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/UnitTags"
-                        },
-                        "unitExcludedTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/UnitTags"
-                        },
-                        "spawnEffectTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/SpawnEffectTags"
-                        },
-                        "pilotDefId" : "pilot_d6_gunner",
-                        "pilotTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/PilotTags"
-                        },
-                        "pilotExcludedTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/PilotTags"
-                        },
-                        "selectedUnitType" : "UNDEFINED",
-                        "selectedUnitDefId" : null,
-                        "selectedPilotDefId" : null
-                    },
-                    {
-                        "unitSpawnPoint" : {
-                            "EncounterObjectGuid" : "8021f2fc-1990-4f9c-9362-adc183d5fba9"
-                        },
-                        "customUnitName" : "Sgt. Richard Favor",
-                        "customHeraldryDefId" : "",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_dervish_DV-6M",
+                        "unitDefId" : "mechdef_thunderbolt_TDR-5S",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1273,12 +1240,45 @@
                     },
                     {
                         "unitSpawnPoint" : {
-                            "EncounterObjectGuid" : "9bdc93cb-1cbd-408e-afa0-dbb7cd47d6da"
+                            "EncounterObjectGuid" : "8021f2fc-1990-4f9c-9362-adc183d5fba9"
                         },
-                        "customUnitName" : "Lis Ansai",
+                        "customUnitName" : "Shu-i Ohara",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_centurion_CN9-A",
+                        "unitDefId" : "mechdef_crusader_CRD-3K",
+                        "unitTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_d6_gunner",
+                        "pilotTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : null,
+                        "selectedPilotDefId" : null
+                    },
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "9bdc93cb-1cbd-408e-afa0-dbb7cd47d6da"
+                        },
+                        "customUnitName" : "Sgt. Robert Grange",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "Mech",
+                        "unitDefId" : "mechdef_rifleman_RFL-3N",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1308,10 +1308,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "5d1391b4-4381-4ddd-b244-eb38e34a79d5"
                         },
-                        "customUnitName" : "Brian Stillwell",
+                        "customUnitName" : "Miyamoto Danielson",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_shadowhawk_SHD-2K",
+                        "unitDefId" : "mechdef_ostroc_OSR-2C",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1369,43 +1369,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "74c85f6a-1050-4bfc-b6bc-e693224691fc"
                         },
-                        "customUnitName" : "Sho-sa Burke Thayer",
+                        "customUnitName" : "Chu-i Louis Buntaro",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_thunderbolt_TDR-5S",
-                        "unitTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/UnitTags"
-                        },
-                        "unitExcludedTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/UnitTags"
-                        },
-                        "spawnEffectTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/SpawnEffectTags"
-                        },
-                        "pilotDefId" : "pilot_d7_gunner",
-                        "pilotTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/PilotTags"
-                        },
-                        "pilotExcludedTagSet" : {
-                            "items" : [],
-                            "tagSetSourceFile" : "tags/PilotTags"
-                        },
-                        "selectedUnitType" : "UNDEFINED",
-                        "selectedUnitDefId" : null,
-                        "selectedPilotDefId" : null
-                    },
-                    {
-                        "unitSpawnPoint" : {
-                            "EncounterObjectGuid" : "e4cf8328-8e38-4b0a-b615-c8cf0e29959d"
-                        },
-                        "customUnitName" : "Shu-i Ohara",
-                        "customHeraldryDefId" : "",
-                        "unitType" : "Mech",
-                        "unitDefId" : "mechdef_crusader_CRD-3K",
+                        "unitDefId" : "mechdef_griffin_GRF-1N",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1433,12 +1400,45 @@
                     },
                     {
                         "unitSpawnPoint" : {
-                            "EncounterObjectGuid" : "362c4974-6d34-44b7-8618-a74dbc487c3c"
+                            "EncounterObjectGuid" : "e4cf8328-8e38-4b0a-b615-c8cf0e29959d"
                         },
-                        "customUnitName" : "Sgt. Robert Grange",
+                        "customUnitName" : "Sgt. Richard Favor",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_rifleman_RFL-3N",
+                        "unitDefId" : "mechdef_dervish_DV-6M",
+                        "unitTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/UnitTags"
+                        },
+                        "spawnEffectTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId" : "pilot_d7_gunner",
+                        "pilotTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet" : {
+                            "items" : [],
+                            "tagSetSourceFile" : "tags/PilotTags"
+                        },
+                        "selectedUnitType" : "UNDEFINED",
+                        "selectedUnitDefId" : null,
+                        "selectedPilotDefId" : null
+                    },
+                    {
+                        "unitSpawnPoint" : {
+                            "EncounterObjectGuid" : "362c4974-6d34-44b7-8618-a74dbc487c3c"
+                        },
+                        "customUnitName" : "Lis Ansai",
+                        "customHeraldryDefId" : "",
+                        "unitType" : "Mech",
+                        "unitDefId" : "mechdef_centurion_CN9-A",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1468,10 +1468,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "97859c8e-c965-4124-9ee4-6b062450363c"
                         },
-                        "customUnitName" : "Miyamoto Danielson",
+                        "customUnitName" : "Brian Stillwell",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_ostroc_OSR-2C",
+                        "unitDefId" : "mechdef_shadowhawk_SHD-2K",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
