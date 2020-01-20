@@ -317,7 +317,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c596a8c6026f5612c97d79b",
+                            "value" : "9c4f58090c862547a3f5dc46",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",
@@ -467,16 +467,16 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_lostCanyon_aBad",
+                            "value" : "mapGeneral_sandyMesa_aDes",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
-                                "a1aca787-fdb5-47b6-a22d-3894c56ca771",
+                                "15275f91-1f65-4cf1-bcea-cf4e73dbe5bf",
                                 "c_fp_fightingGhosts_2_seekAndDestroyA",
                                 "GrayDeathLegion",
                                 "Kurita",
                                 "10",
-                                "ms_fp_fightingGhosts_201_A-Complete",
+                                "ms_fp_fightingGhosts_201_FinalTalk",
                                 null,
                                 null,
                                 "ms_fp_fightingGhosts_300_Cancel-Complete",
@@ -504,7 +504,68 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_201_A-Complete",
+                "Id" : "ms_fp_fightingGhosts_201_FinalTalk",
+                "Name" : "FinalTalk",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "9ce541dfe3b11346c4e6077c",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name} III",
+                                "High Orbit \u2014 Altais",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_fightingGhosts_202_A-Complete",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_fightingGhosts_202_A-Complete",
                 "Name" : "A-Complete",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -530,7 +591,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_fightingGhosts_202_A-Reward",
+                            "value" : "ms_fp_fightingGhosts_203_A-Reward",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -546,7 +607,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_202_A-Reward",
+                "Id" : "ms_fp_fightingGhosts_203_A-Reward",
                 "Name" : "A-Reward",
                 "Details" : "Extra rewards, including Reputation and bonus C-Bills go here",
                 "Icon" : null
@@ -556,7 +617,18 @@
             "Results" : [
                 {
                     "Scope" : "Company",
-                    "Requirements" : null,
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
                     "AddedTags" : {
                         "items" : [],
                         "tagSetSourceFile" : ""
@@ -581,8 +653,17 @@
                             "valueConstant" : null
                         }
                     ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
+                    "Actions" : [
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Argo",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }

@@ -1,6 +1,6 @@
 {
     "ID" : "c_fp_fightingGhosts_2_seekAndDestroyA",
-    "contractName" : "Loading Under Fire",
+    "contractName" : "Ghostbusters",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 10,
     "difficultyUIModifier" : 0,
@@ -245,7 +245,7 @@
     "extractionOverrideList" : [],
     "overwriteMissionCompleteWhenAutoComplete" : true,
     "overrideAutoCompleteDialogueId" : null,
-    "disableNegotations" : false,
+    "disableNegotations" : true,
     "disableLanceConfiguration" : false,
     "disableCancelButton" : false,
     "disableAfterAction" : false,
