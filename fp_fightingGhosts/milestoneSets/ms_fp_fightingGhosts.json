@@ -258,7 +258,7 @@
                                 "ms_fp_fightingGhosts_101_A-Talk",
                                 null,
                                 null,
-                                null,
+                                "ms_fp_fightingGhosts_300_Cancel-Complete",
                                 null,
                                 null
                             ]
@@ -317,7 +317,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c4f58090c862547a3f5dc46",
+                            "value" : "9c596a8c6026f5612c97d79b",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",
@@ -479,7 +479,7 @@
                                 "ms_fp_fightingGhosts_201_A-Complete",
                                 null,
                                 null,
-                                null,
+                                "ms_fp_fightingGhosts_300_Cancel-Complete",
                                 null,
                                 null
                             ]
@@ -565,7 +565,22 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [],
+                    "Stats" : [
+                        {
+                            "typeString" : "System.Int32",
+                            "name" : "Funds",
+                            "value" : "4000000",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Int32",
+                            "name" : "Reputation.MercenaryReviewBoard",
+                            "value" : "10",
+                            "set" : false,
+                            "valueConstant" : null
+                        }
+                    ],
                     "Actions" : [],
                     "ForceEvents" : [],
                     "TemporaryResult" : false,
