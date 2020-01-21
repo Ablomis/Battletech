@@ -134,10 +134,10 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_choice_1_agree"
+                                "fp_fg_choice_1_agree"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -171,10 +171,10 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_choice_1_cancel"
+                                "fp_fg_choice_1_cancel"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -525,10 +525,10 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_choice_2_agree"
+                                "fp_fg_choice_2_agree"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -565,10 +565,10 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_choice_1_cancel"
+                                "fp_fg_choice_1_cancel"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -605,7 +605,7 @@
                         "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_choice_1_agree",
+                                "fp_fg_choice_2_agree",
                                 "fp_fg_mission1_MLD",
                                 "fp_fg_mission1_LLD"
                             ],
@@ -641,10 +641,10 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_choice_1_agree",
+                                "fp_fg_choice_2_agree",
                                 "fp_fg_mission1_MLD"
                             ],
                             "tagSetSourceFile" : ""

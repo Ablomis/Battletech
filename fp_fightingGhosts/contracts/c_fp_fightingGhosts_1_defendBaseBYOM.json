@@ -1,8 +1,8 @@
 {
-    "ID" : "c_fp_fightingGhosts_1_defendBaseBYOM",
+    "ID" : "c_fp_fightingGhosts_1_defendBase",
     "contractName" : "Hornet's Nest",
     "contractDisplayStyle" : "BaseFlashpoint",
-    "difficulty" : 10,
+    "difficulty" : 7,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "STANDARD",
@@ -105,7 +105,7 @@
                     "Scope" : "Company",
                     "Requirements" : null,
                     "AddedTags" : {
-                        "items" : [],
+                        "items" : ["fp_fg_mission1_LLD"],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -231,7 +231,7 @@
                     "Scope" : "Company",
                     "Requirements" : null,
                     "AddedTags" : {
-                        "items" : [],
+                        "items" : ["fp_fg_mission1_RLD"],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -264,7 +264,28 @@
             "title" : "Hidden Objective: Destroy the Medium Lance",
             "description" : "Hidden Objective: Destroy the Medium Lance",
             "isPrimary" : false,
-            "OnSuccessResults" : [],
+            "OnSuccessResults" : [
+		 {
+                    "Scope" : "Company",
+                    "Requirements" : null,
+                    "AddedTags" : {
+                        "items" : ["fp_fg_mission1_MLD"],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [
+                        {
+                        }
+                    ],
+                    "Actions" : [],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+	    ],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",
             "OnFailureDialogueGUID" : ""

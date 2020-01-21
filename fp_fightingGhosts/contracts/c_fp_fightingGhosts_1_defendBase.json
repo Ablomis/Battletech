@@ -231,7 +231,7 @@
                     "Scope" : "Company",
                     "Requirements" : null,
                     "AddedTags" : {
-                        "items" : [],
+                        "items" : ["fp_fg_mission1_RLD"],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
