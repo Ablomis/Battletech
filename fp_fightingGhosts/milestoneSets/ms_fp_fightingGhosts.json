@@ -294,7 +294,7 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
                                 "fp_fg_mission1_LLD"
@@ -333,7 +333,7 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [],
                             "tagSetSourceFile" : ""
@@ -371,7 +371,7 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
                                 "fp_fg_mission1_MLD",
@@ -409,7 +409,7 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Flashpoint",
+                        "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
                                 "fp_fg_mission1_MLD"
@@ -1244,7 +1244,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c4f58090c862547a3f5dc46",
+                            "value" : "9c365b9cc01fc662eaf79c3f",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",
@@ -1305,7 +1305,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c4f58090c862547a3f5dc46",
+                            "value" : "9cf91e2234973f0a3c50db45",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",

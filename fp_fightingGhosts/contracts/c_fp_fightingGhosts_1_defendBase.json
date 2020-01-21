@@ -105,31 +105,6 @@
                     "Scope" : "Company",
                     "Requirements" : null,
                     "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                },
-		 {
-                    "Scope" : "Flashpoint",
-                    "Requirements" : null,
-                    "AddedTags" : {
                         "items" : ["fp_fg_mission1_LLD"],
                         "tagSetSourceFile" : ""
                     },
@@ -276,31 +251,6 @@
                     "ForceEvents" : [],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
-                },
-		 {
-                    "Scope" : "Flashpoint",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : ["fp_fg_mission1_RLD"],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
                 }
             ],
             "OnFailureResults" : [],
@@ -316,7 +266,7 @@
             "isPrimary" : false,
             "OnSuccessResults" : [
 		 {
-                    "Scope" : "Flashpoint",
+                    "Scope" : "Company",
                     "Requirements" : null,
                     "AddedTags" : {
                         "items" : ["fp_fg_mission1_MLD"],
@@ -328,11 +278,6 @@
                     },
                     "Stats" : [
                         {
-                            "typeString" : "System.Single",
-                            "name" : "ContractBonusRewardPct",
-                            "value" : "0.1",
-                            "set" : false,
-                            "valueConstant" : null
                         }
                     ],
                     "Actions" : [],
