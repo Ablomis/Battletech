@@ -294,7 +294,7 @@
                 {
                     "Scope" : "Company",
                     "Requirements" : {
-                        "Scope" : "Company",
+                        "Scope" : "Flashpoint",
                         "RequirementTags" : {
                             "items" : [
                                 "fp_fg_mission1_LLD"
