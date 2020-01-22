@@ -206,44 +206,6 @@
                     "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
-                },
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [
-                                "fp_fg_choice_1_BYOM",
-                                "fp_fg_choice_1_agree"
-                            ],
-                            "tagSetSourceFile" : ""
-                        },
-                        "ExclusionTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "RequirementComparisons" : []
-                    },
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : null,
-                    "Actions" : [
-                        {
-                            "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_1300_Mission1BYOM",
-                            "valueConstant" : null,
-                            "additionalValues" : null
-                        }
-                    ],
-                    "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
                 }
             ],
             "Repeatable" : false,
@@ -399,7 +361,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_800_TalkCML",
+                            "value" : "ms_fp_fightingGhosts_1000_TalkCML",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -437,7 +399,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_900_TalkC",
+                            "value" : "ms_fp_fightingGhosts_1000_TalkC",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -477,7 +439,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_1000_TalkCL",
+                            "value" : "ms_fp_fightingGhosts_1100_TalkCL",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -691,7 +653,6 @@
                         },
                         "ExclusionTags" : {
                             "items" : [
-                                "fp_fg_mission1_LLD",
                                 "fp_fg_mission1_RLD"
                             ],
                             "tagSetSourceFile" : ""
@@ -764,7 +725,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
-                                "6e7a814e-e7d7-484a-be86-f6baac24ddb0",
+                                "fbc713b4-b147-4f8f-ba70-200f9f6073bc",
                                 "c_fp_fightingGhosts_2_seekAndDestroyCM",
                                 "GrayDeathLegion",
                                 "Kurita",
@@ -934,7 +895,7 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "4000000",
+                            "value" : "2000000",
                             "set" : false,
                             "valueConstant" : null
                         },
@@ -1189,7 +1150,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_800_TalkCML",
+                "Id" : "ms_fp_fightingGhosts_1000_TalkCML",
                 "Name" : "TalkCML",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -1250,7 +1211,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_900_TalkC",
+                "Id" : "ms_fp_fightingGhosts_1000_TalkC",
                 "Name" : "TalkC",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -1311,7 +1272,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_1000_TalkCL",
+                "Id" : "ms_fp_fightingGhosts_1100_TalkCL",
                 "Name" : "TalkCL",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -1359,77 +1320,6 @@
                             "value" : "ms_fp_fightingGhosts_201_Branch",
                             "valueConstant" : null,
                             "additionalValues" : null
-                        }
-                    ],
-                    "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
-            "Repeatable" : false,
-            "UseRandomInvocation" : false,
-            "InvokeChance" : 0
-        },
-        {
-            "Description" : {
-                "Id" : "ms_fp_fightingGhosts_1300_Mission1BYOM",
-                "Name" : "Mission1BYOM",
-                "Details" : "flashpoint",
-                "Icon" : null
-            },
-            "Scope" : "Company",
-            "Requirements" : [],
-            "Results" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "ExclusionTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "RequirementComparisons" : []
-                    },
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : null,
-                    "Actions" : [
-                        {
-                            "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_paupersCanyon_aWst",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                null,
-                                "1e98726a-1b02-4bad-9d88-866d916aacb6",
-                                "c_fp_fightingGhosts_1_defendBase",
-                                "GrayDeathLegion",
-                                "Kurita",
-                                "7",
-                                "ms_fp_fightingGhosts_101_Mission1_Objective_Branch",
-                                null,
-                                null,
-                                "ms_fp_fightingGhosts_400_Cancel-Complete",
-                                null,
-                                null
-                            ]
-                        },
-                        {
-                            "Type" : "System_ForceDropshipRoom",
-                            "value" : "Contract",
-                            "valueConstant" : null,
-                            "additionalValues" : [
-                                null
-                            ]
                         }
                     ],
                     "ForceEvents" : null,
