@@ -361,7 +361,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_1000_TalkCML",
+                            "value" : "ms_fp_fightingGhosts_800_TalkCML",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -399,7 +399,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_1000_TalkC",
+                            "value" : "ms_fp_fightingGhosts_900_TalkC",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -439,7 +439,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_1100_TalkCL",
+                            "value" : "ms_fp_fightingGhosts_1000_TalkCL",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -938,7 +938,18 @@
             "Results" : [
                 {
                     "Scope" : "Company",
-                    "Requirements" : null,
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
                     "AddedTags" : {
                         "items" : [
                             "flashpoint_TEMPLATE_initialChoice_complete",
@@ -950,54 +961,24 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [],
+                    "Stats" : null,
                     "Actions" : [
                         {
                             "Type" : "System_ForceDropshipRoom",
                             "value" : "Ship",
                             "valueConstant" : null,
-                            "additionalValues" : null
+                            "additionalValues" : [
+                                null
+                            ]
                         },
                         {
-                            "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_fightingGhosts_401_Cancel-Reward",
+                            "Type" : "Flashpoint_FailFlashpoint",
+                            "value" : null,
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
-            "Repeatable" : false,
-            "UseRandomInvocation" : false,
-            "InvokeChance" : 0
-        },
-        {
-            "Description" : {
-                "Id" : "ms_fp_fightingGhosts_401_Cancel-Reward",
-                "Name" : "Cancel-Reward",
-                "Details" : "Extra rewards, including Reputation and bonus C-Bills go here",
-                "Icon" : null
-            },
-            "Scope" : "Company",
-            "Requirements" : [],
-            "Results" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [],
-                    "Actions" : [],
-                    "ForceEvents" : [],
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -1150,7 +1131,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_1000_TalkCML",
+                "Id" : "ms_fp_fightingGhosts_800_TalkCML",
                 "Name" : "TalkCML",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -1211,7 +1192,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_1000_TalkC",
+                "Id" : "ms_fp_fightingGhosts_900_TalkC",
                 "Name" : "TalkC",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -1272,7 +1253,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_1100_TalkCL",
+                "Id" : "ms_fp_fightingGhosts_1000_TalkCL",
                 "Name" : "TalkCL",
                 "Details" : "flashpoint",
                 "Icon" : null
