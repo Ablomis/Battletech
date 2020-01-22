@@ -13,27 +13,46 @@
             "Results" : [
                 {
                     "Scope" : "Flashpoint",
-                    "Requirements" : null,
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
                     "AddedTags" : {
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [
-                            "fp_choice_b",
-                            "fp_choice_a"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [],
-                    "Actions" : [],
-                    "ForceEvents" : [],
+                    "Stats" : null,
+                    "Actions" : null,
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 },
                 {
                     "Scope" : "Company",
-                    "Requirements" : null,
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
                     "AddedTags" : {
                         "items" : [],
                         "tagSetSourceFile" : ""
@@ -42,7 +61,7 @@
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [],
+                    "Stats" : null,
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
@@ -51,7 +70,7 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : [],
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -803,7 +822,7 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_302_A-Complete",
+                            "value" : "ms_fp_fightingGhosts_302_Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -819,8 +838,8 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_302_A-Complete",
-                "Name" : "A-Complete",
+                "Id" : "ms_fp_fightingGhosts_302_Complete",
+                "Name" : "Complete",
                 "Details" : "flashpoint",
                 "Icon" : null
             },
@@ -829,28 +848,45 @@
             "Results" : [
                 {
                     "Scope" : "Company",
-                    "Requirements" : null,
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
                     "AddedTags" : {
                         "items" : [
-                            "flashpoint_TEMPLATE_initialChoice_complete",
-                            "flashpoint_TEMPLATE_initialChoice_a"
+                            "fp_finished_fightingGhosts"
                         ],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [],
+                        "items" : [
+                            "fp_fg_mission1_LLD",
+                            "fp_fg_mission1_MLD",
+                            "fp_fg_mission1_RLD",
+                            "fp_fg_choice_1_cancel",
+                            "fp_fg_choice_1_agree",
+                            "fp_fg_choice_2_agree"
+                        ],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : [],
+                    "Stats" : null,
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_fightingGhosts_303_A-Reward",
+                            "value" : "ms_fp_fightingGhosts_303_Reward",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : [],
+                    "ForceEvents" : null,
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
@@ -861,8 +897,8 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_303_A-Reward",
-                "Name" : "A-Reward",
+                "Id" : "ms_fp_fightingGhosts_303_Reward",
+                "Name" : "Reward",
                 "Details" : "Extra rewards, including Reputation and bonus C-Bills go here",
                 "Icon" : null
             },
@@ -951,10 +987,7 @@
                         "RequirementComparisons" : []
                     },
                     "AddedTags" : {
-                        "items" : [
-                            "flashpoint_TEMPLATE_initialChoice_complete",
-                            "flashpoint_TEMPLATE_initialChoice_cancel"
-                        ],
+                        "items" : [],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
@@ -973,9 +1006,18 @@
                         },
                         {
                             "Type" : "Flashpoint_FailFlashpoint",
-                            "value" : null,
+                            "value" : "0",
                             "valueConstant" : null,
                             "additionalValues" : null
+                        },
+                        {
+                            "Type" : "Flashpoint_CompleteFlashpoint",
+                            "value" : null,
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                null
+                            ]
                         }
                     ],
                     "ForceEvents" : null,

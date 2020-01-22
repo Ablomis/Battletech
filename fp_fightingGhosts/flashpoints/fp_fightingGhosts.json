@@ -26,13 +26,13 @@
     "LocationRequirements" : {
         "Scope" : "StarSystem",
         "RequirementTags" : {
-            "items" : [
-                "planet_name_Ward"
-            ],
+            "items" : [],
             "tagSetSourceFile" : "Tags/PlanetNameTags"
         },
         "ExclusionTags" : {
-            "items" : [],
+            "items" : [
+                "fp_finished_fightingGhosts"
+            ],
             "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : []
