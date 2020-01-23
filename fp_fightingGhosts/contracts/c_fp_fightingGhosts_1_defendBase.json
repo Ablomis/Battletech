@@ -265,26 +265,7 @@
             "description" : "Hidden Objective: Destroy the Medium Lance",
             "isPrimary" : false,
             "OnSuccessResults" : [
-		 {
-                    "Scope" : "Company",
-                    "Requirements" : null,
-                    "AddedTags" : {
-                        "items" : ["fp_fg_mission1_MLD"],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : [
-                        {
-                        }
-                    ],
-                    "Actions" : [],
-                    "ForceEvents" : [],
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
+
 	    ],
             "OnFailureResults" : [],
             "OnSuccessDialogueGUID" : "",

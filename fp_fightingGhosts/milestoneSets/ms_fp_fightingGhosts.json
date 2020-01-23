@@ -1028,7 +1028,14 @@
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [],
+                        "items" : [
+                            "fp_fg_mission1_LLD",
+                            "fp_fg_mission1_MLD",
+                            "fp_fg_mission1_RLD",
+                            "fp_fg_choice_1_cancel",
+                            "fp_fg_choice_1_agree",
+                            "fp_fg_choice_2_agree"
+                        ],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : null,
