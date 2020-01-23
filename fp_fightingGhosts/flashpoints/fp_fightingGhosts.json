@@ -3,7 +3,7 @@
         "Id" : "fp_fightingGhosts",
         "Name" : "Fighting Ghosts",
         "Details" : "Journey with the Grey Death Legion",
-        "Icon" : "uixTxrSpot_fightingGhosts"
+        "Icon" : "fg_titlecard.png"
     },
     "Weight" : 30,
     "InternalName" : "fightingGhosts",
