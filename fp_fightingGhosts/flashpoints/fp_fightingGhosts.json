@@ -5,10 +5,10 @@
         "Details" : "Journey with the Grey Death Legion",
         "Icon" : "fg_titlecard.png"
     },
-    "Weight" : 30,
+    "Weight" : 50,
     "InternalName" : "fightingGhosts",
     "PublishState" : "PUBLISHED",
-    "Difficulty" : 10,
+    "Difficulty" : 7,
     "Requirements" : [
         {
             "Scope" : "Company",
