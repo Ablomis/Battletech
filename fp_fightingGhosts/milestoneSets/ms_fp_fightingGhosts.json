@@ -380,7 +380,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_800_TalkCML",
+                            "value" : "ms_fp_fightingGhosts_1200_TalkCML",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -418,7 +418,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_900_TalkC",
+                            "value" : "ms_fp_fightingGhosts_1300_TalkC",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -458,7 +458,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_fightingGhosts_1000_TalkCL",
+                            "value" : "ms_fp_fightingGhosts_1400_TalkCL",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -586,7 +586,8 @@
                         "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_fg_choice_2_agree"
+                                "fp_fg_choice_2_agree",
+                                "fp_fg_mission1_LLD"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -731,6 +732,47 @@
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
                             "value" : "ms_fp_fightingGhosts_600_Mission2CL",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_fg_choice_2_agree"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [
+                                "fp_fg_mission1_LLD",
+                                "fp_fg_mission1_MLD",
+                                "fp_fg_mission1_RLD"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_fightingGhosts_700_Mission2ML",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1220,7 +1262,159 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_800_TalkCML",
+                "Id" : "ms_fp_fightingGhosts_700_Mission2ML",
+                "Name" : "Mission2ML",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapGeneral_Interchange_aDes",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "6e7a814e-e7d7-484a-be86-f6baac24ddb0",
+                                "c_fp_fightingGhosts_2_seekAndDestroyML",
+                                "GrayDeathLegion",
+                                "Kurita",
+                                "7",
+                                "ms_fp_fightingGhosts_701_Branch3",
+                                null,
+                                null,
+                                "ms_fp_fightingGhosts_400_Cancel-Complete",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_fightingGhosts_701_Branch3",
+                "Name" : "Branch3",
+                "Details" : "flashpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_fg_mission2_LLD"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_fightingGhosts_500_Mission2C",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [
+                                "fp_fg_mission2_LLD"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_fightingGhosts_600_Mission2CL",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_fightingGhosts_1200_TalkCML",
                 "Name" : "TalkCML",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -1281,7 +1475,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_900_TalkC",
+                "Id" : "ms_fp_fightingGhosts_1300_TalkC",
                 "Name" : "TalkC",
                 "Details" : "flashpoint",
                 "Icon" : null
@@ -1342,7 +1536,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_fightingGhosts_1000_TalkCL",
+                "Id" : "ms_fp_fightingGhosts_1400_TalkCL",
                 "Name" : "TalkCL",
                 "Details" : "flashpoint",
                 "Icon" : null
