@@ -1312,6 +1312,14 @@
                                 null,
                                 null
                             ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null
+                            ]
                         }
                     ],
                     "ForceEvents" : null,
