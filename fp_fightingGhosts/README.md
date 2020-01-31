@@ -8,6 +8,10 @@ This is a Flashpoint which allows the player to follow the story of Gray Death L
 * Lore accurate lances and mechwarriors 
 * Story branches depending on how you complete your first mission
 
+## Dependencies
+
+This version of the Flashpoint works only with RogueTech mod.
+
 ## Installation
 
 This folder (fp_fightingGhosts) needs to be dropped into the Battletech/Mods folder and you are all set to go.
