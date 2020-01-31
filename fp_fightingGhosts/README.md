@@ -1,6 +1,6 @@
 # Fighting Ghosts
 
-This is a Flashpoint which allows the player to follow the story of Gray Death Legion participation in the war of 3039. You will need to demonstrate all your commander skills by being in the same situation as the legendary mercenary company.
+In this Flashpoint you will follow the story of Gray Death Legion participation in the war of 3039. You will need to demonstrate all your command skills while facing the same circumstances as the legendary Mercenary unit.
 
 ## Features
 
