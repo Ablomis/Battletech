@@ -119,7 +119,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name}",
-                                "High Orbit \u2014 Altais",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]
@@ -549,7 +549,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",
-                                "High Orbit \u2014 Altais",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 null,
                                 null
                             ]
@@ -897,7 +897,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} III",
-                                "High Orbit \u2014 Altais",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]
@@ -1452,7 +1452,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",
-                                "High Orbit \u2014 Altais",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 null,
                                 null
                             ]
@@ -1513,7 +1513,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",
-                                "High Orbit \u2014 Altais",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 null,
                                 null
                             ]
@@ -1574,7 +1574,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",
-                                "High Orbit \u2014 Altais",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 null,
                                 null
                             ]

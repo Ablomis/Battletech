@@ -488,7 +488,18 @@
         }, 
         {
             "MountedLocation": "RightArm", 
-            "ComponentDefID": "Weapon_Autocannon_AC5_2-Defiance", 
+            "ComponentDefID": "Weapon_Autocannon_AC5_2-Kali_Yama", 
+            "SimGameUID": "", 
+            "ComponentDefType": "Weapon", 
+            "HardpointSlot": 0, 
+            "GUID": null, 
+            "DamageLevel": "Functional", 
+            "prefabName": null, 
+            "hasPrefabName": false
+        }, 
+        {
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Weapon_Laser_MediumLaser_2-ExoStar", 
             "SimGameUID": "", 
             "ComponentDefType": "Weapon", 
             "HardpointSlot": 0, 
@@ -510,18 +521,18 @@
         }, 
         {
             "MountedLocation": "Head", 
-            "ComponentDefID": "Weapon_Laser_MediumLaser_2-ExoStar", 
+            "ComponentDefID": "Gear_Cockpit_StarCorps_Advanced", 
             "SimGameUID": "", 
-            "ComponentDefType": "Weapon", 
-            "HardpointSlot": 0, 
+            "ComponentDefType": "Upgrade", 
+            "HardpointSlot": -1, 
             "GUID": null, 
             "DamageLevel": "Functional", 
             "prefabName": null, 
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "CenterTorso", 
-            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow", 
+            "MountedLocation": "Head", 
+            "ComponentDefID": "Gear_FCS_Improved", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
@@ -542,19 +553,8 @@
             "hasPrefabName": false
         }, 
         {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_Cockpit_StarCorps_Advanced", 
-            "SimGameUID": "", 
-            "ComponentDefType": "Upgrade", 
-            "HardpointSlot": -1, 
-            "GUID": null, 
-            "DamageLevel": "Functional", 
-            "prefabName": null, 
-            "hasPrefabName": false
-        }, 
-        {
-            "MountedLocation": "Head", 
-            "ComponentDefID": "Gear_FCS_Improved", 
+            "MountedLocation": "CenterTorso", 
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow", 
             "SimGameUID": "", 
             "ComponentDefType": "Upgrade", 
             "HardpointSlot": -1, 
