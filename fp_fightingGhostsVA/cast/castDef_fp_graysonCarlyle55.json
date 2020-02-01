@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../Mods/fp_fightingGhostsBEXCE/portraits/GCarlyle.png"
+        "portraitAssetPath" : "../../Mods/fp_fightingGhostsVA/portraits/GCarlyle.png"
     },
     "emotePotraitList" : [
         
