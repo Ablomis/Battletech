@@ -8,7 +8,7 @@
     "ChassisID": "chassisdef_riflemangdl_RFL-3N", 
     "HeraldryID": null, 
     "Description": {
-        "Cost": 1453592, 
+        "Cost": 1211328, 
         "Rarity": 3, 
         "Purchasable": false, 
         "Manufacturer": null, 
@@ -432,5 +432,5 @@
             "hasPrefabName": false
         }
     ], 
-    "simGameMechPartCost": 1453592
+    "simGameMechPartCost": 1211328
 }

@@ -769,9 +769,9 @@
                             "EncounterObjectGuid" : "1668c1ba-b9c6-4ef3-83df-19bfec270da1"
                         },
                         "customUnitName" : "",
-                        "customHeraldryDefId" : "GrayDeathLegion",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_riflemangdl_RFL-3N",
+                        "unitDefId" : "mechdef_rifleman_RFL-3N",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -802,9 +802,9 @@
                             "EncounterObjectGuid" : "6b4979b9-b730-460b-8f18-c9b19efbb91c"
                         },
                         "customUnitName" : "",
-                        "customHeraldryDefId" : "GrayDeathLegion",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_wolverinegdl_WVR-6R",
+                        "unitDefId" : "mechdef_wolverine_WVR-6R",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -835,9 +835,9 @@
                             "EncounterObjectGuid" : "0a320081-2d60-450e-8e00-092c838496b4"
                         },
                         "customUnitName" : "",
-                        "customHeraldryDefId" : "GrayDeathLegion",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_shadowhawkgdl_SHD-2H",
+                        "unitDefId" : "mechdef_shadowhawk_SHD-2H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -868,9 +868,9 @@
                             "EncounterObjectGuid" : "34a720da-9acc-4c57-bb4a-2cbe22da78a8"
                         },
                         "customUnitName" : "",
-                        "customHeraldryDefId" : "GrayDeathLegion",
+                        "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_assassingdl_ASN-21",
+                        "unitDefId" : "mechdef_assassin_ASN-21",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
