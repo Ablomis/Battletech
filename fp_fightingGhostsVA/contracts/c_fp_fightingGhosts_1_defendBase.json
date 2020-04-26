@@ -5,7 +5,7 @@
     "difficulty" : 7,
     "difficultyUIModifier" : 0,
     "weight" : 1,
-    "scope" : "STANDARD",
+	"scope" : "MID-CAMPAIGN",
     "finalDifficulty" : 0,
     "representativeCastDefIDOverride" : null,
     "missionSuccessStatementOverride" : null,
@@ -732,7 +732,7 @@
     "expirationTimeOverride" : -1,
     "negotiatedSalary" : 0,
     "negotiatedSalvage" : 1,
-    "excludedFromProceduralGeneration" : false,
+    "excludedFromProceduralGeneration" : true,
     "player1Team" : {
         "encounterLayerData" : {
             "EncounterObjectGuid" : "8b14e146-86c5-4221-b5c7-63632376a7db"
