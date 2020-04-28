@@ -1,14 +1,14 @@
 {
     "Description" : {
-        "Id" : "fp_fightingGhosts",
-        "Name" : "Fighting Ghosts",
+        "Id" : "fp_falconsFury",
+        "Name" : "Falcons Fury",
         "Details" : "Journey with the Grey Death Legion",
         "Icon" : "fg_titlecard.png"
     },
     "Weight" : 50,
-    "InternalName" : "fightingGhosts",
+    "InternalName" : "falconsFury",
     "PublishState" : "PUBLISHED",
-    "Difficulty" : 7,
+    "Difficulty" : 10,
     "Requirements" : [
         {
             "Scope" : "Company",
@@ -26,12 +26,14 @@
     "LocationRequirements" : {
         "Scope" : "StarSystem",
         "RequirementTags" : {
-            "items" : ["planet_name_altais"],
+            "items" : [
+                "planet_name_sudeten"
+            ],
             "tagSetSourceFile" : "Tags/PlanetNameTags"
         },
         "ExclusionTags" : {
             "items" : [
-                "fp_finished_fightingGhosts"
+                "fp_finished_falconsFury"
             ],
             "tagSetSourceFile" : ""
         },
@@ -40,19 +42,19 @@
     "PotentialEmployers" : [
         "GrayDeathLegion"
     ],
-    "TargetFaction" : "Kurita",
+    "TargetFaction" : "Unknown",
     "AllowRefitTime" : false,
     "FlashpointLength" : "MEDIUM",
     "Repeatable" : false,
-    "MilestoneSetID" : "ms_fp_fightingGhosts",
+    "MilestoneSetID" : "ms_fp_falconsFury",
     "UseAvailableTimeoutOverride" : false,
     "AvailableTimeout" : 0,
     "UseInProgressTimeoutOverride" : false,
     "InProgressTimeout" : 0,
-    "RewardCollectionID" : "itemCollection_Weapons_SLDF_rare",
+    "RewardCollectionID" : "itemCollection_faction_Steiner",
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
-    "FlashpointShortDescription" : "Steiner is planning to invade Altais and they will leverage Gray Death Legion to secure the beachhead. Grayson Carlyle has offered us to participate in the operation. For a reward.",
+    "FlashpointShortDescription" : "Clan Jade Falcon is planning an attack on the world of Sudeten. This is a crucial manufacturing world, and Gray Death Legion offers us to participate in a defensive operation..",
     "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
     "Tags" : {
         "items" : [],
