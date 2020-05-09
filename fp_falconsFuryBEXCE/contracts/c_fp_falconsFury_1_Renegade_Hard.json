@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "The objective of the operation is to engage Alpha Talon 1 of Clan Jade Falcon and eliminate Star Captain Dreeson Pryde in his Gladiator A. After the target is eliminated, you will have to retreat and reunite with the rest of the Gray Death Legion forces.",
-    "longDescription" : "This will be a fierce battle, Commander. You will need to use every single tactical advantage you can find.",
+    "shortDescription" : "The objective of the operation is to engage Alpha Talon 1 of Clan Jade Falcon and eliminate Star Captain Dreeson Pryde in his Gladiator A. After the target is eliminated, you will have to retreat and regroup with the rest of the Gray Death Legion forces.",
+    "longDescription" : "We don't know much about Clans at this point, especially in regards to mechs they use. Be careful, Commander.",
     "salvagePotential" : 12,
     "requirementList" : [
         {
@@ -320,7 +320,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_fp_graysonCarlyle55",
+                    "selectedCastDefId" : "castDef_fp_graysonCarlyle35",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "49c80ae9-df2d-4788-a56e-3b21cf381691",
@@ -345,7 +345,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_fp_graysonCarlyle55",
+                    "selectedCastDefId" : "castDef_fp_graysonCarlyle35",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -518,8 +518,8 @@
     "useTravelCostPenalty" : false,
     "usesExpiration" : false,
     "expirationTimeOverride" : -1,
-    "negotiatedSalary" : 1,
-    "negotiatedSalvage" : 0,
+    "negotiatedSalary" : 0,
+    "negotiatedSalvage" : 1,
     "excludedFromProceduralGeneration" : true,
     "player1Team" : {
         "encounterLayerData" : {
@@ -714,7 +714,7 @@
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName" : "Target",
-        "faction" : "INVALID_UNSET",
+        "faction" : "JadeFalcon",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {

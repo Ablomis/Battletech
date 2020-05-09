@@ -2,8 +2,8 @@
     "Description" : {
         "Id" : "fp_falconsFury",
         "Name" : "Falcon's Fury",
-        "Details" : "Journey with the Grey Death Legion",
-        "Icon" : "fg_titlecard.png"
+        "Details" : "The journey with Grey Death Legion",
+        "Icon" : "falconsFury_titlecard.png"
     },
     "Weight" : 50,
     "InternalName" : "falconsFury",
@@ -42,7 +42,7 @@
     "PotentialEmployers" : [
         "GrayDeathLegion"
     ],
-    "TargetFaction" : "Unknown",
+    "TargetFaction" : "JadeFalcon",
     "AllowRefitTime" : false,
     "FlashpointLength" : "MEDIUM",
     "Repeatable" : false,
@@ -51,10 +51,10 @@
     "AvailableTimeout" : 0,
     "UseInProgressTimeoutOverride" : false,
     "InProgressTimeout" : 0,
-    "RewardCollectionID" : "itemCollection_faction_Steiner",
+    "RewardCollectionID" : "itemCollection_reward_fp_falconsFury",
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
-    "FlashpointShortDescription" : "Clan Jade Falcon is planning an attack on the world of Sudeten. This is a crucial manufacturing world, and Gray Death Legion offers us to participate in a defensive operation..",
+    "FlashpointShortDescription" : "Clan Jade Falcon is planning an attack on the world of Sudeten. Gray Death Legion, on behalf of House Steiner offered us to participate in a defensive operation.",
     "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
     "Tags" : {
         "items" : [],

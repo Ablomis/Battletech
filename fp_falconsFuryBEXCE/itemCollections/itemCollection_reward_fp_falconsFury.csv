@@ -1,6 +1,3 @@
-itemCollection_reward_fp_falconsFury;;;
-Weapon_Autocannon_AC20_2-Kali_Yama;Weapon;5;1
-Weapon_Laser_LargeLaser_2-Magna;Weapon;8;1
-Weapon_LRM_LRM15_2-Zeus;Weapon;5;1
-Weapon_LRM_LRM20_2-Zeus;Weapon;5;1
-Weapon_SRM_SRM6_2-Valiant;Weapon;6;1
+itemCollection_reward_fp_falconsFury,,,
+mechdef_thunderbolt_TDR-9S,Mech,0,1
+mechdef_warhammer_WHM-7S,Mech,0,1

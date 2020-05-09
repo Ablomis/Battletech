@@ -17,7 +17,9 @@
                 "tagSetSourceFile" : "Tags/CompanyTags"
             },
             "ExclusionTags" : {
-                "items" : [],
+                "items" : [
+		"fp_finished_fightingGhosts"
+		],
                 "tagSetSourceFile" : ""
             },
             "RequirementComparisons" : []
