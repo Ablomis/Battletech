@@ -5,7 +5,7 @@
         "Details" : "Journey with the Grey Death Legion",
         "Icon" : "fg_titlecard.png"
     },
-    "Weight" : 50,
+    "Weight" : 100,
     "InternalName" : "fightingGhosts",
     "PublishState" : "PUBLISHED",
     "Difficulty" : 7,
@@ -17,9 +17,7 @@
                 "tagSetSourceFile" : "Tags/CompanyTags"
             },
             "ExclusionTags" : {
-                "items" : [
-		"fp_finished_fightingGhosts"
-		],
+                "items" : [],
                 "tagSetSourceFile" : ""
             },
             "RequirementComparisons" : []
@@ -28,7 +26,9 @@
     "LocationRequirements" : {
         "Scope" : "StarSystem",
         "RequirementTags" : {
-            "items" : ["planet_name_altais"],
+            "items" : [
+                "planet_name_altais"
+            ],
             "tagSetSourceFile" : "Tags/PlanetNameTags"
         },
         "ExclusionTags" : {

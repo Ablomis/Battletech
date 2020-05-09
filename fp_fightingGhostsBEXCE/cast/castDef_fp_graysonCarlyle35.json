@@ -1,6 +1,6 @@
 {
-    "id" : "castDef_fp_graysonCarlyle55",
-    "internalName" : "fp_graysonCarlyle55",
+    "id" : "castDef_fp_graysonCarlyle35",
+    "internalName" : "fp_graysonCarlyle35",
     "firstName" : "Grayson",
     "lastName" : "Carlyle",
     "callsign" : "Col. Carlyle",
@@ -15,7 +15,7 @@
     "localizeName" : false,
     "defaultEmotePortrait" : {
         "emote" : "Default",
-        "portraitAssetPath" : "../../Mods/fp_fightingGhostsBEXCE/portraits/GCarlyle.png"
+        "portraitAssetPath" : "../../Mods/fp_fightingGhostsBEXCE/portraits/GCarlyle35.png"
     },
     "emotePotraitList" : [
         

@@ -5,6 +5,9 @@
     "Version": "1.0.0",
     "Description": "The journey with the Gray Death Legion",
     "Author": "Ablomis",
+	
+    "DependsOn": [ "BT_Extended", "ISM3025" ],
+	
     "Manifest": [
         { "Type": "CastDef", "Path": "cast" },
 	{ "Type": "FlashpointDef", "Path": "flashpoints" },
