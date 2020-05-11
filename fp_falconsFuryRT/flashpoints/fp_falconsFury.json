@@ -42,7 +42,7 @@
     "PotentialEmployers" : [
         "GrayDeathLegion"
     ],
-    "TargetFaction" : "faction_ClanJadeFalcon",
+    "TargetFaction" : "ClanJadeFalcon",
     "AllowRefitTime" : false,
     "FlashpointLength" : "MEDIUM",
     "Repeatable" : false,
