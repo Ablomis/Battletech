@@ -79,8 +79,8 @@
             "objective" : {
                 "EncounterObjectGuid" : "650245ff-89b6-4c0f-9b72-31db69cf109c"
             },
-            "title" : "Destroy Alpha Talon 1",
-            "description" : "The secondary objective is to destroy the Alpha Talon 1.",
+            "title" : "Locate the target",
+            "description" : "Locate the assasination target",
             "isPrimary" : false,
             "OnSuccessResults" : [
                 {
@@ -117,7 +117,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "ef887928-31f2-4001-a1d8-44f8dc5f5bf8"
             },
-            "title" : "Destroy Ambushers",
+            "title" : "Destroy Alpha Taon 1",
             "description" : "Destroy enemy Ambushers before extraction",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -905,10 +905,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "8e0a56bb-8b5a-49e7-98da-5abbb2c36f8f"
                         },
-                        "customUnitName" : "MechWarrior Killian",
+                        "customUnitName" : "MechWarrior Polonar",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_hellbringer_HBR-A",
+                        "unitDefId" : "mechdef_summoner_SMN-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -938,10 +938,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "32f2da7d-0c4d-474d-9917-6963eca1b3d9"
                         },
-                        "customUnitName" : "Mech Warrior Olipha",
+                        "customUnitName" : "MechWarrior Krista",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_mad_dog_MDD-Prime",
+                        "unitDefId" : "mechdef_summoner_SMN-A",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -954,7 +954,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_gunner",
+                        "pilotDefId" : "pilot_d6_pilot",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -971,10 +971,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "121ef017-a2af-41f2-b135-7c17bea334c7"
                         },
-                        "customUnitName" : "MechWarrior Nyles",
+                        "customUnitName" : "Mech Warrior Shelgur",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_hellbringer_HBR-Prime",
+                        "unitDefId" : "mechdef_executioner_EXE-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -987,7 +987,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d6_gunner",
+                        "pilotDefId" : "pilot_d6_pilot",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1004,10 +1004,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "c47cb632-8b27-46b7-a53a-4320736216ae"
                         },
-                        "customUnitName" : "Mech Warrior Sarak",
+                        "customUnitName" : "MechWarrior Zena",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_summoner_SMN-B",
+                        "unitDefId" : "mechdef_gargoyle_GAR-PRIME",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1063,10 +1063,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "6cd3107e-0f9d-4809-ab8c-fb30faf4cd80"
                         },
-                        "customUnitName" : "Star Commander Tanya Uston",
+                        "customUnitName" : "Star Captain Dreeson Pryde",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_summoner_SMN-Prime",
+                        "unitDefId" : "mechdef_executioner_EXE-A",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1079,7 +1079,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d8_flanker",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

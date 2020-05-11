@@ -1356,10 +1356,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "3f8a51bd-2db0-4473-86bc-435ea1125391"
                         },
-                        "customUnitName" : "Star Captain Dreeson Pryde",
+                        "customUnitName" : "Star Commander Tanya Uston",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_executioner_EXE-A",
+                        "unitDefId" : "mechdef_summoner_SMN-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1372,7 +1372,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d8_flanker",
+                        "pilotDefId" : "pilot_d7_flanker",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1389,10 +1389,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "d1a04f94-29bc-4221-a4bf-793443c06165"
                         },
-                        "customUnitName" : "MechWarrior Polonar",
+                        "customUnitName" : "MechWarrior Killian",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_summoner_SMN-Prime",
+                        "unitDefId" : "mechdef_hellbringer_HBR-A",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1422,10 +1422,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "de2c80f9-e0dc-4592-85de-b75d5c0cff28"
                         },
-                        "customUnitName" : "MechWarrior Krista",
+                        "customUnitName" : "Mech Warrior Olipha",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_summoner_SMN-A",
+                        "unitDefId" : "mechdef_mad_dog_MDD-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1438,7 +1438,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d6_pilot",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
