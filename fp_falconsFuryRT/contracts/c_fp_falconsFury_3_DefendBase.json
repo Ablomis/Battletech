@@ -713,7 +713,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_archer_GDL_ARC-2R",
+                        "unitDefId" : "mechdef_archer_GDL ARC-2R",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -746,7 +746,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_jagermech_GDL_JM6-S",
+                        "unitDefId" : "mechdef_jagermech_GDL JM6-S",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -779,7 +779,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_dervish_GDL_DV-6M",
+                        "unitDefId" : "mechdef_dervish_GDL DV-6M",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -812,7 +812,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_rifleman_GDL_RFL-3N",
+                        "unitDefId" : "mechdef_rifleman_GDL RFL-3N",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -912,10 +912,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "d7109e5f-7e09-4a9d-98a7-a0bf651532e6"
                         },
-                        "customUnitName" : "Sergeant Rebekah Frye",
+                        "customUnitName" : "Regis Matriesse",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_hunchback_GDL_HBK-4G",
+                        "unitDefId" : "mechdef_phoenixhawk_PXH-1",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -945,10 +945,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Lieutenant Brian Scully",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_centurion_GDL_CN9-A",
+                        "unitDefId" : "mechdef_hatchetman_HCT-3F",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -961,7 +961,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_gunner",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -984,7 +984,7 @@
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName" : "TargetTeam",
-        "faction" : "JadeFalcon",
+        "faction" : "faction_ClanJadeFalcon",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {
@@ -1020,7 +1020,7 @@
                         "customUnitName" : "Star Commander Mangu Roshak",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_ryoken_stormcrow-PRIME",
+                        "unitDefId" : "mechdef_stormcrow_SCR-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1053,7 +1053,7 @@
                         "customUnitName" : "MechWarrior Bortai",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_loki_hellbringer-A",
+                        "unitDefId" : "mechdef_hellbringer_HBR-A",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1086,7 +1086,7 @@
                         "customUnitName" : "MechWarrior Sinthia",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_ryoken_stormcrow-PRIME",
+                        "unitDefId" : "mechdef_stormcrow_SCR-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1119,7 +1119,7 @@
                         "customUnitName" : "Mech Warrior lggan",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_loki_hellbringer-PRIME",
+                        "unitDefId" : "mechdef_hellbringer_HBR-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1180,7 +1180,7 @@
                         "customUnitName" : "Star Captain Abaka Lovonski",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_manowar_gargoyle-PRIME",
+                        "unitDefId" : "mechdef_gargoyle_GAR-PRIME",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1213,7 +1213,7 @@
                         "customUnitName" : "MechWarrior Tylon",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_mad_cat_timber_wolf-PRIME",
+                        "unitDefId" : "mechdef_timber_wolf_TW-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1246,7 +1246,7 @@
                         "customUnitName" : "MechWarrior Cewers",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_thor_summoner-PRIME",
+                        "unitDefId" : "mechdef_summoner_SMN-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1279,7 +1279,7 @@
                         "customUnitName" : "MechWarrior Yvonne",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_uller_kit_fox-PRIME",
+                        "unitDefId" : "mechdef_kit_fox_KF-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
