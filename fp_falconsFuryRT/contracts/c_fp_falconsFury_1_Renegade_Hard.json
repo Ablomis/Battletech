@@ -220,7 +220,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "19e8fa2a-f850-42f0-a067-15fcafcc8123"
             },
-            "enableChunkFromContract" : false,
+            "enableChunkFromContract" : true,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         },
@@ -749,7 +749,7 @@
                         "customUnitName" : "MechWarrior Killian",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_hellbringer_HBR-A",
+                        "unitDefId" : "null",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -782,7 +782,7 @@
                         "customUnitName" : "Mech Warrior Olipha",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_mad_dog_MDD-Prime",
+                        "unitDefId" : "null",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -815,7 +815,7 @@
                         "customUnitName" : "MechWarrior Nyles",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_hellbringer_HBR-Prime",
+                        "unitDefId" : "null",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -848,7 +848,7 @@
                         "customUnitName" : "Mech Warrior Sarak",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_summoner_SMN-B",
+                        "unitDefId" : "null",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -905,10 +905,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "8e0a56bb-8b5a-49e7-98da-5abbb2c36f8f"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "MechWarrior Killian",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_hellbringer_HBR-A",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -921,7 +921,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d6_pilot",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -938,10 +938,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "32f2da7d-0c4d-474d-9917-6963eca1b3d9"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Mech Warrior Olipha",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_mad_dog_MDD-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -954,7 +954,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -971,10 +971,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "121ef017-a2af-41f2-b135-7c17bea334c7"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "MechWarrior Nyles",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_hellbringer_HBR-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -987,7 +987,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1004,10 +1004,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "c47cb632-8b27-46b7-a53a-4320736216ae"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Mech Warrior Sarak",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_summoner_SMN-B",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1020,7 +1020,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

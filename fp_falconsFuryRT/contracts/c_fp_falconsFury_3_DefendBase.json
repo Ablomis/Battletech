@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "We need to provide rear guard for Steiner forces leaving the Sudeten. The objective is to protect the Hammaar spaceport while our allies are boarding the dropships. After they have escaped, we will board the dropship and evac.",
-    "longDescription" : "Commander, Falcons are planning a massive assault on the spaceport. We will need to give everything we have.",
+    "shortDescription" : "We need to provide rear guard for Steiner forces leaving the Sudeten. The objective is to protect the Hammarr spaceport while our allies are boarding the dropships. After they have escaped, we will board the dropship and evac.",
+    "longDescription" : "Commander, Falcons are planning a massive assault on the spaceport. We will need to do our best.",
     "salvagePotential" : 12,
     "requirementList" : [
         {

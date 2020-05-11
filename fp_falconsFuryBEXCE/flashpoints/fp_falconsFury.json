@@ -54,7 +54,7 @@
     "RewardCollectionID" : "itemCollection_reward_fp_falconsFury",
     "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
-    "FlashpointShortDescription" : "Clan Jade Falcon is planning an attack on the world of Sudeten. Gray Death Legion, on behalf of House Steiner offered us to participate in a defensive operation.",
+    "FlashpointShortDescription" : "Clan Jade Falcon is planning an attack on Sudeten. Gray Death Legion, on behalf of House Steiner, offered us to participate in a defensive operation.",
     "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
     "Tags" : {
         "items" : [],

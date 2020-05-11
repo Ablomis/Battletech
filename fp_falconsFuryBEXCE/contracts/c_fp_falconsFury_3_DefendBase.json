@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "We need to provide rear guard for Steiner forces leaving the Sudeten. The objective is to protect the Hammaar spaceport while our allies are boarding the dropships. After they have escaped, we will board the dropship and evac.",
-    "longDescription" : "Commander, Falcons are planning a massive assault on the spaceport. We will need to give everything we have.",
+    "shortDescription" : "We need to provide rear guard for Steiner forces leaving the Sudeten. The objective is to protect the Hammarr spaceport while our allies are boarding the dropships. After they have escaped, we will board the dropship and evac.",
+    "longDescription" : "Commander, Falcons are planning a massive assault on the spaceport. We will need to do our best.",
     "salvagePotential" : 12,
     "requirementList" : [
         {
@@ -912,10 +912,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "d7109e5f-7e09-4a9d-98a7-a0bf651532e6"
                         },
-                        "customUnitName" : "Sergeant Rebekah Frye",
+                        "customUnitName" : "Regis Matriesse",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_hunchback_GDL_HBK-4G",
+                        "unitDefId" : "mechdef_phoenixhawk_GDL_PXH-1",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -945,10 +945,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "bdb37cd1-dff5-4740-b361-d5d1aebfd452"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Lieutenant Brian Scully",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_centurion_GDL_CN9-A",
+                        "unitDefId" : "mechdef_hatchetman_GDL_HCT-3F",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -961,7 +961,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_gunner",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

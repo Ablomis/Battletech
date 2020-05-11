@@ -265,11 +265,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_hiddenLagoon_vHigh",
+                            "value" : "mapGeneral_rockyCliffs_vHigh",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
-                                "222f9b64-74f4-409f-89ea-1777cfe549c5",
+                                "0e75aa57-cd6c-4d16-a9da-ffaa1f325cec",
                                 "c_fp_falconsFury_1_Renegade_Hard",
                                 "GrayDeathLegion",
                                 "Unknown",
