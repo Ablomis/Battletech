@@ -157,7 +157,7 @@
                                 "Locals",
                                 "Kurita",
                                 "8",
-                                null,
+                                "ms_fp_birthOfALegend_004_Mission2",
                                 null,
                                 null,
                                 null,
@@ -170,6 +170,69 @@
                             "value" : "Contract",
                             "valueConstant" : null,
                             "additionalValues" : [
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_birthOfALegend_004_Mission2",
+                "Name" : "Mission2",
+                "Details" : "Mission 2",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : "mapGeneral_bleakRidge_aBad",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "6e7fa82a-aafe-4d2d-b186-c9b212c8c5a4",
+                                "fp_birthOfALegend_Thunder_Rift",
+                               "Locals",
+                               "Kurita",
+                                8,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
                                 null
                             ]
                         }

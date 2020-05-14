@@ -3,7 +3,7 @@
         "Id" : "fp_birthOfALegend",
         "Name" : "Birth Of A Legend",
         "Details" : "The journey with Grey Death Legion",
-        "Icon" : "falconsFury_boal.png"
+        "Icon" : "BOAL_Title_Card.png"
     },
     "Weight" : 50,
     "InternalName" : "birthOfALegend",

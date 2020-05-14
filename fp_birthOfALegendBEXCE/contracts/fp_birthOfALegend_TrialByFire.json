@@ -44,7 +44,7 @@
     "OnContractSuccessResults" : [],
     "OnContractFailureResults" : [],
     "encounterPlayStyle" : "SinglePlayer",
-    "maxNumberOfPlayerUnits" : 4,
+    "maxNumberOfPlayerUnits" : 1,
     "lanceMinTonnage" : -1,
     "lanceMaxTonnage" : -1,
     "mechMinTonnages" : [
@@ -701,8 +701,8 @@
                         },
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
-                        "unitType" : "Mech",
-                        "unitDefId" : "null",
+                        "unitType" : null,
+                        "unitDefId" : null,
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -823,7 +823,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "3033608e-9551-4c83-96d5-74946b8e4ea8"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "Lieutenant Vallendel",
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
                         "unitDefId" : "null",
