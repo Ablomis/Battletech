@@ -2,7 +2,7 @@
     "ID" : "fp_birthOfALegend_Thunder_Rift",
     "contractName" : "Thunder Rift",
     "contractDisplayStyle" : "BaseFlashpoint",
-    "difficulty" : 6,
+    "difficulty" : 4,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "STANDARD",

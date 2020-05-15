@@ -2,7 +2,7 @@
     "ID" : "fp_birthOfALegend_TrialByFire",
     "contractName" : "Trial By Fire",
     "contractDisplayStyle" : "BaseFlashpoint",
-    "difficulty" : 6,
+    "difficulty" : 4,
     "difficultyUIModifier" : 1,
     "weight" : 1,
     "scope" : "STANDARD",
@@ -13,7 +13,7 @@
     "goodFaithStatementOverride" : null,
     "shortDescription" : "Light lance led by Lori Kalmar has drawn enemies away from the spaceport, leaving it vulnerable to your attack. You will need to get to the deep space communication center, drop our engineer so that he can destroy the equipment and evac.",
     "longDescription" : "The mission is very straightforward, Commander. We don't expect any resistance.",
-    "salvagePotential" : 20,
+    "salvagePotential" : 10,
     "requirementList" : [
         {
             "Scope" : "StarSystem",
