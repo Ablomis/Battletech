@@ -11,9 +11,9 @@
     "missionSuccessStatementOverride" : "",
     "badFaithStatementOverride" : "",
     "goodFaithStatementOverride" : "",
-    "shortDescription" : "You need to reinforce Lori Kalmar Lance, which is holding up against Duke Hassid Ricol's forces. After you regroup, you will need to escape to the landing zone. Lori has the support of local government hovercraft lance, but we are expecting enemy reinforcements.",
+    "shortDescription" : "You need to reinforce Lori Kalmar Lance, which is holding up against Duke Hassid Ricol's forces. You will need to destroy opposing lance and escape to the landing zone afterwards. Lori has the support of local government hovercraft lance, but we are expecting enemy reinforcements.",
     "longDescription" : "You will be outnumbered and outweighed, but enemy mechs have been damaged in an ambush.",
-    "salvagePotential" : 16,
+    "salvagePotential" : 10,
     "requirementList" : [
         {
             "Scope" : "StarSystem",
@@ -94,7 +94,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "d5ee674b-8993-4804-9fa2-b0a73be466e4"
             },
-            "title" : "Destroy Kuritan Lance",
+            "title" : "Destroy Kuritan Lance and evac",
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [],
@@ -742,7 +742,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "bd721209-539f-4c39-afa9-f6d3a83a0b06"
             },
-            "title" : "Escort friendlies to evac point",
+            "title" : "Escort Kalmar lance to evac point",
             "description" : "",
             "isPrimary" : true,
             "OnSuccessResults" : [],
@@ -1322,7 +1322,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "I'll be on station keeping an eye on things, comm--",
+                    "words" : "Cammander, I have dropped you in the area of operations.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1338,14 +1338,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Unknown lance: this is {TEAM_HOST.FactionDef.Demonym} command. We are in pursuit of dangerous criminals. Leave the area or you will be fired on.",
+                    "words" : "Run while you can. Or this will be your end.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_Hostile",
+                    "selectedCastDefId" : "castDef_KuritaDefaultCommander",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "3f899376-6d15-413c-a260-a5f0aecff9bd",
@@ -1354,7 +1354,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "What the-- Darius, did we just get sold out?",
+                    "words" : "Commander, I'll be ready to pick you up once you reach the evac zone.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1370,7 +1370,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Let's assume good faith on the part of our employers, Meyer. Attention {TEAM_HOST.FactionDef.Demonym} lance: we are an MRB-bonded mercenary company. We are under contract and cannot withdraw.",
+                    "words" : "Try to eliminate the attacking lance as quickly as possible and get to the evac zone.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1386,7 +1386,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "No answer. Commander, they don't seem to be bluffing. Looks like we'll be fighting two battles at once.",
+                    "words" : "We are expecting additional enemy reinforcements to be on their way.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1411,14 +1411,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Commander, I've been talking to our {TEAM_EMP.FactionDef.Demonym} rep and this seems to be a case of simple bad luck; apparently the bad guys wiped out a {TEAM_HOST.FactionDef.Demonym} unit just a few days ago.",
+                    "words" : "Commander, hold on!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_DariusDefault",
+                    "selectedCastDefId" : "castDef_SumireDefault",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1427,7 +1427,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "We just happened to both arrive in the AO at the same time. Let's regroup back in orbit.",
+                    "words" : "Let's get out of hear Sumire.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1452,7 +1452,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "I'm not sure what the hell is going on here, Commander, but I'm going to have some words with the {TEAM_EMP.FactionDef.Demonym} rep about pre-mission briefings.",
+                    "words" : "Commander, we need to retreat, this does not look good.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1477,7 +1477,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER. New contacts on sesnors, Commander. These units don't match {TEAM_TAR.FactionDef.ShortName} signatures. We've got a new player on the field.",
+                    "words" : "New contacts on sesnors, Commander. Looks like enemy reinfircements.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1502,7 +1502,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER Kilo 1-3 just got smoked! Suffering loses over here, Commander! We're still in the fight, but down one.",
+                    "words" : "We are down by ne unit.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1518,7 +1518,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER Grace under fire folks. Lay it on 'em!",
+                    "words" : "Taking damage! Lay it on 'em!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1543,14 +1543,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER We lost Quebec Two Commander.",
+                    "words" : "We lost a unit, Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Kalmar",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1559,14 +1559,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHODLER This is Quebec actual return fire and check your rear arc!",
+                    "words" : "I've been hit!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Kalmar",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1584,7 +1584,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER, The {TEAM_EMP.FactionDef.Demonym} has been destroyed.",
+                    "words" : "Supporting lance has been destroyed.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1609,7 +1609,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER our employer's ally forces are lost commander.",
+                    "words" : "Lori Kalmar lance has been destroyed, Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1716,7 +1716,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER Primary targets destroyed Commander.",
+                    "words" : "All objectives complete, Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1732,7 +1732,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER I'm inbound to the LZ Commander.",
+                    "words" : "I'm inbound to the LZ Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1839,7 +1839,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER All our objectives are complete, cover our withdraw Commander.",
+                    "words" : "All our objectives are complete, cover our withdraw Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1864,7 +1864,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER All our objectives are complete, cover our withdraw Commander.",
+                    "words" : "All our objectives are complete, cover our withdraw Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1880,7 +1880,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
+                    "words" : "We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1905,7 +1905,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER Thanks for the assist, we're clear.",
+                    "words" : "Thanks for the assist, we're clear.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1930,7 +1930,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER Thanks for the assist, we're clear.",
+                    "words" : "Thanks for the assist, we're clear.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1955,14 +1955,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER, That's it Commander we did what we came here to do.",
+                    "words" : "That's it Commander we did what we came here to do.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Kalmar",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1980,14 +1980,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER, That's it Commander we did what we came here to do.",
+                    "words" : "That's it Commander we did what we came here to do.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Kalmar",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1996,7 +1996,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
+                    "words" : "We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2021,14 +2021,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER, we're clear of the AO, thanks Commander.",
+                    "words" : "We're clear of the AO, thanks Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Kalmar",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "a12f139f-a0bb-4615-bd10-850d116c4a4f",
@@ -2046,14 +2046,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER, we're clear of the AO, thanks Commander.",
+                    "words" : "We're clear of the AO, thanks Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Kalmar",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "8a83549d-cfe3-4409-83ee-51a80a4c0263",
@@ -2194,7 +2194,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER Another {TEAM_EMP.FactionDef.Demonym} lance has dropped in Commander! This is the Secondary Objective Version.",
+                    "words" : "Commander, enemy reinforcements are inbound. It's Duke's lance.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2210,7 +2210,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER Our Employer has kindly added taking this group to contract as a bonus. If we want to make some extra C-bills we can take them out if we want.",
+                    "words" : "We can just evade them and get to the evac zone.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2466,7 +2466,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACHEHOLDER (Additional Target Forces 2 Secondary). In bound hostile Dropship detected, drop zone marked.",
+                    "words" : "In bound hostile Dropship detected, drop zone marked.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2598,7 +2598,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER Commander, our {TEAM_EMP.FactionDef.Demonym} friends have deployed forces to assist in our operation here. This is the Secondary version.",
+                    "words" : "Commander, we have a lance of hovercrafts provided by the local government as support.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2614,7 +2614,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.",
+                    "words" : "That's an affirmative, XO Olivera. We're on station and will provie support to achieve the primary objective. When it's destoryed we have orders to proceed to our Evac.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2630,7 +2630,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER. Understood Lance leader, glad to have you with us.",
+                    "words" : "Understood Lance leader, glad to have you with us.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2655,7 +2655,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "PLACEHOLDER. Looks like we have some unexpeted support from {TEAM_EMP_ALLY.FactionDef.Demonym} forces. This is the Primary version.",
+                    "words" : "This is Lori Kalmar lance we came to reinforce.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2671,14 +2671,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER. Glad we could make it to the party Commander. Our orders are to assist in the Primary Objective and once elimated head for Evac.",
+                    "words" : "Glad you've made it to the party on time, Commander. Once we destroy Kurita lance, we will head for Evac.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Kalmar",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -2687,7 +2687,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "PLACEHOLDER. Copy that lance leader.",
+                    "words" : "Copy that Lori.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2772,7 +2772,7 @@
         },
         {
             "name" : "Objective_Escape_Employer_Primary_Battle+",
-            "extractViaDropship" : true,
+            "extractViaDropship" : false,
             "extractionGameLogic" : {
                 "EncounterObjectGuid" : "233d3dd3-dd4d-4722-9d79-5e4550c94c67"
             }
@@ -2793,7 +2793,7 @@
         },
         {
             "name" : "Objective_Escape_EmployerAlly_Secondary_Battle+",
-            "extractViaDropship" : true,
+            "extractViaDropship" : false,
             "extractionGameLogic" : {
                 "EncounterObjectGuid" : "5e616f80-706e-43c8-b747-b04122ba5232"
             }
@@ -2852,7 +2852,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_shadowhawk_SHD-2H",
+                        "unitDefId" : "mechdef_shadowhawk_GDL_SHD-2H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3383,7 +3383,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d3_pilot",
+                        "pilotDefId" : "pilot_d2",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3416,7 +3416,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d3_pilot",
+                        "pilotDefId" : "pilot_d2",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3449,7 +3449,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d3_pilot",
+                        "pilotDefId" : "pilot_d2",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3482,7 +3482,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d3_pilot",
+                        "pilotDefId" : "pilot_d2",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -4033,7 +4033,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d3_pilot",
+                        "pilotDefId" : "pilot_d2_pilot",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -4099,7 +4099,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d3_pilot",
+                        "pilotDefId" : "pilot_d2_pilot",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -4132,7 +4132,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_gunner",
+                        "pilotDefId" : "pilot_d4_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
