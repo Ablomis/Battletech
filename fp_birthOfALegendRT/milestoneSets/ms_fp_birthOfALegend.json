@@ -219,11 +219,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "mapGeneral_bleakRidge_aBad",
+                            "value" : "mapGeneral_grandeRiver_aWst",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "6e7fa82a-aafe-4d2d-b186-c9b212c8c5a4",
+                                "a9967f28-d523-49e4-a028-c9935dae30d4",
                                 "fp_birthOfALegend_Thunder_Rift",
                                 "Locals",
                                 "Kurita",

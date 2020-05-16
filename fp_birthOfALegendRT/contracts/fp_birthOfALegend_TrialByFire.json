@@ -5,7 +5,7 @@
     "difficulty" : 4,
     "difficultyUIModifier" : 0,
     "weight" : 1,
-    "scope" : "STANDARD",
+    "scope" : "MID_CAMPAIGN",
     "finalDifficulty" : 0,
     "representativeCastDefIDOverride" : null,
     "missionSuccessStatementOverride" : null,
@@ -54,7 +54,7 @@
         -1
     ],
     "mechMaxTonnages" : [
-        -1,
+        55,
         -1,
         -1,
         -1
@@ -823,7 +823,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "3033608e-9551-4c83-96d5-74946b8e4ea8"
                         },
-                        "customUnitName" : "Lieutenant Vallendel",
+                        "customUnitName" : "Lord Harimandir Singh",
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
                         "unitDefId" : "null",
@@ -856,7 +856,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "420c7662-0f08-4687-ad60-9134038f9ca6"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "Lord Harimandir Singh",
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
                         "unitDefId" : "null",
@@ -872,7 +872,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -889,7 +889,7 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "6e366cb6-fb37-44d5-94f1-8ca595d1e8aa"
                         },
-                        "customUnitName" : null,
+                        "customUnitName" : "Lord Harimandir Singh",
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
                         "unitDefId" : "null",
@@ -905,7 +905,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

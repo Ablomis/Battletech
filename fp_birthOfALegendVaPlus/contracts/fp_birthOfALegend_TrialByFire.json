@@ -1,6 +1,6 @@
 {
     "ID" : "fp_birthOfALegend_TrialByFire",
-    "contractName" : "Alone On Trell",
+    "contractName" : "Trial By Fire",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 4,
     "difficultyUIModifier" : 0,
@@ -59,7 +59,7 @@
         -1,
         -1
     ],
-    "mapMood" : "AridDayClear",
+    "mapMood" : null,
     "startingFogOfWarVisibility" : "Surveyed",
     "contractObjectiveList" : [
         {
@@ -603,7 +603,7 @@
                         "customUnitName" : null,
                         "customHeraldryDefId" : null,
                         "unitType" : "Mech",
-                        "unitDefId" : "",
+                        "unitDefId" : "mechdef_shadowhawk_GDL_SHD-2H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

@@ -160,7 +160,7 @@
                                 "ms_fp_birthOfALegend_004_Mission2",
                                 null,
                                 null,
-                                "ms_fp_birthOfALegend_100_FailComplete",
+                                null,
                                 null,
                                 null
                             ]
@@ -231,7 +231,7 @@
                                 "ms_fp_birthOfALegend_005_FinalTalk",
                                 "Locals",
                                 null,
-                                "ms_fp_birthOfALegend_100_FailComplete",
+                                null,
                                 null,
                                 null
                             ]
@@ -411,56 +411,6 @@
                             "additionalValues" : [
                                 null
                             ]
-                        }
-                    ],
-                    "ForceEvents" : null,
-                    "TemporaryResult" : false,
-                    "ResultDuration" : 0
-                }
-            ],
-            "Repeatable" : false,
-            "UseRandomInvocation" : false,
-            "InvokeChance" : 0
-        },
-        {
-            "Description" : {
-                "Id" : "ms_fp_birthOfALegend_100_FailComplete",
-                "Name" : "FailComplete",
-                "Details" : "fail milestone",
-                "Icon" : null
-            },
-            "Scope" : "Company",
-            "Requirements" : [],
-            "Results" : [
-                {
-                    "Scope" : "Company",
-                    "Requirements" : {
-                        "Scope" : "Company",
-                        "RequirementTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "ExclusionTags" : {
-                            "items" : [],
-                            "tagSetSourceFile" : ""
-                        },
-                        "RequirementComparisons" : []
-                    },
-                    "AddedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "RemovedTags" : {
-                        "items" : [],
-                        "tagSetSourceFile" : ""
-                    },
-                    "Stats" : null,
-                    "Actions" : [
-                        {
-                            "Type" : "Flashpoint_FailFlashpoint",
-                            "value" : null,
-                            "valueConstant" : null,
-                            "additionalValues" : null
                         }
                     ],
                     "ForceEvents" : null,

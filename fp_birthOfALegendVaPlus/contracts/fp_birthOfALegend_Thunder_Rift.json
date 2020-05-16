@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride" : "",
     "badFaithStatementOverride" : "",
     "goodFaithStatementOverride" : "",
-    "shortDescription" : "You need to reinforce Lori Kalmar's Lance, which is holding up against Duke Hassid Ricol's forces. You will need to destroy opposing lance and escape to the landing zone afterwards. Lori has the support of local government hovercraft lance, but we are expecting enemy reinforcements.",
+    "shortDescription" : "You need to reinforce Lori Kalmar Lance, which is holding up against Duke Hassid Ricol's forces. You will need to destroy opposing lance and escape to the landing zone afterwards. Lori has the support of local government hovercraft lance, but we are expecting enemy reinforcements.",
     "longDescription" : "You will be outnumbered and outweighed, but enemy mechs have been damaged in an ambush.",
     "salvagePotential" : 10,
     "requirementList" : [
@@ -56,19 +56,19 @@
         -1
     ],
     "mechMaxTonnages" : [
-        55,
+        -1,
         -1,
         -1,
         -1
     ],
-    "mapMood" : "AridDayClear",
+    "mapMood" : "",
     "startingFogOfWarVisibility" : "Surveyed",
     "contractObjectiveList" : [
         {
             "contractObjective" : {
                 "EncounterObjectGuid" : "8d7e4513-f6c4-4914-a08f-d7baa89672be"
             },
-            "title" : "Destroy Kuritan lance and retreat",
+            "title" : "Destroy Terrorist Units",
             "description" : "",
             "isPrimary" : true,
             "forPlayer" : "Player1",
@@ -1880,7 +1880,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Commander, we need to cover withdrawal of our allies.",
+                    "words" : "We won't get paid for covering their evac if we leave before them, plan accodingly Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2802,8 +2802,8 @@
     "overwriteMissionCompleteWhenAutoComplete" : true,
     "overrideAutoCompleteDialogueId" : "",
     "disableNegotations" : true,
-    "disableLanceConfiguration" : true,
-    "disableCancelButton" : true,
+    "disableLanceConfiguration" : false,
+    "disableCancelButton" : false,
     "disableAfterAction" : false,
     "contractRewardOverride" : -1,
     "travelOnly" : false,
@@ -2852,7 +2852,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "",
+                        "unitDefId" : "mechdef_shadowhawk_GDL_SHD-2H",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3197,7 +3197,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_PEGASUS_MISSILE",
+                        "unitDefId" : "vehiclechassisdef_PEGASUS",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3230,7 +3230,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_PEGASUS_MISSILE",
+                        "unitDefId" : "vehiclechassisdef_PEGASUS",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3263,7 +3263,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_PEGASUS_MISSILE",
+                        "unitDefId" : "vehiclechassisdef_PEGASUS",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3296,7 +3296,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_PEGASUS_MISSILE",
+                        "unitDefId" : "vehiclechassisdef_PEGASUS",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -4004,6 +4004,7 @@
                 },
                 "spawnEffectTags" : {
                     "items" : [
+		    		    "spawn_poorly_maintained_50"
 		    ],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
@@ -5296,7 +5297,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Vehicle",
-                        "unitDefId" : "vehicledef_PEGASUS_MISSILE",
+                        "unitDefId" : "vehiclechassisdef_PEGASUS",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

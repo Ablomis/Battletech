@@ -52,7 +52,7 @@
     "UseInProgressTimeoutOverride" : false,
     "InProgressTimeout" : 0,
     "RewardCollectionID" : "itemCollection_loot_Weapon_uncommon",
-    "UnitDropTonnageHint" : "Light",
+    "UnitDropTonnageHint" : "None",
     "LanceDropTonnageHint" : "None",
     "FlashpointShortDescription" : "Duke Hassid Ricol of the Draconis Combine is trying to seize the Trell. We have been contacted by an individual representing planetary government.",
     "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
