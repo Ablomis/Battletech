@@ -3690,10 +3690,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "fb517114-a960-4d21-ac59-7af694107ab1"
                         },
-                        "customUnitName" : "MechWarrior Kevan",
+                        "customUnitName" : "MechWarrior Chovan",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_daishi_dire_wolf-PRIME",
+                        "unitDefId" : "mechdef_thor_summoner-PRIME",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3706,7 +3706,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
