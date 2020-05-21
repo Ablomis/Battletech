@@ -1797,7 +1797,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_Employer",
+                    "selectedCastDefId" : "castDef_Ali_Khaled",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1806,14 +1806,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Grace under fire folks. Lay it on 'em!",
+                    "words" : "Lay it on 'em!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_Employer",
+                    "selectedCastDefId" : "castDef_Ali_Khaled",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1838,7 +1838,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Mais",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1854,7 +1854,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Mais",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -2909,7 +2909,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_Employer",
+                    "selectedCastDefId" : "castDef_Ali_Khaled",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "38efff2a-29a9-4886-a145-c5a7ca747fb7",
@@ -3023,7 +3023,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Mais",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "8fa00d6a-7f24-4efc-9c7f-3c704c77768a",
