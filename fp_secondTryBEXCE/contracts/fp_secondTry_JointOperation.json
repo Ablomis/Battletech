@@ -840,7 +840,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "51aa5837-b540-42be-b8be-26b37bfcf976"
             },
-            "title" : "Ensure Gray Death Legion lance safely evacs",
+            "title" : "Ensure Steiner lance survives",
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -878,7 +878,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "233d3dd3-dd4d-4722-9d79-5e4550c94c67"
             },
-            "title" : "The Gray Death Legion lance must reach the evac zone",
+            "title" : "The Steiner lance must reach the evac zone",
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [],
@@ -914,7 +914,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "ac4199e4-c42e-4a41-ae0e-cf10f7dfcf8a"
             },
-            "title" : "Ensure Gray Death Legion Lance safely evacs",
+            "title" : "Ensure Steiner lance safely evacs",
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -1014,7 +1014,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "658372a8-8e43-4f74-af9c-f4d60bb103ec"
             },
-            "title" : "Ensure Steiner lance safely evacs",
+            "title" : "Ensure Gray Death Legion lance safely evacs",
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [],
@@ -1062,7 +1062,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "4222c6f6-975a-45aa-aa3e-cbfaf0c50026"
             },
-            "title" : "Ensure Steiner Lance safely evacs",
+            "title" : "Ensure Gray Death Legion safely evacs",
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -1872,7 +1872,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Gray Death Legion Fire Support lance has been destroyed.",
+                    "words" : "Steiner lance has been destroyed.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1897,7 +1897,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Steiner assualt lance has been destroyed.",
+                    "words" : "Gray Deatj Legion lance has been destroyed.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2200,7 +2200,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_Employer",
+                    "selectedCastDefId" : "castDef_Mais",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "287b3743-7ff2-4179-8951-f48c86b8c696",
@@ -2225,7 +2225,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_Employer",
+                    "selectedCastDefId" : "castDef_Mais",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "a251ed88-0ea5-4d3a-a70c-f05604c81352",
@@ -2250,7 +2250,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Ali_Khaled",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -2275,7 +2275,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Ali_Khaled",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -2316,7 +2316,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Ali_Khaled",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "a12f139f-a0bb-4615-bd10-850d116c4a4f",
@@ -2341,7 +2341,7 @@
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_TeamLeader_EmployersAlly",
+                    "selectedCastDefId" : "castDef_Ali_Khaled",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "8a83549d-cfe3-4409-83ee-51a80a4c0263",
@@ -2886,7 +2886,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Commander, this is Gray Death Legion Fire Lance led by Lieutenant Hassan Ali Khaled.",
+                    "words" : "This is 1st Battalion, Headquarters Company.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -2902,14 +2902,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "That's an affirmative, XO Olivera. We're here to provie long-range fire support.",
+                    "words" : "Form on me, Commander. I will lead Federation Commonwealth forces to victory.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_Ali_Khaled",
+                    "selectedCastDefId" : "castDef_Mais",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "38efff2a-29a9-4886-a145-c5a7ca747fb7",
@@ -2918,7 +2918,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Understood Lieutenant, glad to have you with us.",
+                    "words" : "As you say, Brigadier General...",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -3000,7 +3000,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "This is 1st Battalion, Headquarters Company.",
+                    "words" : "Commander, this is Gray Death Legion Fire Lance led by Lieutenant Hassan Ali Khaled.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -3016,14 +3016,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Form on me, Commander. I will lead Federation Commonwealth forces to victory",
+                    "words" : "Glad be fight alongside you, Commander. My lance will provide fire support.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_Mais",
+                    "selectedCastDefId" : "castDef_Ali_Khaled",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "8fa00d6a-7f24-4efc-9c7f-3c704c77768a",
@@ -3032,7 +3032,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Good luck everyone. Olivera out.",
+                    "words" : "Understood Lieutenant, glad to have you with us.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -3285,7 +3285,7 @@
         },
         "teamGuid" : "ecc8d4f2-74b4-465d-adf6-84445e5dfc230",
         "teamName" : "EmployerTeam",
-        "faction" : "GrayDeathLegion",
+        "faction" : "Steiner",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {
@@ -3482,10 +3482,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "4886c566-b263-412f-939e-e9b77e9e9c11"
                         },
-                        "customUnitName" : "Lieutenant Hassan Ali Khaled",
+                        "customUnitName" : "Brigadier General Phillip Mais",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_warhammer_GDL2_WHM-6R",
+                        "unitDefId" : "mechdef_cyclops_CP-11-C",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3498,7 +3498,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d6_gunner",
+                        "pilotDefId" : "pilot_d7_sentinel",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3515,10 +3515,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "ca9adbcf-caf7-47bb-b7d5-88a8980fb92e"
                         },
-                        "customUnitName" : "Sergeant Rachel Nolans",
+                        "customUnitName" : "Colonel Markland Simms",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_catapult_GDL_CPLT-C4C",
+                        "unitDefId" : "mechdef_banshee_BNC-5S",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3531,7 +3531,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_gunner",
+                        "pilotDefId" : "pilot_d8_flanker",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3548,10 +3548,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "ef369b82-0d23-4300-907c-a820e1064251"
                         },
-                        "customUnitName" : "Paul Hansen",
+                        "customUnitName" : "Major Albert Hartage",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_archer_GDL_ARC-4M",
+                        "unitDefId" : "mechdef_battlemaster_BLR-3S",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3564,7 +3564,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_gunner",
+                        "pilotDefId" : "pilot_d6_defender",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -3581,10 +3581,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "97c7fb7a-6e9d-46b5-b1e2-795177ec115b"
                         },
-                        "customUnitName" : "Dimitri Oretsov",
+                        "customUnitName" : "Captain Scott Stark",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_enforcer_GDL_ENF-5D",
+                        "unitDefId" : "mechdef_warhammer_WHM-7S",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -5450,7 +5450,7 @@
         },
         "teamGuid" : "70af7e7f-39a8-4e81-87c2-bd01dcb01b5e",
         "teamName" : "EmployersAllyTeam",
-        "faction" : "Steiner",
+        "faction" : "GrayDeathLegion",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {
@@ -5647,10 +5647,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "5804416a-73d0-4ab1-a18b-1b464b4617b8"
                         },
-                        "customUnitName" : "Brigadier General Phillip Mais",
+                        "customUnitName" : "Lieutenant Hassan Ali Khaled",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_cyclops_CP-11-C",
+                        "unitDefId" : "mechdef_warhammer_GDL2_WHM-6R",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -5663,7 +5663,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_sentinel",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -5680,10 +5680,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "7309f8bb-ea6d-4c84-9bac-cb17441b487f"
                         },
-                        "customUnitName" : "Colonel Markland Simms",
+                        "customUnitName" : "Sergeant Rachel Nolans",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_banshee_BNC-3S",
+                        "unitDefId" : "mechdef_catapult_GDL_CPLT-C4C",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -5696,7 +5696,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d8_flanker",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -5713,10 +5713,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "6cfac32b-a8d0-4864-8572-b5723d0a5d7d"
                         },
-                        "customUnitName" : "Major Albert Hartage",
+                        "customUnitName" : "Paul Hansen",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_battlemaster_BLR-3S",
+                        "unitDefId" : "mechdef_archer_GDL_ARC-4M",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -5729,7 +5729,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d6_defender",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -5746,10 +5746,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "55787ae1-57b7-401f-88b2-c767e7280f99"
                         },
-                        "customUnitName" : "Captain Scott Stark",
+                        "customUnitName" : "Dimitri Oretsov",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_warhammer_WHM-7S",
+                        "unitDefId" : "mechdef_enforcer_GDL_ENF-5D",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
