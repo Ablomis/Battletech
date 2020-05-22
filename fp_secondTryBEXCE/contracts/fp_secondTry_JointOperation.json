@@ -1790,14 +1790,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Suffering loses over here, Commander! We're still in the fight, but down one.",
+                    "words" : "Suffering loses over here! We're still in the fight, but down one.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_Ali_Khaled",
+                    "selectedCastDefId" : "castDef_Mais",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1806,14 +1806,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Lay it on 'em!",
+                    "words" : "For the Commonwealth!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_Ali_Khaled",
+                    "selectedCastDefId" : "castDef_Mais",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1831,14 +1831,14 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "We lost a unit.",
+                    "words" : "We are down a mech.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_Mais",
+                    "selectedCastDefId" : "castDef_Ali_Khaled",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
@@ -1847,14 +1847,14 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Taking enemy fire!",
+                    "words" : "Fire Lance, regroup!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
                         "b" : 1,
                         "a" : 1
                     },
-                    "selectedCastDefId" : "castDef_Mais",
+                    "selectedCastDefId" : "castDef_Ali_Khaled",
                     "emote" : "Default",
                     "audioName" : "NONE",
                     "cameraFocusGuid" : "",
