@@ -44,9 +44,9 @@
     "PotentialEmployers" : [
         "GrayDeathLegion"
     ],
-    "TargetFaction" : "Kurita",
+    "TargetFaction" : "JadeFalcon",
     "AllowRefitTime" : false,
-    "FlashpointLength" : "SHORT",
+    "FlashpointLength" : "MEDIUM",
     "Repeatable" : false,
     "MilestoneSetID" : "ms_fp_secondTry",
     "UseAvailableTimeoutOverride" : false,

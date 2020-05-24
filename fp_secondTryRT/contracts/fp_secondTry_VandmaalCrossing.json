@@ -12,7 +12,7 @@
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
     "shortDescription" : "Your objective is to engage Clan Jade Falcon's Alpha 1st Star at Vandamaal crossing and eliminate it. At the same time Federation Commonwealth and Gray Death Legion forces will engage enemy in other locations.",
-    "longDescription" : "Commander, the area has an uneven terrain which you can use to gain a tactical advantage over Falcons' forces.",
+    "longDescription" : "Commander, the area is hilly, which should allow you to negate range advantage of clan technology and gain a tactical advantage.",
     "salvagePotential" : 16,
     "requirementList" : [
         {
@@ -714,7 +714,7 @@
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName" : "Target",
-        "faction" : "JadeFalcon",
+        "faction" : "ClanJadeFalcon",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {
@@ -749,7 +749,7 @@
                         "customUnitName" : "MechWarrior Martin",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_thor_summoner-PRIME",
+                        "unitDefId" : "mechdef_summoner_SMN-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -782,7 +782,7 @@
                         "customUnitName" : "MechWarrior Ruth",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_thor_summoner-C",
+                        "unitDefId" : "mechdef_summoner_SMN-C",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -815,7 +815,7 @@
                         "customUnitName" : "MechWarrior Janocha",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_loki_hellbringer-PRIME",
+                        "unitDefId" : "mechdef_hellbringer_HBR-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -848,7 +848,7 @@
                         "customUnitName" : "MechWarrior Stowe",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_dragonfly_viper-C",
+                        "unitDefId" : "mechdef_viper_VPR-C",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1066,7 +1066,7 @@
                         "customUnitName" : "Star Captain Sharon Oberg",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_masakari_warhawk-PRIME",
+                        "unitDefId" : "mechdef_warhawk_WHK-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"

@@ -59,7 +59,7 @@
         -1,
         -1
     ],
-    "mapMood" : "",
+    "mapMood" : "UrbanAfternoon",
     "startingFogOfWarVisibility" : "Surveyed",
     "contractObjectiveList" : [
         {
@@ -3551,7 +3551,7 @@
                         "customUnitName" : "Major Albert Hartage",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_battlemaster_BLR-3S",
+                        "unitDefId" : "mechdef_battlemaster_BLR-3M",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3620,7 +3620,7 @@
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName" : "TargetTeam",
-        "faction" : "JadeFalcon",
+        "faction" : "ClanJadeFalcon",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {
@@ -3660,7 +3660,7 @@
                         "customUnitName" : "Star Colonel T'daal",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_masakari_warhawk-PRIME",
+                        "unitDefId" : "mechdef_warhawk_WHK-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3693,7 +3693,7 @@
                         "customUnitName" : "MechWarrior Chovan",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_thor_summoner-PRIME",
+                        "unitDefId" : "mechdef_summoner_SMN-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3726,7 +3726,7 @@
                         "customUnitName" : "MechWarrior Masci",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_manowar_gargoyle-PRIME",
+                        "unitDefId" : "mechdef_gargoyle_GAR-PRIME",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3759,7 +3759,7 @@
                         "customUnitName" : "MechWarrior Ross",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_mad_cat_timber_wolf-PRIME",
+                        "unitDefId" : "mechdef_timber_wolf_TW-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3822,7 +3822,7 @@
                         "customUnitName" : "Star Captain Dancia",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_loki_hellbringer-PRIME",
+                        "unitDefId" : "mechdef_hellbringer_HBR-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3855,7 +3855,7 @@
                         "customUnitName" : "MechWarrior Isolde",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_uller_kit_fox-A",
+                        "unitDefId" : "mechdef_kit_fox_KF-A",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3888,7 +3888,7 @@
                         "customUnitName" : "MechWarrior Aiken",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_puma_adder-PRIME",
+                        "unitDefId" : "mechdef_adder_ADR-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -3921,7 +3921,7 @@
                         "customUnitName" : "MechWarrior Farrall",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_uller_kit_fox-D",
+                        "unitDefId" : "mechdef_kit_fox_KF-D",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -4806,7 +4806,7 @@
                         "customUnitName" : "Star Captain Cameron Pryde",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_thor_summoner-PRIME",
+                        "unitDefId" : "mechdef_summoner_SMN-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -4839,7 +4839,7 @@
                         "customUnitName" : "MechWarrior Hayden",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_loki_hellbringer-PRIME",
+                        "unitDefId" : "mechdef_hellbringer_HBR-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -4872,7 +4872,7 @@
                         "customUnitName" : "MechWarrior Dillan",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_vulture_mad_dog-PRIME",
+                        "unitDefId" : "mechdef_mad_dog_MDD-Prime",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -4905,7 +4905,7 @@
                         "customUnitName" : "MechWarrior Carmen",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_vulture_mad_dog-A",
+                        "unitDefId" : "mechdef_mad_dog_MDD-A",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -5650,7 +5650,7 @@
                         "customUnitName" : "Lieutenant Hassan Ali Khaled",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_warhammer_GDL2_WHM-6R",
+                        "unitDefId" : "mechdef_warhammer_WHM-6R",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -5683,7 +5683,7 @@
                         "customUnitName" : "Sergeant Rachel Nolans",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_catapult_GDL_CPLT-C4C",
+                        "unitDefId" : "mechdef_catapult_CPLT-C4C",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -5716,7 +5716,7 @@
                         "customUnitName" : "Paul Hansen",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_archer_GDL_ARC-4M",
+                        "unitDefId" : "mechdef_archer_ARC-4M",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -5749,7 +5749,7 @@
                         "customUnitName" : "Dimitri Oretsov",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_enforcer_GDL_ENF-5D",
+                        "unitDefId" : "mechdef_enforcer_ENF-5D",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
