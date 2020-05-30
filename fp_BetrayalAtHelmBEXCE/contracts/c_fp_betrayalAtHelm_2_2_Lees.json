@@ -1,8 +1,8 @@
 {
     "ID" : "c_fp_betrayalAtHelm_2_2_Lees",
     "contractName" : "Lee's Pass",
-    "contractDisplayStyle" : "BaseFlashpoints",
-    "difficulty" : 8,
+    "contractDisplayStyle" : "BaseFlashpoint",
+    "difficulty" : 6,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "MID_CAMPAIGN",
@@ -48,7 +48,7 @@
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
     "lanceMinTonnage" : -1,
-    "lanceMaxTonnage" : 295,
+    "lanceMaxTonnage" : 265,
     "mechMinTonnages" : [
         -1,
         -1,
@@ -61,7 +61,7 @@
         -1,
         -1
     ],
-    "mapMood" : null,
+    "mapMood" : "ArcticDayFrozen",
     "startingFogOfWarVisibility" : "Surveyed",
     "contractObjectiveList" : [
         {
@@ -203,7 +203,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "All enemies are destroyed. Now we need to get back to base to reinforce Gray Death Legion in the battle against the rest of the Marik force",
+                    "words" : "All enemies are destroyed. Now we need to get back to base to reinforce Gray Death Legion in the battle against the rest of the Marik forces.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,

@@ -1,8 +1,8 @@
 {
     "ID" : "c_fp_betrayalAtHelm_2_1_Drango",
     "contractName" : "Drango Pass",
-    "contractDisplayStyle" : "BaseFlashpoints",
-    "difficulty" : 8,
+    "contractDisplayStyle" : "BaseFlashpoint",
+    "difficulty" : 6,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "MID_CAMPAIGN",
@@ -48,7 +48,7 @@
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
     "lanceMinTonnage" : -1,
-    "lanceMaxTonnage" : 295,
+    "lanceMaxTonnage" : 265,
     "mechMinTonnages" : [
         -1,
         -1,
@@ -61,7 +61,7 @@
         -1,
         -1
     ],
-    "mapMood" : null,
+    "mapMood" : "ArcticDayFrozen",
     "startingFogOfWarVisibility" : "Surveyed",
     "contractObjectiveList" : [
         {
@@ -203,7 +203,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "All enemies are destroyed. Now we need to get back to base to reinforce Gray Death Legion in the battle against the rest of the Marik force",
+                    "words" : "All enemies are destroyed. Now we need to get back to base to reinforce Gray Death Legion in the battle against the rest of the Marik forces.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -527,7 +527,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_recon",
+                        "pilotDefId" : "pilot_d5_tactician",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -560,7 +560,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_skirmisher",
+                        "pilotDefId" : "pilot_d5_pilot",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -593,7 +593,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -626,7 +626,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_lancer",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -686,7 +686,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_recon",
+                        "pilotDefId" : "pilot_d5_tactician",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -719,7 +719,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_skirmisher",
+                        "pilotDefId" : "pilot_d5_pilot",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -752,7 +752,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_flanker",
+                        "pilotDefId" : "pilot_d5_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -785,7 +785,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d7_lancer",
+                        "pilotDefId" : "pilot_d6_gunner",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

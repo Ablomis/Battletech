@@ -180,7 +180,7 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
-                                "83f06b85d-3249-4476-a718-82c70fae91b6",
+                                "3f06b85d-3249-4476-a718-82c70fae91b6",
                                 "c_fp_betrayalAtHelm_Decoy",
                                 "GrayDeathLegion",
                                 "Marik",
@@ -247,7 +247,7 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c4275b5c4665d3f071d1a17",
+                            "value" : "9ca8b81c286bb63d25a660d4",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name} II",
@@ -438,11 +438,11 @@
                             "valueConstant" : null,
                             "additionalValues" : [
                                 "",
-                                "83584f7b-4be9-4d5b-b42d-2328369cda1f",
+                                "fef9f4bc-fcfd-435a-8a80-00b04628d8c7",
                                 "c_fp_betrayalAtHelm_2_1_Drango",
                                 "GrayDeathLegion",
                                 "Marik",
-                                "8",
+                                "6",
                                 "ms_fp_betrayalAtHelm_101_Mission_3_1",
                                 null,
                                 null,
@@ -497,15 +497,15 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : null,
+                            "value" : "mapGeneral_icyOutpost_iGlc",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                null,
-                                null,
-                                null,
-                                null,
-                                null,
+                                "66be2468-e822-49b9-b0d9-4410e5f262ec",
+                                "c_fp_betrayalAtHelm_3_1",
+                                "GrayDeathLegion",
+                                "Marik",
+                                "8",
                                 "ms_fp_betrayalAtHelm_102_FinalTalk",
                                 null,
                                 null,
@@ -560,10 +560,10 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c789137e162a771a012eccc",
+                            "value" : "9cd2cefd9ec250638c16ea35",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "{TGT_FLASHPOINT.Def.Description.Name} IV",
+                                "{TGT_FLASHPOINT.Def.Description.Name} III",
                                 "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
@@ -676,7 +676,7 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "1000000",
+                            "value" : "3000000",
                             "set" : false,
                             "valueConstant" : null
                         },

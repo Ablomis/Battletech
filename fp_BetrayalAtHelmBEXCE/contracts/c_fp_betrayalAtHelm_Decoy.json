@@ -2,7 +2,7 @@
     "ID" : "c_fp_betrayalAtHelm_Decoy",
     "contractName" : "Decoy",
     "contractDisplayStyle" : "BaseFlashpoint",
-    "difficulty" : 5,
+    "difficulty" : 6,
     "difficultyUIModifier" : 0,
     "weight" : 1,
     "scope" : "MID_CAMPAIGN",
@@ -13,7 +13,7 @@
     "goodFaithStatementOverride" : null,
     "shortDescription" : "You will have to decoy Marik forces to clear the path for Gray Death Legion forces on their way to the Star League cache. To do this, you will engage two lances of the House Marik's 5th Light Battlemech Guards of the Hammerstrike Company. The objective is to eliminate the Recon Lance and the Fire Lance.",
     "longDescription" : "Commander, try to take as little damage in this fight as possible.",
-    "salvagePotential" : 12,
+    "salvagePotential" : 16,
     "requirementList" : [
         {
             "Scope" : "StarSystem",
@@ -40,7 +40,7 @@
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
     "lanceMinTonnage" : -1,
-    "lanceMaxTonnage" : 295,
+    "lanceMaxTonnage" : 265,
     "mechMinTonnages" : [
         -1,
         -1,
