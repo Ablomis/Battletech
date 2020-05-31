@@ -3,7 +3,7 @@
         "Id" : "fp_betrayalAtHelm",
         "Name" : "Betrayal At Helm",
         "Details" : "The journey with Grey Death Legion",
-        "Icon" : "falconsFury_titlecard.png"
+        "Icon" : "betrayalAtHelm_titlecard.png"
     },
     "Weight" : 50,
     "InternalName" : "betrayalAtHelm",

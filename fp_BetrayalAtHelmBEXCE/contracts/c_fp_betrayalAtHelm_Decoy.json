@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "You will have to decoy Marik forces to clear the path for Gray Death Legion forces on their way to the Star League cache. To do this, you will engage two lances of the House Marik's 5th Light Battlemech Guards of the Hammerstrike Company. The objective is to eliminate the Recon Lance and the Fire Lance.",
+    "shortDescription" : "You will have to decoy Marik forces to clear the path for Gray Death Legion on their way to the Star League cache. To do this, you will engage two lances of the House Marik's 5th Light Battlemech Guards of the Hammerstrike Company. The objective is to eliminate the Recon Lance and the Fire Lance.",
     "longDescription" : "Commander, try to take as little damage in this fight as possible.",
     "salvagePotential" : 16,
     "requirementList" : [
@@ -40,7 +40,7 @@
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
     "lanceMinTonnage" : -1,
-    "lanceMaxTonnage" : 265,
+    "lanceMaxTonnage" : 295,
     "mechMinTonnages" : [
         -1,
         -1,
@@ -545,7 +545,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_tactician",
+                        "pilotDefId" : "pilot_d6_tactician",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -578,7 +578,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_tactician",
+                        "pilotDefId" : "pilot_d6_tactician",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -611,7 +611,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_pilot",
+                        "pilotDefId" : "pilot_d6_pilot",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -644,7 +644,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d6_gunner",
+                        "pilotDefId" : "pilot_d7_flanker",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -737,7 +737,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_pilot",
+                        "pilotDefId" : "pilot_d6_pilot",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -770,7 +770,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_pilot",
+                        "pilotDefId" : "pilot_d6_pilot",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -803,7 +803,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d5_tactician",
+                        "pilotDefId" : "pilot_d6_tactician",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
