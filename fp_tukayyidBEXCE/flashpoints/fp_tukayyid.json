@@ -1,21 +1,19 @@
 {
     "Description" : {
-        "Id" : "fp_betrayalAtHelm",
-        "Name" : "Betrayal At Helm",
-        "Details" : "The journey with Grey Death Legion",
+        "Id" : "fp_tukayyid",
+        "Name" : "Tukayyid",
+        "Details" : "The battle for Tukayyid",
         "Icon" : "betrayalAtHelm_titlecard.png"
     },
     "Weight" : 50,
-    "InternalName" : "betrayalAtHelm",
+    "InternalName" : "tukayyid",
     "PublishState" : "PUBLISHED",
     "Difficulty" : 10,
     "Requirements" : [
         {
             "Scope" : "Company",
             "RequirementTags" : {
-                "items" : [
-                    "fp_finished_birthOfALegend"
-                ],
+                "items" : [],
                 "tagSetSourceFile" : "Tags/CompanyTags"
             },
             "ExclusionTags" : {
@@ -29,34 +27,34 @@
         "Scope" : "StarSystem",
         "RequirementTags" : {
             "items" : [
-                "planet_name_helm"
+                "planet_name_tukayyid"
             ],
             "tagSetSourceFile" : "Tags/PlanetNameTags"
         },
         "ExclusionTags" : {
             "items" : [
-                "fp_finished_betrayalAtHelm"
+                "fp_finished_tukayyid"
             ],
             "tagSetSourceFile" : ""
         },
         "RequirementComparisons" : []
     },
     "PotentialEmployers" : [
-        "GrayDeathLegion"
+        "ComStar"
     ],
     "TargetFaction" : "Unknown",
     "AllowRefitTime" : false,
-    "FlashpointLength" : "LONG",
+    "FlashpointLength" : "CAMPAIGN",
     "Repeatable" : false,
-    "MilestoneSetID" : "ms_fp_betrayalAtHelm",
+    "MilestoneSetID" : "ms_fp_tukayyid",
     "UseAvailableTimeoutOverride" : false,
     "AvailableTimeout" : 0,
     "UseInProgressTimeoutOverride" : false,
     "InProgressTimeout" : 0,
     "RewardCollectionID" : "itemCollection_loot_Weapon_SLDF",
     "UnitDropTonnageHint" : "None",
-    "LanceDropTonnageHint" : "None",
-    "FlashpointShortDescription" : "Gray Death Legion is currently located at Helm. It looks like Grayson is onto something important, but he wouldn't tell me and wanted to speak with you personally.",
+    "LanceDropTonnageHint" : "Heavy",
+    "FlashpointShortDescription" : "ComStar has offered us to participate in a proxy battle against Clans for the control of Terra. The outcome of this battle will decide the future of the Inner Sphere.",
     "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
     "Tags" : {
         "items" : [],
