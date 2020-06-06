@@ -44,10 +44,10 @@
         }
     ],
     "OnContractSuccessResults" : [
-         {
-                "Scope" : "Company",
-                "Requirements" : null,
-                "AddedTags" : {
+                    {
+                    "Scope" : "Company",
+                    "Requirements" : null,
+                    "AddedTags" : {
                         "items" : [],
                         "tagSetSourceFile" : ""
                     },
@@ -62,7 +62,13 @@
                             "value" : "1",
                             "set" : false,
                             "valueConstant" : null
-         }
+                        }
+                    ],
+                    "Actions" : [],
+                    "ForceEvents" : [],
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
     ],
     "OnContractFailureResults" : [],
     "encounterPlayStyle" : "SinglePlayer",
