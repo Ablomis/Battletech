@@ -11,9 +11,9 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Khan Sarah Weaver's Jaguars have dropped in the delta of Racice river, and they are planning to move swiftly towards the campaign for Port Racice. ComStar forces are planning to leverage the terrain to ambush them.",
+    "shortDescription" : "Khan Sarah Weaver's Jaguars have dropped in the delta of Racice river, and they are planning to move swiftly towards the Port Racice. ComStar forces are planning to leverage the terrain to ambush them.",
     "longDescription" : "Commander, this is a great chance to stop Jaguar forces from advancing towards their target city.",
-    "salvagePotential" : 16,
+    "salvagePotential" : 20,
     "requirementList" : [
         {
             "Scope" : "StarSystem",
@@ -43,7 +43,27 @@
             ]
         }
     ],
-    "OnContractSuccessResults" : [],
+    "OnContractSuccessResults" : [
+         {
+                "Scope" : "Company",
+                "Requirements" : null,
+                "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : [
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CSJ_score",
+                            "value" : "1",
+                            "set" : false,
+                            "valueConstant" : null
+         }
+    ],
     "OnContractFailureResults" : [],
     "encounterPlayStyle" : "SinglePlayer",
     "maxNumberOfPlayerUnits" : 4,
@@ -146,7 +166,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "We're approaching the enemy drop site, Commander. Eyes peeled.",
+                    "words" : "We're on our designated positions, Commander. Eyes peeled.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -178,7 +198,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Don't take this lightly. They know we're coming. Oliveira out.",
+                    "words" : "Good luck, Commander. Oliveira out.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -283,8 +303,8 @@
     "useTravelCostPenalty" : false,
     "usesExpiration" : false,
     "expirationTimeOverride" : -1,
-    "negotiatedSalary" : 1,
-    "negotiatedSalvage" : 0,
+    "negotiatedSalary" : 0,
+    "negotiatedSalvage" : 1,
     "excludedFromProceduralGeneration" : true,
     "player1Team" : {
         "encounterLayerData" : {

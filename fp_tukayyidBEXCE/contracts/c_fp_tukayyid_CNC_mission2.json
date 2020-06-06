@@ -1,6 +1,6 @@
 {
-    "ID" : "c_fp_tukayyid_CSJ_mission1",
-    "contractName" : "Rain of Fire",
+    "ID" : "c_fp_tukayyid_CNC_mission2",
+    "contractName" : "Ambush From The Depth",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 8,
     "difficultyUIModifier" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Clan Smoke Jaguar has just landed on the Tukayyid near Diju Mountain. Sixth Jaguar Dragoons will try to get past the 50th Division (Uncluttered Speech) of Com Guards on their way to Dinju Heights.",
-    "longDescription" : "Commander, Com Guards need help, they won't stand a chance against Jaguar forces.",
+    "shortDescription" : "Clan Nova Cat are expected to engage ComStar forces at Losiije Lake. The regular 244th Division (Peace Through Words) and the green 467th Division (the Whirlwinds) need our support against a more experienced enemy.",
+    "longDescription" : "Commander, be careful as we don't have intelligence on Nova Cats positions.",
     "salvagePotential" : 20,
     "requirementList" : [
         {
@@ -58,7 +58,7 @@
                     "Stats" : [
                         {
                             "typeString" : "System.Single",
-                            "name" : "fp_tukayyid_CSJ_score",
+                            "name" : "fp_tukayyid_CNC_score",
                             "value" : "1",
                             "set" : false,
                             "valueConstant" : null
@@ -505,7 +505,7 @@
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName" : "Target",
-        "faction" : "SmokeJaguar",
+        "faction" : "NovaCat",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {
