@@ -762,7 +762,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_2400_CNC_Mission1",
+                            "value" : "ms_fp_tukayyid_4500_CNC_Mission1",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1072,7 +1072,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_1600_CNC_Mission2",
+                            "value" : "ms_fp_tukayyid_3700_CNC_Mission2",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1109,7 +1109,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_700_CSJ_Scoring",
+                            "value" : "ms_fp_tukayyid_700_D5_CSJ_Scoring",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1170,10 +1170,10 @@
                                 "ComStar",
                                 "SmokeJaguar",
                                 "8",
-                                "ms_fp_tukayyid_700_CSJ_Scoring",
+                                "ms_fp_tukayyid_700_D5_CSJ_Scoring",
                                 null,
                                 null,
-                                "ms_fp_tukayyid_700_CSJ_Scoring",
+                                "ms_fp_tukayyid_700_D5_CSJ_Scoring",
                                 null,
                                 null
                             ]
@@ -1220,10 +1220,10 @@
                                 "ComStar",
                                 "SmokeJaguar",
                                 "8",
-                                "ms_fp_tukayyid_700_CSJ_Scoring",
+                                "ms_fp_tukayyid_700_D5_CSJ_Scoring",
                                 null,
                                 null,
-                                "ms_fp_tukayyid_700_CSJ_Scoring",
+                                "ms_fp_tukayyid_700_D5_CSJ_Scoring",
                                 null,
                                 null
                             ]
@@ -1248,8 +1248,8 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_700_CSJ_Scoring",
-                "Name" : "CSJ_Scoring",
+                "Id" : "ms_fp_tukayyid_700_D5_CSJ_Scoring",
+                "Name" : "D5_CSJ_Scoring",
                 "Details" : "check score for Clan Smoke Jaguar campaign.",
                 "Icon" : null
             },
@@ -1291,7 +1291,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_800_D5_Dialog",
+                            "value" : "ms_fp_tukayyid_800_D5_dialog",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1335,7 +1335,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_800_D5_Dialog",
+                            "value" : "ms_fp_tukayyid_800_D5_dialog",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1351,8 +1351,8 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_800_D5_Dialog",
-                "Name" : "D5_Dialog",
+                "Id" : "ms_fp_tukayyid_800_D5_dialog",
+                "Name" : "D5_dialog",
                 "Details" : "Dialog d5",
                 "Icon" : null
             },
@@ -1398,7 +1398,7 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : null,
+                            "value" : "ms_fp_tukayyid_900_D5_breakpoint",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1446,6 +1446,705 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_900_D5_breakpoint",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_900_D5_breakpoint",
+                "Name" : "D5_breakpoint",
+                "Details" : "breakpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d5_CNC_mission3"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_1000_CNC_mission3",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d5_CGB_mission1"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_2600_CGB_mission1",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_1000_CNC_mission3",
+                "Name" : "CNC_mission3",
+                "Details" : "CNC mission3",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [
+                                "fp_tukayyid_d4_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : "mapGeneral_rollingHillsLakeA_vLow",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "0dd4d92d-9fb6-4ed6-b8b5-37b40cfcc1fb",
+                                "c_fp_tukayyid_CNC_mission3",
+                                "ComStar",
+                                "NovaCat",
+                                "8",
+                                "ms_fp_tukayyid_1100_D6_CNC_scoring",
+                                null,
+                                null,
+                                "ms_fp_tukayyid_1100_D6_CNC_scoring",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d4_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapGeneral_rollingHillsLakeA_vLow",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "0dd4d92d-9fb6-4ed6-b8b5-37b40cfcc1fb",
+                                "c_fp_tukayyid_CNC_mission3",
+                                "ComStar",
+                                "NovaCat",
+                                "8",
+                                "ms_fp_tukayyid_1100_D6_CNC_scoring",
+                                null,
+                                null,
+                                "ms_fp_tukayyid_1100_D6_CNC_scoring",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_1100_D6_CNC_scoring",
+                "Name" : "D6_CNC_scoring",
+                "Details" : "Scoring for CNC",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : [
+                            {
+                                "obj" : "fp_tukayyid_CNC_score",
+                                "op" : "GreaterThan",
+                                "val" : 1,
+                                "valueConstant" : "1"
+                            }
+                        ]
+                    },
+                    "AddedTags" : {
+                        "items" : [
+                            "fp_tukayyid_cnc_win"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_1200_D6_dialog",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : [
+                            {
+                                "obj" : "fp_tukayyid_CNC_score",
+                                "op" : "LessThanOrEqual",
+                                "val" : 1,
+                                "valueConstant" : "1"
+                            }
+                        ]
+                    },
+                    "AddedTags" : {
+                        "items" : [
+                            "fp_tukayyid_cnc_loss"
+                        ],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_1200_D6_dialog",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_1200_D6_dialog",
+                "Name" : "D6_dialog",
+                "Details" : "Dialog",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_cnc_win"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "9c20fb2e96c1cecc1e7fc7de",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name} FIELD HQ",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_1300_D6_breakpoint",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_cnc_loss"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "9c26c17aa67189057dc9947e",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name} FIELD HQ",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_1300_D6_breakpoint",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_1300_D6_breakpoint",
+                "Name" : "D6_breakpoint",
+                "Details" : "breakpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d6_CGB_mission2"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_1400_CGB_mission2",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d6_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_5704_D7_dialogue",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_1400_CGB_mission2",
+                "Name" : "CGB_mission2",
+                "Details" : "CGB mission 2",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [
+                                "fp_tukayyid_d5_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : "mapGeneral_theMound_vHigh",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "0b33066e-e32c-4624-a578-667ee966b0de",
+                                "c_fp_tukayyid_CGB_mission2",
+                                "ComStar",
+                                "GhostBear",
+                                "8",
+                                "ms_fp_tukayyid_1500_D7_dialogue",
+                                null,
+                                null,
+                                "ms_fp_tukayyid_1500_D7_dialogue",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d5_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapGeneral_theMound_vHigh",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "0b33066e-e32c-4624-a578-667ee966b0de",
+                                "c_fp_tukayyid_CGB_mission2",
+                                "ComStar",
+                                "GhostBear",
+                                "8",
+                                "ms_fp_tukayyid_1500_D7_dialogue",
+                                null,
+                                null,
+                                "ms_fp_tukayyid_1500_D7_dialogue",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_1500_D7_dialogue",
+                "Name" : "D7_dialogue",
+                "Details" : "dilalogue",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : "9c3b08314ada00724933d7a0",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                "{TGT_FLASHPOINT.Def.Description.Name} FIELD HQ",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
                             "value" : null,
                             "valueConstant" : null,
                             "additionalValues" : null
@@ -1462,7 +2161,130 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_1600_CNC_Mission2",
+                "Id" : "ms_fp_tukayyid_2600_CGB_mission1",
+                "Name" : "CGB_mission1",
+                "Details" : "CGB mission1",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [
+                                "fp_tukayyid_d4_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : "mapGeneral_theMound_vHigh",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "be729781-6084-4c4c-8629-6f752d77ff60",
+                                "c_fp_tukayyid_CGB_mission1",
+                                "ComStar",
+                                "GhostBear",
+                                "8",
+                                "ms_fp_tukayyid_4504_D6_CNC_scoring",
+                                null,
+                                null,
+                                "ms_fp_tukayyid_4504_D6_CNC_scoring",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d4_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapGeneral_theMound_vHigh",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "be729781-6084-4c4c-8629-6f752d77ff60",
+                                "c_fp_tukayyid_CGB_mission1",
+                                "ComStar",
+                                "GhostBear",
+                                "8",
+                                "ms_fp_tukayyid_4504_D6_CNC_scoring",
+                                null,
+                                null,
+                                "ms_fp_tukayyid_4504_D6_CNC_scoring",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_3700_CNC_Mission2",
                 "Name" : "CNC_Mission2",
                 "Details" : "CNC mission 2",
                 "Icon" : null
@@ -1498,19 +2320,19 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "mapGeneral_rollingHillsLakeA_vLow",
+                            "value" : "mapGeneral_theMound_vHigh",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "0dd4d92d-9fb6-4ed6-b8b5-37b40cfcc1fb",
+                                "0b33066e-e32c-4624-a578-667ee966b0de",
                                 "c_fp_tukayyid_CNC_mission2",
                                 "ComStar",
                                 "NovaCat",
                                 "8",
-                                "ms_fp_tukayyid_700_CSJ_Scoring",
+                                "ms_fp_tukayyid_700_D5_CSJ_Scoring",
                                 null,
                                 null,
-                                "ms_fp_tukayyid_700_CSJ_Scoring",
+                                "ms_fp_tukayyid_700_D5_CSJ_Scoring",
                                 null,
                                 null
                             ]
@@ -1548,19 +2370,19 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_rollingHillsLakeA_vLow",
+                            "value" : "mapGeneral_theMound_vHigh",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "0dd4d92d-9fb6-4ed6-b8b5-37b40cfcc1fb",
+                                "0b33066e-e32c-4624-a578-667ee966b0de",
                                 "c_fp_tukayyid_CNC_mission2",
                                 "ComStar",
                                 "NovaCat",
                                 "8",
-                                "ms_fp_tukayyid_700_CSJ_Scoring",
+                                "ms_fp_tukayyid_700_D5_CSJ_Scoring",
                                 null,
                                 null,
-                                "ms_fp_tukayyid_700_CSJ_Scoring",
+                                "ms_fp_tukayyid_700_D5_CSJ_Scoring",
                                 null,
                                 null
                             ]
@@ -1585,7 +2407,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_2400_CNC_Mission1",
+                "Id" : "ms_fp_tukayyid_4500_CNC_Mission1",
                 "Name" : "CNC_Mission1",
                 "Details" : "CNC mission 1",
                 "Icon" : null
@@ -1708,7 +2530,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_3600_FinalTalk",
+                "Id" : "ms_fp_tukayyid_5700_FinalTalk",
                 "Name" : "FinalTalk",
                 "Details" : "Final talk after last mission",
                 "Icon" : null
@@ -1753,7 +2575,7 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_3601_Complete",
+                            "value" : "ms_fp_tukayyid_5701_Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1769,7 +2591,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_3601_Complete",
+                "Id" : "ms_fp_tukayyid_5701_Complete",
                 "Name" : "Complete",
                 "Details" : "Flahpoint completed",
                 "Icon" : null
@@ -1805,7 +2627,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_tukayyid_3602_Reward",
+                            "value" : "ms_fp_tukayyid_5702_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
@@ -1824,7 +2646,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_3602_Reward",
+                "Id" : "ms_fp_tukayyid_5702_Reward",
                 "Name" : "Reward",
                 "Details" : "Reward milestone",
                 "Icon" : null
@@ -1891,7 +2713,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_3603_CancelComplete",
+                "Id" : "ms_fp_tukayyid_5703_CancelComplete",
                 "Name" : "CancelComplete",
                 "Details" : "Cancel",
                 "Icon" : null
