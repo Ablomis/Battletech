@@ -58,7 +58,7 @@
                     "Stats" : [
                         {
                             "typeString" : "System.Single",
-                            "name" : "fp_tukayyid_CNC_score",
+                            "name" : "fp_tukayyid_CGB_score",
                             "value" : "1",
                             "set" : false,
                             "valueConstant" : null

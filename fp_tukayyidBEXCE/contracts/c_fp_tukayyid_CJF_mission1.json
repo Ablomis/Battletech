@@ -1,6 +1,6 @@
 {
-    "ID" : "c_fp_tukayyid_CGB_mission2",
-    "contractName" : "A Forest Inferno",
+    "ID" : "c_fp_tukayyid_CJF_mission1",
+    "contractName" : "Hit And Run",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 8,
     "difficultyUIModifier" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Com Guards are planning to eliminate the rest of the Clan Ghost Bear's forces targeting Luk city. They have set the forest on fire to guide the Bears towards their position.",
-    "longDescription" : "Commander, the enemy has been running from the fire for several hours, so they should be exhausted, and we should leverage this.",
+    "shortDescription" : "Clan Jade Falcons have just landed on Tukayyid and are marching through the Prenzo plain towards their objective city. ComStar wants to deal as much damage as possible with hit and run tactics before they reach the Plough Bridge.",
+    "longDescription" : "Commander, eliminate the targets and escape as quickly as possible.",
     "salvagePotential" : 20,
     "requirementList" : [
         {
@@ -58,14 +58,7 @@
                     "Stats" : [
                         {
                             "typeString" : "System.Single",
-                            "name" : "fp_tukayyid_CGB_score",
-                            "value" : "1",
-                            "set" : false,
-                            "valueConstant" : null
-                        },
-			{
-                            "typeString" : "System.Single",
-                            "name" : "fp_tukayyid_global_score",
+                            "name" : "fp_tukayyid_CJF_score",
                             "value" : "1",
                             "set" : false,
                             "valueConstant" : null
@@ -145,7 +138,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "181d617b-02bc-4fd3-be25-d6d5cffb78de"
             },
-            "enableChunkFromContract" : true,
+            "enableChunkFromContract" : false,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         }
@@ -512,7 +505,7 @@
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName" : "Target",
-        "faction" : "GhostBear",
+        "faction" : "JadeFalcon",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {
