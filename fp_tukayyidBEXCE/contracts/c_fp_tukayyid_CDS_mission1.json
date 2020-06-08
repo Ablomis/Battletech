@@ -1,6 +1,6 @@
 {
-    "ID" : "c_fp_tukayyid_CJF_mission2",
-    "contractName" : "Robyn's Crossing",
+    "ID" : "c_fp_tukayyid_CDS_mission1",
+    "contractName" : "Head To Head",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 8,
     "difficultyUIModifier" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Falcons are planning to cross the Prenzo River near Robyn's Crossing on their way towards their objective city. It is a perfect place for us to attack them.",
-    "longDescription" : "Commander, the more Falcons we destroy here, the better off we will be in future operations.",
+    "shortDescription" : "Sharks have landed and are planning to march through the Kozice Valley towards their objective city - Kozice Prime. ComStar believes the valley is the right place for an ambush.",
+    "longDescription" : "Commander, we will be fighting elite Sharks' forces, be careful.",
     "salvagePotential" : 20,
     "requirementList" : [
         {
@@ -58,7 +58,7 @@
                     "Stats" : [
                         {
                             "typeString" : "System.Single",
-                            "name" : "fp_tukayyid_CJF_score",
+                            "name" : "fp_tukayyid_CDS_score",
                             "value" : "1",
                             "set" : false,
                             "valueConstant" : null
@@ -138,7 +138,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "181d617b-02bc-4fd3-be25-d6d5cffb78de"
             },
-            "enableChunkFromContract" : false,
+            "enableChunkFromContract" : true,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         }

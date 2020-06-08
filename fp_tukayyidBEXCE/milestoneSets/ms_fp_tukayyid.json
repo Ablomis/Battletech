@@ -3096,15 +3096,15 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : null,
+                            "value" : "mapGeneral_gridLock_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                null,
-                                null,
-                                null,
-                                null,
-                                null,
+                                "43841d78-330c-4653-9568-c00b5112d1e8",
+                                "c_fp_tukayyid_CJF_mission3",
+                                "ComStar",
+                                "JadeFalcon",
+                                "8",
                                 null,
                                 null,
                                 null,
@@ -3146,15 +3146,15 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : null,
+                            "value" : "mapGeneral_gridLock_uTech",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                null,
-                                null,
-                                null,
-                                null,
-                                null,
+                                "43841d78-330c-4653-9568-c00b5112d1e8",
+                                "c_fp_tukayyid_CJF_mission3",
+                                "ComStar",
+                                "JadeFalcon",
+                                "8",
                                 null,
                                 null,
                                 null,
@@ -3219,15 +3219,15 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : null,
+                            "value" : "mapGeneral_rockyMesas_aDes",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                null,
-                                null,
-                                null,
-                                null,
-                                null,
+                                "f8f7c144-c87a-4f12-ac8b-bfc7a618db5f",
+                                "c_fp_tukayyid_CDS_mission1",
+                                "ComStar",
+                                "DiamondShark",
+                                "8",
                                 null,
                                 null,
                                 null,
@@ -3269,15 +3269,15 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : null,
+                            "value" : "mapGeneral_rockyMesas_aDes",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                null,
-                                null,
-                                null,
-                                null,
-                                null,
+                                "f8f7c144-c87a-4f12-ac8b-bfc7a618db5f",
+                                "c_fp_tukayyid_CDS_mission1",
+                                "ComStar",
+                                "DiamondShark",
+                                "8",
                                 null,
                                 null,
                                 null,
@@ -3287,10 +3287,12 @@
                             ]
                         },
                         {
-                            "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : null,
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
                             "valueConstant" : null,
-                            "additionalValues" : null
+                            "additionalValues" : [
+                                null
+                            ]
                         }
                     ],
                     "ForceEvents" : null,
@@ -3340,11 +3342,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "mapGeneral_riverBend_vLow",
+                            "value" : "mapGeneral_desertDam_aDes",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "ea850357-a6b3-49dc-ac16-d338ceb25500",
+                                "10b48e8a-1050-458c-8217-dddb15caff65",
                                 "c_fp_tukayyid_CJF_mission2",
                                 "ComStar",
                                 "JadeFalcon",
@@ -3390,11 +3392,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_riverBend_vLow",
+                            "value" : "mapGeneral_desertDam_aDes",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "ea850357-a6b3-49dc-ac16-d338ceb25500",
+                                "10b48e8a-1050-458c-8217-dddb15caff65",
                                 "c_fp_tukayyid_CJF_mission2",
                                 "ComStar",
                                 "JadeFalcon",
@@ -3463,11 +3465,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "mapGeneral_escarpmentValley_vLow",
+                            "value" : "mapGeneral_highPlateaus_aDes",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "46b45ff5-3689-491b-b4f2-60623bd230c7",
+                                "34ed21cd-7631-4236-a222-7ef9881a80a2",
                                 "c_fp_tukayyid_CJF_mission1",
                                 "ComStar",
                                 "JadeFalcon",
@@ -3513,11 +3515,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_escarpmentValley_vLow",
+                            "value" : "mapGeneral_highPlateaus_aDes",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "46b45ff5-3689-491b-b4f2-60623bd230c7",
+                                "34ed21cd-7631-4236-a222-7ef9881a80a2",
                                 "c_fp_tukayyid_CJF_mission1",
                                 "ComStar",
                                 "JadeFalcon",

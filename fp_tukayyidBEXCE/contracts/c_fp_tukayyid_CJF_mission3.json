@@ -1,6 +1,6 @@
 {
-    "ID" : "c_fp_tukayyid_CJF_mission2",
-    "contractName" : "Robyn's Crossing",
+    "ID" : "c_fp_tukayyid_CJF_mission3",
+    "contractName" : "City of Death",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 8,
     "difficultyUIModifier" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Falcons are planning to cross the Prenzo River near Robyn's Crossing on their way towards their objective city. It is a perfect place for us to attack them.",
-    "longDescription" : "Commander, the more Falcons we destroy here, the better off we will be in future operations.",
+    "shortDescription" : "Falcons are planning an assault on their objective, Olalla city. ComStar will ambush Jade Falcons as they enter the city.",
+    "longDescription" : "Commander, this is our chance to stop Falcons from achieving their objective.",
     "salvagePotential" : 20,
     "requirementList" : [
         {
@@ -188,7 +188,7 @@
                     "revealRadius" : -1
                 },
                 {
-                    "words" : "Take care moving forward, as we are expecting heavy resistance.",
+                    "words" : "Looks like Jade Falcons have been careful and sent a single star as a recon unit.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
