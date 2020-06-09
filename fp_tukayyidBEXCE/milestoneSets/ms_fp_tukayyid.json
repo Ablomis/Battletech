@@ -762,7 +762,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_8200_CNC_Mission1",
+                            "value" : "ms_fp_tukayyid_8100_CNC_Mission1",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1072,7 +1072,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_7400_CNC_Mission2",
+                            "value" : "ms_fp_tukayyid_7300_CNC_Mission2",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1535,7 +1535,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_6200_CGB_mission1",
+                            "value" : "ms_fp_tukayyid_6100_CGB_mission1",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -2271,7 +2271,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_4600_CJF_mission1",
+                            "value" : "ms_fp_tukayyid_4500_CJF_mission1",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -2581,7 +2581,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_3800_CJF_mission2",
+                            "value" : "ms_fp_tukayyid_3700_CJF_mission2",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -3105,10 +3105,10 @@
                                 "ComStar",
                                 "JadeFalcon",
                                 "8",
+                                "ms_fp_tukayyid_2300_D10_dialog",
                                 null,
                                 null,
-                                null,
-                                null,
+                                "ms_fp_tukayyid_2300_D10_dialog",
                                 null,
                                 null
                             ]
@@ -3155,10 +3155,10 @@
                                 "ComStar",
                                 "JadeFalcon",
                                 "8",
+                                "ms_fp_tukayyid_2300_D10_dialog",
                                 null,
                                 null,
-                                null,
-                                null,
+                                "ms_fp_tukayyid_2300_D10_dialog",
                                 null,
                                 null
                             ]
@@ -3177,6 +3177,81 @@
                     "ResultDuration" : 0
                 }
             ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_2300_D10_dialog",
+                "Name" : "D10_dialog",
+                "Details" : "dialog",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "System_StartConversation",
+                            "value" : null,
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                null,
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_2301_D10_breakpoint",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_2301_D10_breakpoint",
+                "Name" : "D10_breakpoint",
+                "Details" : "breakpoint",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : null,
             "Repeatable" : false,
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
@@ -3228,10 +3303,10 @@
                                 "ComStar",
                                 "DiamondShark",
                                 "8",
+                                "ms_fp_tukayyid_2300_D10_dialog",
                                 null,
                                 null,
-                                null,
-                                null,
+                                "ms_fp_tukayyid_2300_D10_dialog",
                                 null,
                                 null
                             ]
@@ -3278,10 +3353,10 @@
                                 "ComStar",
                                 "DiamondShark",
                                 "8",
+                                "ms_fp_tukayyid_2300_D10_dialog",
                                 null,
                                 null,
-                                null,
-                                null,
+                                "ms_fp_tukayyid_2300_D10_dialog",
                                 null,
                                 null
                             ]
@@ -3306,7 +3381,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_3800_CJF_mission2",
+                "Id" : "ms_fp_tukayyid_3700_CJF_mission2",
                 "Name" : "CJF_mission2",
                 "Details" : "CJF mission 2",
                 "Icon" : null
@@ -3429,7 +3504,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_4600_CJF_mission1",
+                "Id" : "ms_fp_tukayyid_4500_CJF_mission1",
                 "Name" : "CJF_mission1",
                 "Details" : "CJF mission 1",
                 "Icon" : null
@@ -3552,7 +3627,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_6200_CGB_mission1",
+                "Id" : "ms_fp_tukayyid_6100_CGB_mission1",
                 "Name" : "CGB_mission1",
                 "Details" : "CGB mission1",
                 "Icon" : null
@@ -3675,7 +3750,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_7400_CNC_Mission2",
+                "Id" : "ms_fp_tukayyid_7300_CNC_Mission2",
                 "Name" : "CNC_Mission2",
                 "Details" : "CNC mission 2",
                 "Icon" : null
@@ -3798,7 +3873,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_8200_CNC_Mission1",
+                "Id" : "ms_fp_tukayyid_8100_CNC_Mission1",
                 "Name" : "CNC_Mission1",
                 "Details" : "CNC mission 1",
                 "Icon" : null
@@ -3921,7 +3996,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_9400_FinalTalk",
+                "Id" : "ms_fp_tukayyid_9300_FinalTalk",
                 "Name" : "FinalTalk",
                 "Details" : "Final talk after last mission",
                 "Icon" : null
@@ -3966,7 +4041,7 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_9401_Complete",
+                            "value" : "ms_fp_tukayyid_9301_Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -3982,7 +4057,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_9401_Complete",
+                "Id" : "ms_fp_tukayyid_9301_Complete",
                 "Name" : "Complete",
                 "Details" : "Flahpoint completed",
                 "Icon" : null
@@ -4018,7 +4093,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_tukayyid_9402_Reward",
+                            "value" : "ms_fp_tukayyid_9302_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
@@ -4037,7 +4112,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_9402_Reward",
+                "Id" : "ms_fp_tukayyid_9302_Reward",
                 "Name" : "Reward",
                 "Details" : "Reward milestone",
                 "Icon" : null
@@ -4104,7 +4179,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_9403_CancelComplete",
+                "Id" : "ms_fp_tukayyid_9303_CancelComplete",
                 "Name" : "CancelComplete",
                 "Details" : "Cancel",
                 "Icon" : null
