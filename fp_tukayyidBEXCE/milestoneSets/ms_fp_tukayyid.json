@@ -762,7 +762,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_8100_CNC_Mission1",
+                            "value" : "ms_fp_tukayyid_9000_CNC_Mission1",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1072,7 +1072,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_7300_CNC_Mission2",
+                            "value" : "ms_fp_tukayyid_8200_CNC_Mission2",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -1535,7 +1535,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_6100_CGB_mission1",
+                            "value" : "ms_fp_tukayyid_7000_CGB_mission1",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -2271,7 +2271,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_4500_CJF_mission1",
+                            "value" : "ms_fp_tukayyid_5400_CJF_mission1",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -2581,7 +2581,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_3700_CJF_mission2",
+                            "value" : "ms_fp_tukayyid_4600_CJF_mission2",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -3044,7 +3044,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_2600_CDS_mission1",
+                            "value" : "ms_fp_tukayyid_3500_CDS_mission1",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -3251,14 +3251,335 @@
             },
             "Scope" : "Company",
             "Requirements" : [],
-            "Results" : null,
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d10_CJF_mission4"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_2400_CJF_mission4",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d10_CDS_mission2"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_SetNextMilestone",
+                            "value" : "ms_fp_tukayyid_2800_CDS_mission2",
+                            "valueConstant" : null,
+                            "additionalValues" : null
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
             "Repeatable" : false,
             "UseRandomInvocation" : false,
             "InvokeChance" : 0
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_2600_CDS_mission1",
+                "Id" : "ms_fp_tukayyid_2400_CJF_mission4",
+                "Name" : "CJF_mission4",
+                "Details" : "CJF mission 4",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [
+                                "fp_tukayyid_d9_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : null,
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d9_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : null,
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_2800_CDS_mission2",
+                "Name" : "CDS_mission2",
+                "Details" : "CDS mission 2",
+                "Icon" : null
+            },
+            "Scope" : "Company",
+            "Requirements" : [],
+            "Results" : [
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [
+                                "fp_tukayyid_d9_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : null,
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d9_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : null,
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                }
+            ],
+            "Repeatable" : false,
+            "UseRandomInvocation" : false,
+            "InvokeChance" : 0
+        },
+        {
+            "Description" : {
+                "Id" : "ms_fp_tukayyid_3500_CDS_mission1",
                 "Name" : "CDS_mission1",
                 "Details" : "CDS mission 1",
                 "Icon" : null
@@ -3381,7 +3702,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_3700_CJF_mission2",
+                "Id" : "ms_fp_tukayyid_4600_CJF_mission2",
                 "Name" : "CJF_mission2",
                 "Details" : "CJF mission 2",
                 "Icon" : null
@@ -3504,7 +3825,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_4500_CJF_mission1",
+                "Id" : "ms_fp_tukayyid_5400_CJF_mission1",
                 "Name" : "CJF_mission1",
                 "Details" : "CJF mission 1",
                 "Icon" : null
@@ -3627,7 +3948,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_6100_CGB_mission1",
+                "Id" : "ms_fp_tukayyid_7000_CGB_mission1",
                 "Name" : "CGB_mission1",
                 "Details" : "CGB mission1",
                 "Icon" : null
@@ -3750,7 +4071,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_7300_CNC_Mission2",
+                "Id" : "ms_fp_tukayyid_8200_CNC_Mission2",
                 "Name" : "CNC_Mission2",
                 "Details" : "CNC mission 2",
                 "Icon" : null
@@ -3873,7 +4194,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_8100_CNC_Mission1",
+                "Id" : "ms_fp_tukayyid_9000_CNC_Mission1",
                 "Name" : "CNC_Mission1",
                 "Details" : "CNC mission 1",
                 "Icon" : null
@@ -3996,7 +4317,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_9300_FinalTalk",
+                "Id" : "ms_fp_tukayyid_10200_FinalTalk",
                 "Name" : "FinalTalk",
                 "Details" : "Final talk after last mission",
                 "Icon" : null
@@ -4041,7 +4362,7 @@
                         },
                         {
                             "Type" : "Flashpoint_SetNextMilestone",
-                            "value" : "ms_fp_tukayyid_9301_Complete",
+                            "value" : "ms_fp_tukayyid_10201_Complete",
                             "valueConstant" : null,
                             "additionalValues" : null
                         }
@@ -4057,7 +4378,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_9301_Complete",
+                "Id" : "ms_fp_tukayyid_10201_Complete",
                 "Name" : "Complete",
                 "Details" : "Flahpoint completed",
                 "Icon" : null
@@ -4093,7 +4414,7 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
-                            "value" : "ms_fp_tukayyid_9302_Reward",
+                            "value" : "ms_fp_tukayyid_10202_Reward",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
@@ -4112,7 +4433,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_9302_Reward",
+                "Id" : "ms_fp_tukayyid_10202_Reward",
                 "Name" : "Reward",
                 "Details" : "Reward milestone",
                 "Icon" : null
@@ -4179,7 +4500,7 @@
         },
         {
             "Description" : {
-                "Id" : "ms_fp_tukayyid_9303_CancelComplete",
+                "Id" : "ms_fp_tukayyid_10203_CancelComplete",
                 "Name" : "CancelComplete",
                 "Details" : "Cancel",
                 "Icon" : null
