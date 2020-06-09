@@ -3369,11 +3369,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "mapGeneral_desertDam_aDes",
+                            "value" : "mapGeneral_terraceLakes_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "66c9cb00-4221-4fa9-90cc-5af99db7f983",
+                                "fe3b68cc-33f1-4919-b703-0833a853b0fe",
                                 "c_fp_tukayyid_CJF_mission4",
                                 "ComStar",
                                 "JadeFalcon",
@@ -3419,11 +3419,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_desertDam_aDes",
+                            "value" : "mapGeneral_terraceLakes_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "66c9cb00-4221-4fa9-90cc-5af99db7f983",
+                                "fe3b68cc-33f1-4919-b703-0833a853b0fe",
                                 "c_fp_tukayyid_CJF_mission4",
                                 "ComStar",
                                 "JadeFalcon",
@@ -3738,11 +3738,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "mapGeneral_desertDam_aDes",
+                            "value" : "mapGeneral_boggyRocks_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "10b48e8a-1050-458c-8217-dddb15caff65",
+                                "29387698-8daa-4ef1-b51a-9130a50cd9f4",
                                 "c_fp_tukayyid_CJF_mission2",
                                 "ComStar",
                                 "JadeFalcon",
@@ -3788,11 +3788,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_desertDam_aDes",
+                            "value" : "mapGeneral_boggyRocks_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "10b48e8a-1050-458c-8217-dddb15caff65",
+                                "29387698-8daa-4ef1-b51a-9130a50cd9f4",
                                 "c_fp_tukayyid_CJF_mission2",
                                 "ComStar",
                                 "JadeFalcon",
@@ -3861,11 +3861,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_StartContract",
-                            "value" : "mapGeneral_highPlateaus_aDes",
+                            "value" : "mapGeneral_escarpmentValley_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "34ed21cd-7631-4236-a222-7ef9881a80a2",
+                                "cebd51ca-0fb7-4e94-8f87-e8a32f73ed7f",
                                 "c_fp_tukayyid_CJF_mission1",
                                 "ComStar",
                                 "JadeFalcon",
@@ -3911,11 +3911,11 @@
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_AddContract",
-                            "value" : "mapGeneral_highPlateaus_aDes",
+                            "value" : "mapGeneral_escarpmentValley_vLow",
                             "valueConstant" : null,
                             "additionalValues" : [
                                 null,
-                                "34ed21cd-7631-4236-a222-7ef9881a80a2",
+                                "cebd51ca-0fb7-4e94-8f87-e8a32f73ed7f",
                                 "c_fp_tukayyid_CJF_mission1",
                                 "ComStar",
                                 "JadeFalcon",
