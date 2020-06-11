@@ -1,6 +1,6 @@
 {
-    "ID" : "c_fp_tukayyid_CDS_mission3",
-    "contractName" : "In The Net",
+    "ID" : "c_fp_tukayyid_CW_mission1",
+    "contractName" : "First Blood",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 8,
     "difficultyUIModifier" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "ComStar is planning to deal a crippling blow to Diamond Sharks' forces in the Kozice Valley. To do this, they are bringing Com Guards who participated in the campaign against Clan Smoke Jaguar.",
-    "longDescription" : "Commander, this operation will be very important for overall success in the campaign against Diamond Sharks.",
+    "shortDescription" : "Clan Wolf has just landed on Tukayyid and is moving toward their objective city of Skupo. ComStar is planning to ambush them at the Pozoritsu Range.",
+    "longDescription" : "Commander, we will be fighting elite Vipers' forces, be careful.",
     "salvagePotential" : 20,
     "requirementList" : [
         {
@@ -58,7 +58,7 @@
                     "Stats" : [
                         {
                             "typeString" : "System.Single",
-                            "name" : "fp_tukayyid_CDS_score",
+                            "name" : "fp_tukayyid_CW_score",
                             "value" : "1",
                             "set" : false,
                             "valueConstant" : null
@@ -505,7 +505,7 @@
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName" : "Target",
-        "faction" : "JadeFalcon",
+        "faction" : "Wolf",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {

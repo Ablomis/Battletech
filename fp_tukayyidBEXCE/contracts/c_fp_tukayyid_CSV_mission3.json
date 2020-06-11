@@ -1,6 +1,6 @@
 {
-    "ID" : "c_fp_tukayyid_CDS_mission3",
-    "contractName" : "In The Net",
+    "ID" : "c_fp_tukayyid_CSV_mission3",
+    "contractName" : "Fighting Words",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 8,
     "difficultyUIModifier" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "ComStar is planning to deal a crippling blow to Diamond Sharks' forces in the Kozice Valley. To do this, they are bringing Com Guards who participated in the campaign against Clan Smoke Jaguar.",
-    "longDescription" : "Commander, this operation will be very important for overall success in the campaign against Diamond Sharks.",
+    "shortDescription" : "Steel Vipers are trying to break towards their objective city - Kozice Ranch Station. They are throwing all their forces at the ComStar troops in the Devil's Bath.",
+    "longDescription" : "Commander, the outcome of this battle will have a long-lasting impact on our campaign against Vipers.",
     "salvagePotential" : 20,
     "requirementList" : [
         {
@@ -58,7 +58,7 @@
                     "Stats" : [
                         {
                             "typeString" : "System.Single",
-                            "name" : "fp_tukayyid_CDS_score",
+                            "name" : "fp_tukayyid_CSV_score",
                             "value" : "1",
                             "set" : false,
                             "valueConstant" : null
@@ -505,7 +505,7 @@
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName" : "Target",
-        "faction" : "JadeFalcon",
+        "faction" : "SteelViper",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {

@@ -1,6 +1,6 @@
 {
-    "ID" : "c_fp_tukayyid_CDS_mission3",
-    "contractName" : "In The Net",
+    "ID" : "c_fp_tukayyid_CDS_mission4",
+    "contractName" : "Omega Last Stand",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 8,
     "difficultyUIModifier" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "ComStar is planning to deal a crippling blow to Diamond Sharks' forces in the Kozice Valley. To do this, they are bringing Com Guards who participated in the campaign against Clan Smoke Jaguar.",
-    "longDescription" : "Commander, this operation will be very important for overall success in the campaign against Diamond Sharks.",
+    "shortDescription" : "Diamond Sharks has fallen back to their landing zone to withdrawn from Tukayyid. We have a chance to eliminate elements of their Omega galaxy.",
+    "longDescription" : "Commander, this our last push in the campaign against Diamond Sharks.",
     "salvagePotential" : 20,
     "requirementList" : [
         {
