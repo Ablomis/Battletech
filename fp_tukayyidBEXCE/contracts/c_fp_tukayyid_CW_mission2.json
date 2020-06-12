@@ -1,6 +1,6 @@
 {
-    "ID" : "c_fp_tukayyid_CW_mission3",
-    "contractName" : "Battle On The Slopes",
+    "ID" : "c_fp_tukayyid_CW_mission2",
+    "contractName" : "Second Front",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 8,
     "difficultyUIModifier" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Com Guards are planning to do a counter-attack against Clan Wolf in the Pozoristu Mountain. This battle will be critical in our campaign against Wolves.",
-    "longDescription" : "Commander, this is an important battle in our campaign against Clan Wolf.",
+    "shortDescription" : "Clan Wolf is targeting the city of Brzo and has sent Beta Galaxy, including the Thirteenth Wolf Guards. To reach the town, they need to take the Bloody Basin. We should not let it happen.",
+    "longDescription" : "Commander, be careful, this will be a tough fight.",
     "salvagePotential" : 20,
     "requirementList" : [
         {

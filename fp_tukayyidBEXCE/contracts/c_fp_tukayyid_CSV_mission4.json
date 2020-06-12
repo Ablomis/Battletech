@@ -1,6 +1,6 @@
 {
-    "ID" : "c_fp_tukayyid_CW_mission3",
-    "contractName" : "Battle On The Slopes",
+    "ID" : "c_fp_tukayyid_CSV_mission4",
+    "contractName" : "Turning Tail",
     "contractDisplayStyle" : "BaseFlashpoint",
     "difficulty" : 8,
     "difficultyUIModifier" : 0,
@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Com Guards are planning to do a counter-attack against Clan Wolf in the Pozoristu Mountain. This battle will be critical in our campaign against Wolves.",
-    "longDescription" : "Commander, this is an important battle in our campaign against Clan Wolf.",
+    "shortDescription" : "Steel Vipers has fought their way out of Devil's Basin and are moving through the Kozice Valley towards their objective - Kozice Ranch Station. They are exhausted after the previous battles and Com Star thins this is the right opportunity to finish them off.",
+    "longDescription" : "Commander, this is a final push against Steel Vipers.",
     "salvagePotential" : 20,
     "requirementList" : [
         {
@@ -58,7 +58,7 @@
                     "Stats" : [
                         {
                             "typeString" : "System.Single",
-                            "name" : "fp_tukayyid_CW_score",
+                            "name" : "fp_tukayyid_CSV_score",
                             "value" : "1",
                             "set" : false,
                             "valueConstant" : null
@@ -505,7 +505,7 @@
         },
         "teamGuid" : "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName" : "Target",
-        "faction" : "Wolf",
+        "faction" : "SteelViper",
         "teamLeaderCastDefId" : "castDef_TeamLeader_Current",
         "lanceOverrideList" : [
             {
