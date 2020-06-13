@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Our recon platoon has spotted elements of the Smoke Jaguars' veteran 122nd Striker Cluster near the Tamo bunker. We need to make sure the Anastasius Focht remains safe at all costs.",
+    "shortDescription" : "Our recon platoon has spotted elements of the Smoke Jaguars' veteran 122nd Striker Cluster near the Tamo bunker. We need to make sure the Anastasius Focht remains safe.",
     "longDescription" : "This is the final push against Smoke Jaguars, Cmmander.",
     "salvagePotential" : 20,
     "requirementList" : [

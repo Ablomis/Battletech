@@ -11,8 +11,8 @@
     "missionSuccessStatementOverride" : null,
     "badFaithStatementOverride" : null,
     "goodFaithStatementOverride" : null,
-    "shortDescription" : "Elements of the veteran Jaguar Grenadiers and Sixth Jaguar Dragoons are advancing towards Dijun Heights city. They will be going through the Dijun Pass, which gives us an excellent chance to ambush them to stop their advancement.",
-    "longDescription" : "We need to prevent Jaguar Dragoons forces from reaching the city.",
+    "shortDescription" : "Elements of the veteran Jaguar Grenadiers and Sixth Jaguar Dragoons are advancing towards Dijun Heights city. They will be going through the Dijun Pass, which gives us an excellent chance to ambush them.",
+    "longDescription" : "We need to prevent Jaguar Dragoons' forces from reaching the city.",
     "salvagePotential" : 20,
     "requirementList" : [
         {
