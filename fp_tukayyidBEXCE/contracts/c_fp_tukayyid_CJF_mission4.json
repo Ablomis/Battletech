@@ -364,7 +364,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Good job, we are don here.",
+                    "words" : "Good job, we are done here.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -775,7 +775,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "",
+                        "unitDefId" : "UseLance",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -808,7 +808,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "",
+                        "unitDefId" : "UseLance",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -841,7 +841,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "",
+                        "unitDefId" : "UseLance",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -874,7 +874,7 @@
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "",
+                        "unitDefId" : "UseLance",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1081,7 +1081,7 @@
                     "items" : [],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment" : 2,
+                "lanceDifficultyAdjustment" : 0,
                 "selectedLanceDefId" : "",
                 "selectedLanceDifficulty" : 0,
                 "unitSpawnPointOverrideList" : [
