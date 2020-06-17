@@ -395,7 +395,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Commander, we need to protect the {TEAM_EMP.FactionDef.Demonym} base and keep the VIP safe.",
+                    "words" : "Commander, we need to protect the Bunker and keep Anastasius Focht safe.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -452,7 +452,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Well done, Commander. I'm guessing {TEAM_EMP.FactionDef.Name} will be pleased, and hopefully learn a lesson about opsec.",
+                    "words" : "Well done, Commander. Focht is safe.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1064,7 +1064,6 @@
                 },
                 "spawnEffectTags" : {
                     "items" : [
-                        "spawn_poorly_maintained_50"
                     ],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
@@ -1225,7 +1224,6 @@
                 },
                 "spawnEffectTags" : {
                     "items" : [
-                        "spawn_poorly_maintained_50"
                     ],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
@@ -1386,7 +1384,6 @@
                 },
                 "spawnEffectTags" : {
                     "items" : [
-                        "spawn_poorly_maintained_50"
                     ],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
