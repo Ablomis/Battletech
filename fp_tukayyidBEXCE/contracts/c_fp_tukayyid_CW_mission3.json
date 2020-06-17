@@ -772,10 +772,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "dd1b3129-0f5d-4e93-b87d-42ab13c68e7d"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "MechWarrior Thea",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_thor_summoner-B",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -788,7 +788,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d8_skirmisher",
+                        "pilotDefId" : "pilot_d9_skirmisher",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -805,10 +805,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "2d62bfad-c89a-488e-94a4-25cb748f0423"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "MechWarrior Ace",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_dragonfly_viper-B",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -821,7 +821,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d8_skirmisher",
+                        "pilotDefId" : "pilot_d10_scout",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -838,10 +838,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "16d4b3f5-6d90-40c5-8b5b-6d0e2f69a229"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "MechWarrior Lee",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_black_hawk_nova-D",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -854,7 +854,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d8_skirmisher",
+                        "pilotDefId" : "pilot_d10_scout",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -871,10 +871,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "a2920539-8765-4260-ba55-1f155ae0bda8"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "MechWarrior Dimltrla",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_fenris_ice_ferret-B",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -887,7 +887,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d8_skirmisher",
+                        "pilotDefId" : "pilot_d10_scout",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1092,7 +1092,7 @@
                         "customUnitName" : "Star Commander Phelan Ward",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "mechdef_mad_cat_timber_wolf-PRYDE",
+                        "unitDefId" : "mechdef_wolfhound_iic",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1105,7 +1105,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilot_d9_skirmisher",
+                        "pilotDefId" : "pilot_d10_flanker",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"

@@ -15,5 +15,6 @@
 	{ "Type": "ItemCollectionDef", "Path": "itemCollections" },
 	{ "Type": "MechDef", "Path": "mech" },
 	{ "Type": "ChassisDef", "Path": "chassis" },
+	{ "Type": "MovementCapabilitiesDef", "Path": "movement"},
 	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }]
 }
