@@ -833,7 +833,8 @@
                         },
                         "ExclusionTags" : {
                             "items" : [
-                                "fp_tukayyid_d2_skip"
+                                "fp_tukayyid_d2_skip",
+                                "fp_tukayyid_d1_CSJ_mission1"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -884,7 +885,9 @@
                             "tagSetSourceFile" : ""
                         },
                         "ExclusionTags" : {
-                            "items" : [],
+                            "items" : [
+                                "fp_tukayyid_d1_CSJ_mission1"
+                            ],
                             "tagSetSourceFile" : ""
                         },
                         "RequirementComparisons" : []
@@ -907,6 +910,117 @@
                                 null,
                                 "b3874747-5295-48e9-857a-25799bd82f2e",
                                 "c_fp_tukayyid_CSJ_mission3",
+                                "ComStar",
+                                "SmokeJaguar",
+                                "8",
+                                "ms_fp_tukayyid_500_D4_Dialogue",
+                                null,
+                                null,
+                                "ms_fp_tukayyid_500_D4_Dialogue",
+                                null,
+                                null
+                            ]
+                        },
+                        {
+                            "Type" : "System_ForceDropshipRoom",
+                            "value" : "Contract",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d1_CSJ_mission1"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [
+                                "fp_tukayyid_d2_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_StartContract",
+                            "value" : "mapGeneral_terraceLakes_vLow",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "b3874747-5295-48e9-857a-25799bd82f2e",
+                                "c_fp_tukayyid_CSJ_mission3_2",
+                                "ComStar",
+                                "SmokeJaguar",
+                                "8",
+                                "ms_fp_tukayyid_500_D4_Dialogue",
+                                null,
+                                null,
+                                "ms_fp_tukayyid_500_D4_Dialogue",
+                                null,
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents" : null,
+                    "TemporaryResult" : false,
+                    "ResultDuration" : 0
+                },
+                {
+                    "Scope" : "Company",
+                    "Requirements" : {
+                        "Scope" : "Company",
+                        "RequirementTags" : {
+                            "items" : [
+                                "fp_tukayyid_d1_CSJ_mission1",
+                                "fp_tukayyid_d2_skip"
+                            ],
+                            "tagSetSourceFile" : ""
+                        },
+                        "ExclusionTags" : {
+                            "items" : [],
+                            "tagSetSourceFile" : ""
+                        },
+                        "RequirementComparisons" : []
+                    },
+                    "AddedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "RemovedTags" : {
+                        "items" : [],
+                        "tagSetSourceFile" : ""
+                    },
+                    "Stats" : null,
+                    "Actions" : [
+                        {
+                            "Type" : "Flashpoint_AddContract",
+                            "value" : "mapGeneral_terraceLakes_vLow",
+                            "valueConstant" : null,
+                            "additionalValues" : [
+                                null,
+                                "b3874747-5295-48e9-857a-25799bd82f2e",
+                                "c_fp_tukayyid_CSJ_mission3_2",
                                 "ComStar",
                                 "SmokeJaguar",
                                 "8",

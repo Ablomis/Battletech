@@ -402,7 +402,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Commander, we need to protect the {TEAM_EMP.FactionDef.Demonym} base and keep the VIP safe.",
+                    "words" : "Commander, we need to protect the ComStar base and keep the depot safe.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,

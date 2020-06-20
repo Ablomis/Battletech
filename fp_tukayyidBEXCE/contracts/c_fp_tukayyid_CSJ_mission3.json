@@ -210,7 +210,7 @@
             "objective" : {
                 "EncounterObjectGuid" : "9b0f9fdd-2033-469c-8327-4e519ef6c683"
             },
-            "title" : "Destroy Hostile Reinforcements",
+            "title" : "Destroy Smoke Jaguars' Reinforcements",
             "description" : "",
             "isPrimary" : false,
             "OnSuccessResults" : [
@@ -253,7 +253,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "2e0d2e69-6335-49ae-b2bb-61ff3185306b"
             },
-            "enableChunkFromContract" : false,
+            "enableChunkFromContract" : true,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         }
@@ -434,7 +434,7 @@
             "overrideDialogueBucketId" : "DialogBucketDef_AmbushConvoy_EyesOnTarget",
             "dialogueContent" : [
                 {
-                    "words" : "We have a lock on the target vehicles. They should be to your front. Engage and destroy, Commander.",
+                    "words" : "We have a lock on the target mechs. They should be to your front. Engage and destroy, Commander.",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -509,7 +509,7 @@
             "overrideDialogueBucketId" : "",
             "dialogueContent" : [
                 {
-                    "words" : "Convoy vehicles have begun to arrive at their destination, Commander! Get on the rest and destroy them or we're done here!",
+                    "words" : "Dragoons have begun to arrive at their destination, Commander! Get on the rest and destroy them or we're done here!",
                     "wordsColor" : {
                         "r" : 1,
                         "g" : 1,
@@ -1149,7 +1149,6 @@
                 },
                 "spawnEffectTags" : {
                     "items" : [
-                        "spawn_poorly_maintained_50"
                     ],
                     "tagSetSourceFile" : "tags/SpawnEffectTags"
                 },
@@ -1163,7 +1162,7 @@
                         },
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "Vehicle",
+                        "unitType" : "Mech",
                         "unitDefId" : "UseLance",
                         "unitTagSet" : {
                             "items" : [],
@@ -1196,7 +1195,7 @@
                         },
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "Vehicle",
+                        "unitType" : "Mech",
                         "unitDefId" : "UseLance",
                         "unitTagSet" : {
                             "items" : [],
@@ -1229,7 +1228,7 @@
                         },
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "Vehicle",
+                        "unitType" : "Mech",
                         "unitDefId" : "UseLance",
                         "unitTagSet" : {
                             "items" : [],
@@ -1262,7 +1261,7 @@
                         },
                         "customUnitName" : "",
                         "customHeraldryDefId" : "",
-                        "unitType" : "Vehicle",
+                        "unitType" : "Mech",
                         "unitDefId" : "UseLance",
                         "unitTagSet" : {
                             "items" : [],
