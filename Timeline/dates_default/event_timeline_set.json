@@ -1,0 +1,241 @@
+{
+    "Description": {
+        "Id": "event_timeline_set",
+        "Name": "Select Timeline",
+        "Details": "Please select a timeline to base your game's starting day on.",
+        "Icon": "uixTxrSpot_ComputerScreen.png"
+    },
+    "Scope": "Company",
+    "Weight": 0,
+    "Requirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "ExclusionTags": {
+            "items": null,
+            "tagSetSourceFile": ""
+        },
+        "RequirementComparisons": []
+    },
+    "AdditionalRequirements": [],
+    "AdditionalObjects": [],
+    "Options": [
+        {
+            "Description": {
+                "Id": "timeline_3025",
+                "Name": "3025: Vanilla Start Year",
+                "Details": "3025",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "timeline_3025",
+                        "Name": "3025",
+                        "Details": "Start year set to 3025",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [
+                                    "start_timeline_3025"
+                                ],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        },
+        {
+            "Description": {
+                "Id": "timeline_3039",
+                "Name": "3039:  War of 3039",
+                "Details": "3039",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "timeline_3039",
+                        "Name": "3039",
+                        "Details": "The Capellan Confederation has been left a shadow of itself in the wake of what is now known as the Fourth Succession War with the St. Ives Compact remaining politically independant. The Andurien-Canopus alliance would wrestle yet more worlds from the beleaguered Capellans but the Duchy of Andurien is being squeezed back under the umbrella of the Free Worlds League. The Lyran Commonwealth captured a stunning 53 planets from the Draconis Combine, but shortly after ComStar negotiated a settlement with the Draconis Combine that allowed for Rasalhagian independence. A secret alliance of House Davion and House Steiner is poised to strike against the Draconis combine in hopes of repeating their successes against the Capellan Confederation. Little did they know, that the coiled Dragon had received vintage Star League-era technology gifts from ComStar which would surely affect the outcome.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [
+                                    "start_timeline_3039"
+                                ],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        },
+        {
+            "Description": {
+                "Id": "timeline_3049",
+                "Name": "3049: Clan Invasion (recommended for harder end game)",
+                "Details": "3049",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "timeline_3049",
+                        "Name": "3049",
+                        "Details": "It was August 3049 when communications with outlying regions of the Inner Sphere first started mysteriously being cut.\n<br>What we knew was limited. An extremely advanced and previously unknown enemy, with futuristic weapons, was cleaning up garrisons and even small realms wholesale.\n<br>What we know now, that we didn't know then, was that the clans had arrived and with them 'mech combat was to be forever changed.\n<br>Until the Inner Sphere adapted to this deadly new threat, their losses would be enormous.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [
+                                    "start_timeline_3049_08"
+                                ],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        },
+        {
+            "Description": {
+                "Id": "timeline_3053",
+                "Name": "3053: Post Battle of Tukayyid",
+                "Details": "3053",
+                "Icon": ""
+            },
+            "RequirementList": [],
+            "ResultSets": [
+                {
+                    "Description": {
+                        "Id": "timeline_3053",
+                        "Name": "3053",
+                        "Details": "Tukayyid was one of the bloodiest battles of the invasion, and with its victory the Inner Sphere gained a line in the sand below which the Clans would not invade.\n\nComstar's defence of the Inner Sphere and active role in politics, has the clans deep thrust into the tender nether-regions of the Inner Sphere halted, for now.\n\nThey call for a peace summit to try and unify the Inner Sphere more strongly against the clan aggression. Such overtures are, however, rebuffed.  Largely due to the depth and complexity of their prior clandestine behaviour.\n\nMeanwhile, technological development continues at a staggering rate. Clan tech is now much more readily being rushed from the front lines into the arms of awaiting house scientists, who develop a series of new Battlemechs.",
+                        "Icon": ""
+                    },
+                    "Weight": 100,
+                    "Results": [
+                        {
+                            "Scope": "Company",
+                            "Requirements": null,
+                            "AddedTags": {
+                                "items": [
+                                    "start_timeline_3053"
+                                ],
+                                "tagSetSourceFile": ""
+                            },
+                            "RemovedTags": {
+                                "items": null,
+                                "tagSetSourceFile": ""
+                            },
+                            "Stats": null,
+                            "Actions": null,
+                            "ForceEvents": null,
+                            "TemporaryResult": false,
+                            "ResultDuration": 0
+                        }
+                    ]
+                }
+            ],
+            "Requirements": {
+                "Scope": "Company",
+                "RequirementTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "ExclusionTags": {
+                    "items": null,
+                    "tagSetSourceFile": ""
+                },
+                "RequirementComparisons": []
+            }
+        }
+    ],
+    "PublishState": "PUBLISHED",
+    "ValidationState": "UNTESTED",
+    "EventType": "UNSELECTABLE"
+}
