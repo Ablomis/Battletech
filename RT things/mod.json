@@ -7,7 +7,6 @@
   "DependsOn": [
     "RogueTech Core"
   ],
-   "FlashpointReleaseSystems": { "Solaris7" : "neverhood" },
   "Settings": {
     "LongWarTesting": false,
     "StartingPirateActivity": 40.0,
