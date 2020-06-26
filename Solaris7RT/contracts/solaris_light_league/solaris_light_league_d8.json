@@ -21,6 +21,7 @@
         "items": [
 		"planet_other_gamesworld",
 		"planet_name_solaris"
+
 	],
         "tagSetSourceFile": ""
       },
@@ -29,6 +30,12 @@
         "tagSetSourceFile": ""
       },
       "RequirementComparisons": [
+      		{
+                    "obj": "Employer.Solaris7",
+                    "op": "Equal",
+                    "val": 1,
+                    "valueConstant": null
+                }
       ]
     }
   ],
@@ -295,7 +302,7 @@
     },
     "teamGuid": "be77cadd-e245-4240-a93e-b99cc98902a5",
     "teamName": "Target",
-    "faction": "Solaris7",
+    "faction": "INVALID_UNSET",
     "teamLeaderCastDefId": "castDef_TeamLeader_Current",
     "lanceOverrideList": [
       {
@@ -305,7 +312,7 @@
         "name": "Lance_Enemy_Champion",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": ["lance_type_light", "lance_type_mech"],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -329,20 +336,20 @@
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
             "unitTagSet": {
-              "items": [],
+              "items": ["unit_light","unit_mech","unit_generic"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": [],
+              "items": ["unit_lance_support","unit_role_scout","unit_nuke"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilot_d5_skirmisher",
+            "pilotDefId": "pilotDef_InheritLance",
             "pilotTagSet": {
-              "items": [],
+              "items": ["pilot_npc_d8"],
               "tagSetSourceFile": "tags/PilotTags"
             },
             "pilotExcludedTagSet": {

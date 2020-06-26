@@ -1,24 +1,27 @@
 {
-  "ID": "fp_c_solaris_light_1_64",
-  "contractName": "Light Championship: 1/64",
-  "contractDisplayStyle": "BaseFlashpoint",
-  "difficulty": 4,
+  "ID": "solaris_light_league_d10",
+  "contractName": "Solaris Light League",
+  "contractDisplayStyle": "BaseCampaignNormal",
+  "difficulty": 6,
   "difficultyUIModifier": 0,
   "weight": 1,
-  "scope": "MID_CAMPAIGN",
+  "scope": "STANDARD",
   "finalDifficulty": 0,
   "representativeCastDefIDOverride": null,
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "1/64 of the Solaris Light Championship. You have to eliminate the opponent to move to the next stage.",
-  "longDescription": "This is a play-off turnament, if you lose this battle, you are out.",
+  "shortDescription": "This is a Solaris League match. You fight to win prize money, gain Solaris notoriety and qualify for the Light Championship.",
+  "longDescription": "The opponent is not very dangerous, but you have to remain focused.",
   "salvagePotential": 0,
   "requirementList": [
     {
       "Scope": "StarSystem",
       "RequirementTags": {
         "items": [
+		"planet_other_gamesworld",
+		"planet_name_solaris"
+
 	],
         "tagSetSourceFile": ""
       },
@@ -27,9 +30,12 @@
         "tagSetSourceFile": ""
       },
       "RequirementComparisons": [
-        {
-
-        }
+      		{
+                    "obj": "Employer.Solaris7",
+                    "op": "Equal",
+                    "val": 1,
+                    "valueConstant": null
+                }
       ]
     }
   ],
@@ -77,7 +83,7 @@
       "encounterChunk": {
         "EncounterObjectGuid": "ed007c52-f4cb-4bfc-842a-a50454d8a82a"
       },
-      "enableChunkFromContract": true
+      "enableChunkFromContract": false
     }
   ],
   "cameraFocusHelperList": [
@@ -103,7 +109,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ladies and Gentlemen welcome to the 1/64 of the Solaris Light Championship!",
+          "words": "Ladies and Gentlemen welcome to Solaris Light League!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -119,7 +125,7 @@
           "revealRadius": -1
         },
         {
-          "words": "It's 1/64, not the most vigorous opponents usually, but stay focused. Good luck!",
+          "words": "Commander, another match in the Light League. Good luck!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -144,7 +150,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "And there we go. Right into the 1/32!",
+          "words": "And there we go!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -169,7 +175,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ok, that was quick unfortunately. Let's try next season.",
+          "words": "Ok, that was unfortunate. Let's prepare for the next round.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -201,7 +207,7 @@
   "expirationTimeOverride": -1,
   "negotiatedSalary": 0,
   "negotiatedSalvage": 0,
-  "excludedFromProceduralGeneration": true,
+  "excludedFromProceduralGeneration": false,
   "player1Team": {
     "encounterLayerData": {
       "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
@@ -306,7 +312,7 @@
         "name": "Lance_Enemy_Champion",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": ["lance_type_light", "lance_type_mech"],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -330,11 +336,11 @@
             "unitType": "Mech",
             "unitDefId": "mechDef_InheritLance",
             "unitTagSet": {
-              "items": [],
+              "items": ["unit_light","unit_mech","unit_generic"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": [],
+              "items": ["unit_lance_support","unit_role_scout","unit_nuke"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
@@ -343,7 +349,7 @@
             },
             "pilotDefId": "pilotDef_InheritLance",
             "pilotTagSet": {
-              "items": [],
+              "items": ["pilot_npc_d10"],
               "tagSetSourceFile": "tags/PilotTags"
             },
             "pilotExcludedTagSet": {
