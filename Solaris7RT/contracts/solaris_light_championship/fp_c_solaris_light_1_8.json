@@ -1,27 +1,24 @@
 {
-  "ID": "solaris_light_league_d5",
-  "contractName": "Solaris Light League",
-  "contractDisplayStyle": "BaseCampaignNormal",
-  "difficulty": 1,
+  "ID": "fp_c_solaris_light_1_8",
+  "contractName": "Light Championship: 1/8",
+  "contractDisplayStyle": "BaseFlashpoint",
+  "difficulty": 9,
   "difficultyUIModifier": 0,
   "weight": 1,
-  "scope": "STANDARD",
+  "scope": "MID_CAMPAIGN",
   "finalDifficulty": 0,
   "representativeCastDefIDOverride": null,
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "This is a Solaris Light League match. You fight to win prize money, gain Solaris notoriety and qualify for the Light Championship.",
-  "longDescription": "The opponent is not very dangerous, but you have to remain focused.",
+  "shortDescription": "1/8 of the Solaris Light Championship. You have to eliminate the opponent to move to the next stage.",
+  "longDescription": "This is a play-off turnament, if you lose this battle, you are out.",
   "salvagePotential": 0,
   "requirementList": [
     {
       "Scope": "StarSystem",
       "RequirementTags": {
         "items": [
-		"planet_other_gamesworld",
-		"planet_name_solaris"
-
 	],
         "tagSetSourceFile": ""
       },
@@ -30,12 +27,9 @@
         "tagSetSourceFile": ""
       },
       "RequirementComparisons": [
-      		{
-                    "obj": "Employer.Solaris7",
-                    "op": "Equal",
-                    "val": 1,
-                    "valueConstant": null
-                }
+        {
+
+        }
       ]
     }
   ],
@@ -83,7 +77,7 @@
       "encounterChunk": {
         "EncounterObjectGuid": "ed007c52-f4cb-4bfc-842a-a50454d8a82a"
       },
-      "enableChunkFromContract": false
+      "enableChunkFromContract": true
     }
   ],
   "cameraFocusHelperList": [
@@ -109,7 +103,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ladies and Gentlemen welcome to Solaris Light League! Let the fight begin!",
+          "words": "Ladies and Gentlemen welcome to the 1/8 of the Solaris Light Championship! Let the fight begin!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -125,7 +119,7 @@
           "revealRadius": -1
         },
         {
-          "words": "Commander, another match in the Light League. Good luck!",
+          "words": "It's 1/8, you've got serious folks here, stay focused. Good luck!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -150,7 +144,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "And there we go!",
+          "words": "And there we go. Right into the 1/4!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -175,7 +169,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ok, that was unfortunate. Let's prepare for the next round.",
+          "words": "Ok, that was unfortunate. Let's try next season.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -207,7 +201,7 @@
   "expirationTimeOverride": -1,
   "negotiatedSalary": 0,
   "negotiatedSalvage": 0,
-  "excludedFromProceduralGeneration": false,
+  "excludedFromProceduralGeneration": true,
   "player1Team": {
     "encounterLayerData": {
       "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
@@ -336,7 +330,7 @@
             "unitType": "Mech",
             "unitDefId": "Tagged",
             "unitTagSet": {
-              "items": ["unit_light","unit_mech","unit_generic"],
+              "items": ["unit_light","unit_mech","unit_advanced"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
@@ -347,9 +341,9 @@
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "Tagged",
+            "pilotDefId": "pilotDef_InheritLance",
             "pilotTagSet": {
-              "items": ["pilot_npc_d5"],
+              "items": ["pilot_npc_d9"],
               "tagSetSourceFile": "tags/PilotTags"
             },
             "pilotExcludedTagSet": {

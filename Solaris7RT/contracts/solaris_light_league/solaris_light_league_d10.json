@@ -11,7 +11,7 @@
   "missionSuccessStatementOverride": null,
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
-  "shortDescription": "This is a Solaris League match. You fight to win prize money, gain Solaris notoriety and qualify for the Light Championship.",
+  "shortDescription": "This is a Solaris Light League match. You fight to win prize money, gain Solaris notoriety and qualify for the Light Championship.",
   "longDescription": "The opponent is not very dangerous, but you have to remain focused.",
   "salvagePotential": 0,
   "requirementList": [
@@ -109,14 +109,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ladies and Gentlemen welcome to Solaris Light League!",
+          "words": "Ladies and Gentlemen welcome to Solaris Light League! Let the fight begin!",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_ComStarDefault",
+          "selectedCastDefId": "castDef_Anouncer",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -334,9 +334,9 @@
             "customUnitName": null,
             "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "Tagged",
             "unitTagSet": {
-              "items": ["unit_light","unit_mech","unit_generic"],
+              "items": ["unit_light","unit_mech","unit_advanced"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
@@ -347,7 +347,7 @@
               "items": [],
               "tagSetSourceFile": "tags/SpawnEffectTags"
             },
-            "pilotDefId": "pilotDef_InheritLance",
+            "pilotDefId": "Tagged",
             "pilotTagSet": {
               "items": ["pilot_npc_d10"],
               "tagSetSourceFile": "tags/PilotTags"

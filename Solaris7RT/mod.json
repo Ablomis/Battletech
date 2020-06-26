@@ -21,5 +21,6 @@
 	{ "Type": "MovementCapabilitiesDef", "Path": "movement"},
 	{ "Type": "SimGameEventDef", "Path": "events" },
 	 { "Type": "ContractOverride", "Path": "contracts"},
+	 {"Type": "LanceDef", "Path": "Lances"},
 	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }]
 }

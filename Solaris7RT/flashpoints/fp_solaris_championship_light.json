@@ -5,7 +5,7 @@
         "Details" : "Solaris Light Championship",
         "Icon" : "betrayalAtHelm_titlecard.png"
     },
-    "Weight" : 100,
+    "Weight" : 1000,
     "InternalName" : "solaris_championship_light",
     "PublishState" : "PUBLISHED",
     "Difficulty" : 4,
@@ -22,7 +22,14 @@
                 "items" : [],
                 "tagSetSourceFile" : ""
             },
-            "RequirementComparisons" : []
+            "RequirementComparisons" : [
+	                {
+                            "obj" : "Reputation.Solaris7",
+                            "op" : "GreaterThan",
+                            "val" : 10,
+                            "valueConstant" : "[rep_liked_min]"
+                        }
+	    ]
         }
     ],
     "LocationRequirements" : {
@@ -40,7 +47,7 @@
         "RequirementComparisons" : []
     },
     "PotentialEmployers" : [
-        "Solaris7"
+        "INVALID_UNSET"
     ],
     "TargetFaction" : "Unknown",
     "AllowRefitTime" : false,

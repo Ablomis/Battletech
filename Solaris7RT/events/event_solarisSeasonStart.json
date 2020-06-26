@@ -10,7 +10,7 @@
         "Icon" : "uixTxrSpot_DailyBriefing.png"
     },
     "Scope" : "Company",
-    "Weight" : 1000000000,
+    "Weight" : 10000,
     "Requirements" : {
         "Scope" : "Company",
         "RequirementTags" : {

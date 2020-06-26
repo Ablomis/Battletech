@@ -2,7 +2,7 @@
   "ID": "fp_c_solaris_light_1_64",
   "contractName": "Light Championship: 1/64",
   "contractDisplayStyle": "BaseFlashpoint",
-  "difficulty": 4,
+  "difficulty": 7,
   "difficultyUIModifier": 0,
   "weight": 1,
   "scope": "MID_CAMPAIGN",
@@ -103,14 +103,14 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ladies and Gentlemen welcome to the 1/64 of the Solaris Light Championship!",
+          "words": "Ladies and Gentlemen welcome to the 1/64 of the Solaris Light Championship! Let the fight begin!",
           "wordsColor": {
             "r": 1,
             "g": 1,
             "b": 1,
             "a": 1
           },
-          "selectedCastDefId": "castDef_ComStarDefault",
+          "selectedCastDefId": "castDef_Anouncer",
           "emote": "Default",
           "audioName": "NONE",
           "cameraFocusGuid": "",
@@ -306,7 +306,7 @@
         "name": "Lance_Enemy_Champion",
         "lanceDefId": "Tagged",
         "lanceTagSet": {
-          "items": ["lance_type_light", "lance_type_mech"],
+          "items": [],
           "tagSetSourceFile": "tags/LanceTags"
         },
         "lanceExcludedTagSet": {
@@ -328,13 +328,13 @@
             "customUnitName": null,
             "customHeraldryDefId": "",
             "unitType": "Mech",
-            "unitDefId": "mechDef_InheritLance",
+            "unitDefId": "Tagged",
             "unitTagSet": {
-              "items": [],
+              "items": ["unit_light","unit_mech","unit_generic"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": [],
+              "items": ["unit_lance_support","unit_role_scout","unit_nuke"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
@@ -343,7 +343,7 @@
             },
             "pilotDefId": "pilotDef_InheritLance",
             "pilotTagSet": {
-              "items": [],
+              "items": ["pilot_npc_d7"],
               "tagSetSourceFile": "tags/PilotTags"
             },
             "pilotExcludedTagSet": {
