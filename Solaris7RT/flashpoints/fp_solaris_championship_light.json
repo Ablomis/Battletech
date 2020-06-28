@@ -3,9 +3,9 @@
         "Id" : "fp_solaris_championship_light",
         "Name" : "Solaris Light Championship",
         "Details" : "Solaris Light Championship",
-        "Icon" : "betrayalAtHelm_titlecard.png"
+        "Icon" : "solaris7_titlecard.png"
     },
-    "Weight" : 1000,
+    "Weight" : 10000,
     "InternalName" : "solaris_championship_light",
     "PublishState" : "PUBLISHED",
     "Difficulty" : 4,
@@ -23,13 +23,13 @@
                 "tagSetSourceFile" : ""
             },
             "RequirementComparisons" : [
-	                {
-                            "obj" : "Reputation.Solaris7",
-                            "op" : "GreaterThan",
-                            "val" : 10,
-                            "valueConstant" : "[rep_liked_min]"
-                        }
-	    ]
+                {
+                    "obj" : "Reputation.Solaris7",
+                    "op" : "GreaterThan",
+                    "val" : 10,
+                    "valueConstant" : "[rep_liked_min]"
+                }
+            ]
         }
     ],
     "LocationRequirements" : {
@@ -47,7 +47,7 @@
         "RequirementComparisons" : []
     },
     "PotentialEmployers" : [
-        "INVALID_UNSET"
+        "Solaris7"
     ],
     "TargetFaction" : "Unknown",
     "AllowRefitTime" : false,
@@ -58,9 +58,9 @@
     "AvailableTimeout" : 0,
     "UseInProgressTimeoutOverride" : false,
     "InProgressTimeout" : 0,
-    "RewardCollectionID" : "itemCollection_loot_Weapon_SLDF",
-    "UnitDropTonnageHint" : "None",
-    "LanceDropTonnageHint" : "Light",
+    "RewardCollectionID" : null,
+    "UnitDropTonnageHint" : "Light",
+    "LanceDropTonnageHint" : "None",
     "FlashpointShortDescription" : "You have qualified for Solaris Light Championship. 128 mechwarriors will participate in the play-off to become the Champion in the weight class for mechs under 35 tons.",
     "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
     "Tags" : {

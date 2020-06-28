@@ -37,6 +37,21 @@
                     "valueConstant": null
                 }
       ]
+    },
+    {
+      "Scope": "Company",
+      "RequirementTags": {
+        "items": [
+		"company_solaris_season_light"
+	],
+        "tagSetSourceFile": ""
+      },
+      "ExclusionTags": {
+        "items": [],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": [
+      ]
     }
   ],
   "OnContractSuccessResults": [],
@@ -200,7 +215,7 @@
   "disableLanceConfiguration": false,
   "disableCancelButton": false,
   "disableAfterAction": true,
-  "contractRewardOverride": -1,
+  "contractRewardOverride": 600000,
   "travelOnly": false,
   "useTravelCostPenalty": false,
   "usesExpiration": false,

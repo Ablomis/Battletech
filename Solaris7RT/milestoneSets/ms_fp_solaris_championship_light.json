@@ -119,7 +119,7 @@
                             "valueConstant" : "",
                             "additionalValues" : [
                                 "{TGT_FLASHPOINT.Def.Description.Name}",
-                                "\u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "{TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]
@@ -673,11 +673,11 @@
                     "Actions" : [
                         {
                             "Type" : "System_StartConversation",
-                            "value" : "9c789137e162a771a012eccc",
+                            "value" : "9cc06b54c0cea79a2b49832b",
                             "valueConstant" : null,
                             "additionalValues" : [
-                                "{TGT_FLASHPOINT.Def.Description.Name} IV",
-                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "{TGT_FLASHPOINT.CurSystem.Name}",
                                 "Conference",
                                 null
                             ]
@@ -729,7 +729,9 @@
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [],
+                        "items" : [
+                            "company_solaris_season_light"
+                        ],
                         "tagSetSourceFile" : ""
                     },
                     "Stats" : null,
@@ -789,7 +791,7 @@
                         {
                             "typeString" : "System.Int32",
                             "name" : "Funds",
-                            "value" : "5000000",
+                            "value" : "2500000",
                             "set" : false,
                             "valueConstant" : null
                         }
@@ -804,7 +806,15 @@
                             ]
                         }
                     ],
-                    "ForceEvents" : null,
+                    "ForceEvents" : [
+		    {
+			"Scope" : "Company",
+			"EventID" : "event_solarisSeasonStart",
+			"MinDaysWait" : 0,
+			"MaxDaysWait" : 0,
+			"Probability" : 100
+		    }
+		    ],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }
