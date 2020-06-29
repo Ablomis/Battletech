@@ -33,7 +33,34 @@
       ]
     }
   ],
-  "OnContractSuccessResults": [],
+  "OnContractSuccessResults": [
+              {
+            "Scope": "Company",
+            "Requirements": null,
+            "AddedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RemovedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "Stats": [
+	                 {
+                            "typeString" : "System.Int32",
+                            "name" : "Reputation.Solaris7",
+                            "value" : "1",
+                            "set" : false,
+                            "valueConstant" : null
+                        }
+	    ],
+            "Actions": [
+            ],
+            "ForceEvents": [],
+            "TemporaryResult": false,
+            "ResultDuration": 0
+        }
+  ],
   "OnContractFailureResults": [],
   "encounterPlayStyle": "SinglePlayer",
   "maxNumberOfPlayerUnits": 1,
@@ -330,11 +357,11 @@
             "unitType": "Mech",
             "unitDefId": "Tagged",
             "unitTagSet": {
-              "items": ["unit_light","unit_mech","unit_advanced"],
+              "items": ["unit_light","unit_mech","unit_bracket_low"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": ["unit_lance_support","unit_role_scout","unit_nuke"],
+              "items": ["clansgeneric","unit_nuke", "unit_legendary"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {

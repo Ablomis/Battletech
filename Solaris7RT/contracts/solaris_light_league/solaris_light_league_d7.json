@@ -12,7 +12,7 @@
   "badFaithStatementOverride": null,
   "goodFaithStatementOverride": null,
   "shortDescription": "This is a Solaris Light League match. You fight to win prize money, gain Solaris notoriety and qualify for the Light Championship.",
-  "longDescription": "The opponent is not very dangerous, but you have to remain focused.",
+  "longDescription": "We will have a serious opponent here.",
   "salvagePotential": 0,
   "requirementList": [
     {
@@ -54,7 +54,34 @@
       ]
     }
   ],
-  "OnContractSuccessResults": [],
+  "OnContractSuccessResults": [
+            {
+            "Scope": "Company",
+            "Requirements": null,
+            "AddedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "RemovedTags": {
+                "items": [],
+                "tagSetSourceFile": ""
+            },
+            "Stats": [
+	                 {
+                            "typeString" : "System.Int32",
+                            "name" : "Reputation.Solaris7",
+                            "value" : "1",
+                            "set" : false,
+                            "valueConstant" : null
+                        }
+	    ],
+            "Actions": [
+            ],
+            "ForceEvents": [],
+            "TemporaryResult": false,
+            "ResultDuration": 0
+        }
+  ],
   "OnContractFailureResults": [],
   "encounterPlayStyle": "SinglePlayer",
   "maxNumberOfPlayerUnits": 1,
@@ -190,7 +217,7 @@
       "overrideDialogueBucketId": "",
       "dialogueContent": [
         {
-          "words": "Ok, that was unfortunate. Let's prepare for the next round.",
+          "words": "Ok, that was unfortunate. Let's prepare for the next match better.",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -215,12 +242,12 @@
   "disableLanceConfiguration": false,
   "disableCancelButton": false,
   "disableAfterAction": true,
-  "contractRewardOverride": 300000,
+  "contractRewardOverride": -1,
   "travelOnly": false,
   "useTravelCostPenalty": false,
   "usesExpiration": false,
   "expirationTimeOverride": -1,
-  "negotiatedSalary": 0,
+  "negotiatedSalary": 1,
   "negotiatedSalvage": 0,
   "excludedFromProceduralGeneration": false,
   "player1Team": {
@@ -351,11 +378,11 @@
             "unitType": "Mech",
             "unitDefId": "Tagged",
             "unitTagSet": {
-              "items": ["unit_light","unit_mech","unit_generic"],
+              "items": ["unit_light","unit_mech"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": ["unit_lance_support","unit_role_scout","unit_nuke"],
+              "items": ["clansgeneric","unit_generic","unit_nuke","unit_legendary"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
