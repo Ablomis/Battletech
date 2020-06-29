@@ -378,7 +378,7 @@
             "unitType": "Mech",
             "unitDefId": "Tagged",
             "unitTagSet": {
-              "items": ["unit_light","unit_mech"],
+              "items": ["unit_light","unit_mech","unit_powerarmor","unit_protomech"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {

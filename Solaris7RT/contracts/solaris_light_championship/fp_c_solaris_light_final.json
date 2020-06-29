@@ -146,7 +146,7 @@
           "revealRadius": -1
         },
         {
-          "words": "It's FINAL, yCommander. You've made it this far, make every shot count. Good luck!",
+          "words": "It's the FINAL, Commander. You've made it this far, make every shot count. Good luck!",
           "wordsColor": {
             "r": 1,
             "g": 1,
@@ -361,7 +361,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": ["unit_generic","unit_nuke"],
+              "items": ["unit_generic","unit_nuke","unit_powerarmor","unit_protomech"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {

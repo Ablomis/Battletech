@@ -20,12 +20,9 @@
         "ExclusionTags" : {
             "tagSetSourceFile" : "Tags/CompanyTags",
             "items" : [
-                "company_solaris_season_light",
-                 "company_solaris_season_medium",
-		 "company_solaris_season_heavy",
-		 "company_solaris_season_assault",
-		 "company_solaris_season_open",
                 "company_solaris_BANNED",
+		"company_solaris_recent",
+		"company_solaris_championship",
 		"company_solaris_DECLINED"
             ]
         },
@@ -63,13 +60,38 @@
                             },
                             "RemovedTags" : {
                                 "tagSetSourceFile" : "",
-                                "items" : []
+                                "items" : [
+				]
                             },
                             "Stats" : null,
                             "Actions" : null,
                             "ForceEvents" : null,
                             "TemporaryResult" : true,
-                            "ResultDuration" : 90
+                            "ResultDuration" : 120
+                        },
+			{
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "Tags/CompanyTags",
+                                "items" : [
+                                ]
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : [
+				                "company_solaris_season_light",
+						"company_solaris_season_medium",
+						"company_solaris_season_heavy",
+						"company_solaris_season_assault",
+						"company_solaris_season_open"
+				]
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : false,
+                            "ResultDuration" : 0
                         }
                     ]
                 }
@@ -129,7 +151,13 @@
                             },
                             "RemovedTags" : {
                                 "tagSetSourceFile" : "",
-                                "items" : []
+                                "items" : [
+						"company_solaris_season_light",
+						"company_solaris_season_medium",
+						"company_solaris_season_heavy",
+						"company_solaris_season_assault",
+						"company_solaris_season_open"
+				]
                             },
                             "Stats" : [
 
@@ -146,6 +174,26 @@
                             "ForceEvents" : null,
                             "TemporaryResult" : false,
                             "ResultDuration" : 0
+                        },
+			 {
+                            "Scope" : "Company",
+                            "Requirements" : null,
+                            "AddedTags" : {
+                                "tagSetSourceFile" : "Tags/CompanyTags",
+                                "items" : [
+                                   "company_solaris_recent"
+                                ]
+                            },
+                            "RemovedTags" : {
+                                "tagSetSourceFile" : "",
+                                "items" : [
+				]
+                            },
+                            "Stats" : null,
+                            "Actions" : null,
+                            "ForceEvents" : null,
+                            "TemporaryResult" : true,
+                            "ResultDuration" : 120
                         }
                     ]
                 }

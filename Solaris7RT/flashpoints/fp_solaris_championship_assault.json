@@ -55,7 +55,7 @@
     "Repeatable" : true,
     "MilestoneSetID" : "ms_fp_solaris_championship_assault",
     "UseAvailableTimeoutOverride" : true,
-    "AvailableTimeout" : -1,
+    "AvailableTimeout" : 60,
     "UseInProgressTimeoutOverride" : false,
     "InProgressTimeout" : 0,
     "RewardCollectionID" : null,

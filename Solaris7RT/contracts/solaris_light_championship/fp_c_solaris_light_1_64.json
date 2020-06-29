@@ -361,7 +361,7 @@
               "tagSetSourceFile": "tags/UnitTags"
             },
             "unitExcludedTagSet": {
-              "items": ["clansgeneric","unit_nuke", "unit_legendary"],
+              "items": ["clansgeneric","unit_nuke", "unit_legendary","unit_powerarmor","unit_protomech"],
               "tagSetSourceFile": "tags/UnitTags"
             },
             "spawnEffectTags": {
