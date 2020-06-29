@@ -872,7 +872,15 @@
                             "additionalValues" : null
                         }
                     ],
-                    "ForceEvents" : null,
+                    "ForceEvents" : [
+		    	{
+			"Scope" : "Company",
+			"EventID" : "event_solarisSeasonStart",
+			"MinDaysWait" : 0,
+			"MaxDaysWait" : 0,
+			"Probability" : 100
+		    }
+		    ],
                     "TemporaryResult" : false,
                     "ResultDuration" : 0
                 }

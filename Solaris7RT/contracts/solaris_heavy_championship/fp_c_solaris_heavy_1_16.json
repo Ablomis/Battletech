@@ -24,7 +24,19 @@
       },
       "ExclusionTags": {
         "items": [
-	            {
+	            
+	],
+        "tagSetSourceFile": ""
+      },
+      "RequirementComparisons": [
+        {
+
+        }
+      ]
+    }
+  ],
+  "OnContractSuccessResults": [
+  {
             "Scope": "Company",
             "Requirements": null,
             "AddedTags": {
@@ -39,7 +51,7 @@
 	                 {
                             "typeString" : "System.Int32",
                             "name" : "Reputation.Solaris7",
-                            "value" : "1",
+                            "value" : "0",
                             "set" : false,
                             "valueConstant" : null
                         }
@@ -50,17 +62,7 @@
             "TemporaryResult": false,
             "ResultDuration": 0
         }
-	],
-        "tagSetSourceFile": ""
-      },
-      "RequirementComparisons": [
-        {
-
-        }
-      ]
-    }
   ],
-  "OnContractSuccessResults": [],
   "OnContractFailureResults": [],
   "encounterPlayStyle": "SinglePlayer",
   "maxNumberOfPlayerUnits": 1,

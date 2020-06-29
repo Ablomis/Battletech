@@ -26,7 +26,7 @@
                 {
                     "obj" : "Reputation.Solaris7",
                     "op" : "GreaterThan",
-                    "val" : 10,
+                    "val" : 20,
                     "valueConstant" : "[rep_liked_min]"
                 }
             ]
@@ -55,11 +55,11 @@
     "Repeatable" : true,
     "MilestoneSetID" : "ms_fp_solaris_championship_medium",
     "UseAvailableTimeoutOverride" : true,
-    "AvailableTimeout" : 0,
+    "AvailableTimeout" : -1,
     "UseInProgressTimeoutOverride" : false,
     "InProgressTimeout" : 0,
     "RewardCollectionID" : null,
-    "UnitDropTonnageHint" : "Medium",
+    "UnitDropTonnageHint" : "",
     "LanceDropTonnageHint" : "None",
     "FlashpointShortDescription" : "You have qualified for Solaris Medium Championship. 128 mechwarriors will participate in the play-off to become the Champion in the weight class for mechs from 36 to 55 tons.",
     "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
