@@ -1235,10 +1235,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "7c30108d-c203-4240-a74f-76cc057ccae0"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Khan Natasha Kerensky",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_widow_maker_DW-WM",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1251,7 +1251,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d10_skirmisher_high",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1268,10 +1268,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "8021f2fc-1990-4f9c-9362-adc183d5fba9"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "Star Captain Ranna",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_warhawk_WHK-C",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1284,7 +1284,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d10_skirmisher",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1301,10 +1301,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "9bdc93cb-1cbd-408e-afa0-dbb7cd47d6da"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "MechWarrior Norton",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_dire_wolf_DW-A",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1317,7 +1317,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d8_skirmisher",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
@@ -1334,10 +1334,10 @@
                         "unitSpawnPoint" : {
                             "EncounterObjectGuid" : "5d1391b4-4381-4ddd-b244-eb38e34a79d5"
                         },
-                        "customUnitName" : "",
+                        "customUnitName" : "MechWarrior Thuvia",
                         "customHeraldryDefId" : "",
                         "unitType" : "Mech",
-                        "unitDefId" : "UseLance",
+                        "unitDefId" : "mechdef_executioner_EXE-C",
                         "unitTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/UnitTags"
@@ -1350,7 +1350,7 @@
                             "items" : [],
                             "tagSetSourceFile" : "tags/SpawnEffectTags"
                         },
-                        "pilotDefId" : "pilotDef_InheritLance",
+                        "pilotDefId" : "pilot_d8_skirmisher",
                         "pilotTagSet" : {
                             "items" : [],
                             "tagSetSourceFile" : "tags/PilotTags"
