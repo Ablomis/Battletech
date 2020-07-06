@@ -67,15 +67,16 @@
                 "tagSetSourceFile": ""
             },
             "Stats": [
-	                 {
+		 {
                             "typeString" : "System.Int32",
                             "name" : "Reputation.Solaris7",
                             "value" : "0",
                             "set" : false,
                             "valueConstant" : null
-                        }
+                 }
 	    ],
             "Actions": [
+
             ],
             "ForceEvents": [],
             "TemporaryResult": false,
