@@ -16,5 +16,6 @@
 	{ "Type": "MechDef", "Path": "mech" },
 	{ "Type": "ChassisDef", "Path": "chassis" },
 	{ "Type": "MovementCapabilitiesDef", "Path": "movement"},
+	{"Type": "LanceDef", "Path": "lances"},
 	{ "Type": "Texture2D",  "Path": "textures", "AddToAddendum": "ConversationTexture" }]
 }

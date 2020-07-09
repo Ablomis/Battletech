@@ -1054,7 +1054,7 @@
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_recon",
-                        "lance_type_mech"
+                        "lance_type_mech","lance_type_tukayyid"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
@@ -1214,7 +1214,7 @@
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_battle",
-                        "lance_type_mech"
+                        "lance_type_mech","lance_type_tukayyid"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
@@ -1374,7 +1374,7 @@
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_support",
-                        "lance_type_mech"
+                        "lance_type_mech","lance_type_tukayyid"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },

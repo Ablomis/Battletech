@@ -1,9 +1,9 @@
 {
     "Description" : {
         "Id" : "fp_tukayyid",
-        "Name" : "Tukayyid",
-        "Details" : "The battle for Tukayyid",
-        "Icon" : "betrayalAtHelm_titlecard.png"
+        "Name" : "Battle of Tukayyid",
+        "Details" : "The battle of Tukayyid",
+        "Icon" : "tukayyid_titlecard.png"
     },
     "Weight" : 50,
     "InternalName" : "tukayyid",

@@ -1499,7 +1499,7 @@
                         "RequirementComparisons" : [
                             {
                                 "obj" : "fp_tukayyid_CSJ_score",
-                                "op" : "GreaterThan",
+                                "op" : "GreaterThanOrEqual",
                                 "val" : 2,
                                 "valueConstant" : "2"
                             }
@@ -1551,7 +1551,7 @@
                         "RequirementComparisons" : [
                             {
                                 "obj" : "fp_tukayyid_CSJ_score",
-                                "op" : "LessThanOrEqual",
+                                "op" : "LessThan",
                                 "val" : 2,
                                 "valueConstant" : "2"
                             }
@@ -5443,7 +5443,7 @@
                         "Scope" : "Company",
                         "RequirementTags" : {
                             "items" : [
-                                "fp_tukayyid_d12_skip"
+                                "fp_tukayyid_d13_skip"
                             ],
                             "tagSetSourceFile" : ""
                         },
@@ -7267,10 +7267,141 @@
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [],
+                        "items" : [
+                            "fp_tukayyid_d3_CNC_mission1",
+                            "fp_tukayyid_d1_CSJ_mission1",
+                            "fp_tukayyid_d1_skip",
+                            "fp_tukayyid_d2_CSJ_mission2",
+                            "fp_tukayyid_d2_skip",
+                            "fp_tukayyid_d3_CSJ_mission3",
+                            "fp_tukayyid_d3_skip",
+                            "fp_tukayyid_d4_CSJ_mission4",
+                            "fp_tukayyid_d4_CNC_mission2",
+                            "fp_tukayyid_d4_skip",
+                            "fp_tukayyid_d5_CNC_mission3",
+                            "fp_tukayyid_d5_CGB_mission1",
+                            "fp_tukayyid_d5_skip",
+                            "fp_tukayyid_d6_CGB_mission2",
+                            "fp_tukayyid_d6_skip",
+                            "fp_tukayyid_d7_CGB_mission3",
+                            "fp_tukayyid_d7_CJF_mission1",
+                            "fp_tukayyid_d7_skip",
+                            "fp_tukayyid_d8_CGB_mission4",
+                            "fp_tukayyid_d8_CJF_mission2",
+                            "fp_tukayyid_d8_skip",
+                            "fp_tukayyid_d9_CJF_mission3",
+                            "fp_tukayyid_d9_CDS_mission1",
+                            "fp_tukayyid_d9_skip",
+                            "fp_tukayyid_d10_CJF_mission4",
+                            "fp_tukayyid_d10_CDS_mission2",
+                            "fp_tukayyid_d10_skip",
+                            "fp_tukayyid_d11_CDS_mission3",
+                            "fp_tukayyid_d11_CSV_mission1",
+                            "fp_tukayyid_d11_skip",
+                            "fp_tukayyid_d12_CDS_mission4",
+                            "fp_tukayyid_d12_CSV_mission2",
+                            "fp_tukayyid_d12_skip",
+                            "fp_tukayyid_d13_CSV_mission3",
+                            "fp_tukayyid_d13_CW_mission1",
+                            "fp_tukayyid_d13_skip",
+                            "fp_tukayyid_d14_CSV_mission4",
+                            "fp_tukayyid_d14_CW_mission2",
+                            "fp_tukayyid_d14_skip",
+                            "fp_tukayyid_d15_CW_mission3",
+                            "fp_tukayyid_d15_skip",
+                            "fp_tukayyid_d16_CW_mission4",
+                            "fp_tukayyid_d16_skip",
+                            "fp_tukayyid_csj_win",
+                            "fp_tukayyid_csj_loss",
+                            "fp_tukayyid_cnc_win",
+                            "fp_tukayyid_cnc_loss",
+                            "fp_tukayyid_cgb_win",
+                            "fp_tukayyid_cgb_loss",
+                            "fp_tukayyid_cjf_win",
+                            "fp_tukayyid_cjf_loss",
+                            "fp_tukayyid_cds_win",
+                            "fp_tukayyid_cds_loss",
+                            "fp_tukayyid_csv_win",
+                            "fp_tukayyid_csv_loss",
+                            "fp_tukayyid_global_win",
+                            "fp_tukayyid_global_loss",
+                            "fp_tukayyid_cw_win",
+                            "fp_tukayyid_cw_loss",
+                            "fp_tukayyid_CSJ_mission1_finished",
+                            "fp_tukayyid_CSJ_mission2_finished",
+                            "fp_tukayyid_CNC_mission2_finished",
+                            "fp_tukayyid_CGB_mission1_finished",
+                            "fp_tukayyid_CGB_mission3_finished",
+                            "fp_tukayyid_CJF_mission1_finished",
+                            "fp_tukayyid_CJF_mission2_finished",
+                            "fp_tukayyid_CDS_mission1_finished",
+                            "fp_tukayyid_CDS_mission2_finished",
+                            "fp_tukayyid_CSV_mission1_finished",
+                            "fp_tukayyid_CSV_mission2_finished",
+                            "fp_tukayyid_CSV_mission3_finished",
+                            "fp_tukayyid_CW_mission1_finished",
+                            "fp_tukayyid_CW_mission3_finished"
+                        ],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : null,
+                    "Stats" : [
+                        {
+                            "typeString" : "System.Int32",
+                            "name" : "fp_tukayyid_global_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CSJ_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CNC_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CGB_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CJF_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CDS_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CSV_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CW_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        }
+                    ],
                     "Actions" : [
                         {
                             "Type" : "Flashpoint_CompleteFlashpoint",
@@ -7444,14 +7575,147 @@
                         "RequirementComparisons" : []
                     },
                     "AddedTags" : {
-                        "items" : [],
+                        "items" : [
+                            "fp_finished_tukayyid"
+                        ],
                         "tagSetSourceFile" : ""
                     },
                     "RemovedTags" : {
-                        "items" : [],
+                        "items" : [
+                            "fp_tukayyid_d3_CNC_mission1",
+                            "fp_tukayyid_d1_CSJ_mission1",
+                            "fp_tukayyid_d1_skip",
+                            "fp_tukayyid_d2_CSJ_mission2",
+                            "fp_tukayyid_d2_skip",
+                            "fp_tukayyid_d3_CSJ_mission3",
+                            "fp_tukayyid_d3_skip",
+                            "fp_tukayyid_d4_CSJ_mission4",
+                            "fp_tukayyid_d4_CNC_mission2",
+                            "fp_tukayyid_d4_skip",
+                            "fp_tukayyid_d5_CNC_mission3",
+                            "fp_tukayyid_d5_CGB_mission1",
+                            "fp_tukayyid_d5_skip",
+                            "fp_tukayyid_d6_CGB_mission2",
+                            "fp_tukayyid_d6_skip",
+                            "fp_tukayyid_d7_CGB_mission3",
+                            "fp_tukayyid_d7_CJF_mission1",
+                            "fp_tukayyid_d7_skip",
+                            "fp_tukayyid_d8_CGB_mission4",
+                            "fp_tukayyid_d8_CJF_mission2",
+                            "fp_tukayyid_d8_skip",
+                            "fp_tukayyid_d9_CJF_mission3",
+                            "fp_tukayyid_d9_CDS_mission1",
+                            "fp_tukayyid_d9_skip",
+                            "fp_tukayyid_d10_CJF_mission4",
+                            "fp_tukayyid_d10_CDS_mission2",
+                            "fp_tukayyid_d10_skip",
+                            "fp_tukayyid_d11_CDS_mission3",
+                            "fp_tukayyid_d11_CSV_mission1",
+                            "fp_tukayyid_d11_skip",
+                            "fp_tukayyid_d12_CDS_mission4",
+                            "fp_tukayyid_d12_CSV_mission2",
+                            "fp_tukayyid_d12_skip",
+                            "fp_tukayyid_d13_CSV_mission3",
+                            "fp_tukayyid_d13_CW_mission1",
+                            "fp_tukayyid_d13_skip",
+                            "fp_tukayyid_d14_CSV_mission4",
+                            "fp_tukayyid_d14_CW_mission2",
+                            "fp_tukayyid_d14_skip",
+                            "fp_tukayyid_d15_CW_mission3",
+                            "fp_tukayyid_d15_skip",
+                            "fp_tukayyid_d16_CW_mission4",
+                            "fp_tukayyid_d16_skip",
+                            "fp_tukayyid_csj_win",
+                            "fp_tukayyid_csj_loss",
+                            "fp_tukayyid_cnc_win",
+                            "fp_tukayyid_cnc_loss",
+                            "fp_tukayyid_cgb_win",
+                            "fp_tukayyid_cgb_loss",
+                            "fp_tukayyid_cjf_win",
+                            "fp_tukayyid_cjf_loss",
+                            "fp_tukayyid_cds_win",
+                            "fp_tukayyid_cds_loss",
+                            "fp_tukayyid_csv_win",
+                            "fp_tukayyid_csv_loss",
+                            "fp_tukayyid_global_win",
+                            "fp_tukayyid_global_loss",
+                            "fp_tukayyid_cw_win",
+                            "fp_tukayyid_cw_loss",
+                            "fp_tukayyid_CSJ_mission1_finished",
+                            "fp_tukayyid_CSJ_mission2_finished",
+                            "fp_tukayyid_CNC_mission2_finished",
+                            "fp_tukayyid_CGB_mission1_finished",
+                            "fp_tukayyid_CGB_mission3_finished",
+                            "fp_tukayyid_CJF_mission1_finished",
+                            "fp_tukayyid_CJF_mission2_finished",
+                            "fp_tukayyid_CDS_mission1_finished",
+                            "fp_tukayyid_CDS_mission2_finished",
+                            "fp_tukayyid_CSV_mission1_finished",
+                            "fp_tukayyid_CSV_mission2_finished",
+                            "fp_tukayyid_CSV_mission3_finished",
+                            "fp_tukayyid_CW_mission1_finished",
+                            "fp_tukayyid_CW_mission3_finished"
+                        ],
                         "tagSetSourceFile" : ""
                     },
-                    "Stats" : null,
+                    "Stats" : [
+                        {
+                            "typeString" : "System.Int32",
+                            "name" : "fp_tukayyid_global_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CSJ_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CNC_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CGB_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CJF_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CDS_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CSV_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        },
+                        {
+                            "typeString" : "System.Single",
+                            "name" : "fp_tukayyid_CW_score",
+                            "value" : "0",
+                            "set" : false,
+                            "valueConstant" : null
+                        }
+                    ],
                     "Actions" : [
                         {
                             "Type" : "System_ForceDropshipRoom",

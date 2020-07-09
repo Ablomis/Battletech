@@ -1,8 +1,8 @@
 {
     "Description" : {
         "Id" : "fp_tukayyid",
-        "Name" : "Tukayyid",
-        "Details" : "The battle for Tukayyid",
+        "Name" : "Battle of Tukayyid",
+        "Details" : "The battle of Tukayyid",
         "Icon" : "tukayyid_titlecard.png"
     },
     "Weight" : 50,

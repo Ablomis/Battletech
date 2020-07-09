@@ -802,7 +802,7 @@
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_support",
-                        "lance_type_mech"
+                        "lance_type_mech","lance_type_tukayyid"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
@@ -961,7 +961,7 @@
                 "lanceDefId" : "Tagged",
                 "lanceTagSet" : {
                     "items" : [
-                        "lance_type_mech"
+                        "lance_type_mech","lance_type_tukayyid"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },

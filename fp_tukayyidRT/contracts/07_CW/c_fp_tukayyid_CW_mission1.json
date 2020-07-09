@@ -138,7 +138,7 @@
             "encounterChunk" : {
                 "EncounterObjectGuid" : "181d617b-02bc-4fd3-be25-d6d5cffb78de"
             },
-            "enableChunkFromContract" : true,
+            "enableChunkFromContract" : false,
             "controlledByContractChunkGroupList" : [],
             "requirementList" : []
         }
@@ -517,7 +517,7 @@
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_battle",
-                        "lance_type_mech"
+                        "lance_type_mech","lance_type_tukayyid"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
@@ -676,7 +676,7 @@
                 "lanceTagSet" : {
                     "items" : [
                         "lance_type_support",
-                        "lance_type_mech"
+                        "lance_type_mech","lance_type_tukayyid"
                     ],
                     "tagSetSourceFile" : "tags/LanceTags"
                 },
