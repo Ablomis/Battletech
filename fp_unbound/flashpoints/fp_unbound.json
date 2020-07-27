@@ -1,0 +1,61 @@
+{
+    "Description" : {
+        "Id" : "fp_unbound",
+        "Name" : "Unbound",
+        "Details" : "Mechwarrior Unbound",
+        "Icon" : "unbound_titlecard.png"
+    },
+    "Weight" : 50,
+    "InternalName" : "unbound",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 8,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : [],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "ExclusionTags" : {
+                "items" : [],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_solaris"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : ["fp_finished_unbound"],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "Locals"
+    ],
+    "TargetFaction" : "Unknown",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "MEDIUM",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_unbound",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 0,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 0,
+    "RewardCollectionID" : "itemCollection_loot_Weapon_uncommon",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "You have been contacted by a person named Loucynda Byrd, Vice-Chairman of the Solaris Civic Council. She has a job, but will share the detals only when we arrive at Solaris 7.",
+    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

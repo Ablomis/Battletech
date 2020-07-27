@@ -347,10 +347,9 @@
     "DefensiveFactions": [
       "Locals",
       "NoFaction",
-      "AuriganPirates",
-      "Solaris7"
+      "AuriganPirates"
     ],
-    "ImmuneToWar": [],
+    "ImmuneToWar": ["Solaris7"],
     "FactionShopItems": {
       "Steiner": "ItemCollection_Internals_IS_Rare",
       "Marik": "ItemCollection_Internals_IS_Rare",

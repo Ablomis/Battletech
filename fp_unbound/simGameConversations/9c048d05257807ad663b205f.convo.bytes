@@ -1,0 +1,67 @@
+
+
+9c1387e80b896abfe6fa9c18'fp_wallaciaCampaign_Mission1_Debriefing'
+
+9cce2dff91772014741f35e5ÿÿÿÿÿÿÿÿÿ'
+
+9cdf2a8deaf4d4dfd29cec36ÿÿÿÿÿÿÿÿÿ'
+
+9ccbdde5de15d2c3cb379b3dÿÿÿÿÿÿÿÿÿ'
+
+9c3a65e53b5bc5969396ff72ÿÿÿÿÿÿÿÿÿ'
+
+9c443d968401d563a6332df7ÿÿÿÿÿÿÿÿÿ'
+
+9c5ad6ef8175134dfa7f6e89ÿÿÿÿÿÿÿÿÿ'
+
+9c8c73260e197c016ff623e3ÿÿÿÿÿÿÿÿÿ'
+
+9c178d9cd901b12a072de24aÿÿÿÿÿÿÿÿÿ'
+
+9cc2360b524c04439255d95dÿÿÿÿÿÿÿÿÿ'
+
+9cc0b7ba121fb0517ad3fa36ÿÿÿÿÿÿÿÿÿ'
+
+9c34c10fea90e4967d8f6762ÿÿÿÿÿÿÿÿÿ'
+
+9cc495687e5989287063b127ÿÿÿÿÿÿÿÿÿÎ
+
+9cf52e90ccde63ea6ddb7318"=Welcome back, Commander. I have Natasha Kerensky on the line.*Ž
+Put her throught.Y
+(
+Set BattleTech Camera Lock
+"HOLOGRAM
+-
+Set BattleTech Viewscreen Image
+"kerensky (:
+9cc5faedc820476b8f7f214ab
+DariusDefault¢L
+J
+Set BattleTech Fade3*1
+Get Preset Value (int)"SimGameFadeValues•
+
+9c4b2a05f9d6d86f37b17087"šYou did an excellent job defeating the Marik forces at Weiswald Power Station. Now we need to finish what we have started by forcing Hussars to surrender.*>
+How are we going to do this? (:
+9c47c49a8ceda0611b53ab32b
+NatashaKerenskyDefault¹
+
+9ce30d9b140e7d4ad53c375f"JWe will bring Wallacia planet communication system under rebels' control. *3
+What is the plan? (:
+9cccaae98d7753c88f8443ecb
+NatashaKerenskyDefaultÙ
+
+9c70337ffa5b753a418a79e3"×We will take over the Parliament building in the planetary capital - Saranak city. From there, Prime Minister Tate will send the message to everyone on the planet that rebels have won and force Hussars to surrender.*E
+#What is our role in this operation? (:
+9caef6f484f2e8dc4a4c93bbb
+NatashaKerenskyDefault‡
+
+9cc869f966397fd05958b621"“You will have to clear the path towards the Parliament building of Marik forces and then defend the building until Prime Minister sends the signal.*7
+When are we going in? (:
+9c120b27b1578a0d343cafeeb
+NatashaKerenskyDefault›
+
+9c5a2c0606e6e7fd2188a21f"Tomorrow 1500.*Q
+&Ok, we gonna go start the preparation. ÿÿÿÿÿÿÿÿÿ(:
+9c88a93bf2069db555ba0a3db
+NatashaKerenskyDefault"  (:
+9c7dfcb9c7b965b3ff23e5ea

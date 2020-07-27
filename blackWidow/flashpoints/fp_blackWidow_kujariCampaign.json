@@ -1,0 +1,61 @@
+{
+    "Description" : {
+        "Id" : "fp_blackWidow_kujariCampaign",
+        "Name" : "Kujari Campaign",
+        "Details" : "Tales of the Black Widow",
+        "Icon" : "tobw_titlecard.png"
+    },
+    "Weight" : 50,
+    "InternalName" : "kujariCampaign",
+    "PublishState" : "PUBLISHED",
+    "Difficulty" : 8,
+    "Requirements" : [
+        {
+            "Scope" : "Company",
+            "RequirementTags" : {
+                "items" : ["fp_finished_wallaciaCampaign"],
+                "tagSetSourceFile" : "Tags/CompanyTags"
+            },
+            "ExclusionTags" : {
+                "items" : [],
+                "tagSetSourceFile" : ""
+            },
+            "RequirementComparisons" : []
+        }
+    ],
+    "LocationRequirements" : {
+        "Scope" : "StarSystem",
+        "RequirementTags" : {
+            "items" : [
+                "planet_name_kujari"
+            ],
+            "tagSetSourceFile" : "Tags/PlanetNameTags"
+        },
+        "ExclusionTags" : {
+            "items" : [],
+            "tagSetSourceFile" : ""
+        },
+        "RequirementComparisons" : []
+    },
+    "PotentialEmployers" : [
+        "Locals"
+    ],
+    "TargetFaction" : "Liao",
+    "AllowRefitTime" : true,
+    "FlashpointLength" : "SHORT",
+    "Repeatable" : false,
+    "MilestoneSetID" : "ms_fp_blackWidow_kujariCampaign",
+    "UseAvailableTimeoutOverride" : false,
+    "AvailableTimeout" : 0,
+    "UseInProgressTimeoutOverride" : false,
+    "InProgressTimeout" : 0,
+    "RewardCollectionID" : "itemCollection_loot_Weapon_uncommon",
+    "UnitDropTonnageHint" : "None",
+    "LanceDropTonnageHint" : "None",
+    "FlashpointShortDescription" : "After the rebellion on Wallacia, Romano Liao decided that the region is vulnerable and made a move to invade Kujari. Unfortunately for her, the planet serves as a base for Black Widows, who offered us to participate in the operation.",
+    "FlashpointDescriberCastDefId" : "castDef_DariusDefault",
+    "Tags" : {
+        "items" : [],
+        "tagSetSourceFile" : "tags/FlashpointTags"
+    }
+}

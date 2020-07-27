@@ -1,0 +1,23 @@
+{
+    "id" : "castDef_NatashaKerenskyDefault",
+    "internalName" : "Natasha_Kerensky",
+    "firstName" : "Natasha",
+    "lastName" : "Kerensky",
+    "callsign" : "",
+    "rank" : "Colonel",
+    "gender" : "Female",
+    "factionID" : "UNSET",
+    "sgCharType" : "UNSET",
+    "showRank" : false,
+    "showFirstName" : true,
+    "showCallsign" : false,
+    "showLastName" : true,
+    "localizeName" : true,
+    "defaultEmotePortrait" : {
+        "emote" : "Default",
+        "portraitAssetPath" : "sprites/Portraits/guiTxrPort_NatashaK_utr.png"
+    },
+    "emotePotraitList" : [
+        
+    ]
+}
